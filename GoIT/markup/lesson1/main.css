@@ -1,12 +1,16 @@
- p1{
-width: 540px; 
-height: 200px;
-background: white;  
-background-color: white;
-background-position: 100px 100px; 
-}
- body{
-    width: 554px;
-    padding: 10px;
-    margin: auto;
+.imgCenter{
+ 	text-align: center;
+ }
+
+
+.avatar{
+    height: 150px;
+    width: 210px;
+    margin: -9px 10px -11px 138px;
     }
+   
+
+   .tel{
+text-decoration: none;
+color: black;
+}

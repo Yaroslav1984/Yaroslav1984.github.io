@@ -1,0 +1,12 @@
+ p1{
+width: 540px; 
+height: 200px;
+background: white;  
+background-color: white;
+background-position: 100px 100px; 
+}
+ body{
+    width: 554px;
+    padding: 10px;
+    margin: auto;
+    }

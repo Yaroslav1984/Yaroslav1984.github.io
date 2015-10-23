@@ -1,6 +1,13 @@
 .imgCenter{
  	text-align: center;
  }
+.ramka { 
+	background: #eeeee5; 
+	border: 1px dashed #abab9a; 
+	padding: 5px; 
+	font: 8pt Tahoma;
+	color:#2c2c2c;
+   }
 
 
    .tel{

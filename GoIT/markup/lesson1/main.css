@@ -1,7 +1,7 @@
 .imgCenter{
  	text-align: center;
  }
-   div {
+   .div {
         width: 600px;   /* ширина */
         height: 800px; /* высота */
         padding: 30px 20px 30px 50px; /* внутренние отступы - верх, право, низ, лево */

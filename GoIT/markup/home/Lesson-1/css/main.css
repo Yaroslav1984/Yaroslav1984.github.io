@@ -1,9 +1,10 @@
-.imgCenter{
+ imgCenter{
  	text-align: center;
  }
-   .div {
-        width: 210px;   /* ширина */
-        height: 297px; /* высота */
+
+  body {
+        width: 640px;   /* ширина */
+        height: 450px; /* высота */
         padding: 30px 20px 30px 50px; /* внутренние отступы - верх, право, низ, лево */
         margin: 50px auto;  /* выравнивание по центру */ 
         box-shadow: 10px 10px 20px black; /* небольшая тень для объемности */
@@ -11,7 +12,7 @@
         font-family:  "Times New Roman"; /* нужный шрифт */
       }
 
-   .tel{
+    tel{
 text-decoration: none;
 color: black;
 }

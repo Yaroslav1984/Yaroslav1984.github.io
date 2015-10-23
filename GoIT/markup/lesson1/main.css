@@ -2,8 +2,8 @@
  	text-align: center;
  }
    .div {
-        width: 600px;   /* ширина */
-        height: 800px; /* высота */
+        width: 210px;   /* ширина */
+        height: 297px; /* высота */
         padding: 30px 20px 30px 50px; /* внутренние отступы - верх, право, низ, лево */
         margin: 50px auto;  /* выравнивание по центру */ 
         box-shadow: 10px 10px 20px black; /* небольшая тень для объемности */

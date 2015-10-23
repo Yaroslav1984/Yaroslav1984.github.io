@@ -1,4 +1,4 @@
- imgCenter{
+ imgCenter {
  	text-align: center;
  }
 
@@ -12,7 +12,8 @@
         font-family:  "Times New Roman"; /* нужный шрифт */
       }
 
-    tel{
+    tel {
 text-decoration: none;
 color: black;
 }
+

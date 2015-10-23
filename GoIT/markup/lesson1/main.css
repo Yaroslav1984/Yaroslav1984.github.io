@@ -1,14 +1,15 @@
 .imgCenter{
  	text-align: center;
  }
-.ramka { 
-	background: #eeeee5; 
-	border: 1px dashed #abab9a; 
-	padding: 5px; 
-	font: 8pt Tahoma;
-	color:#2c2c2c;
-   }
-
+   div {
+        width: 600px;   /* ширина */
+        height: 800px; /* высота */
+        padding: 30px 20px 30px 50px; /* внутренние отступы - верх, право, низ, лево */
+        margin: 50px auto;  /* выравнивание по центру */ 
+        box-shadow: 10px 10px 20px black; /* небольшая тень для объемности */
+        background-color: white;  /* цвет фона в блоке */
+        font-family:  "Times New Roman"; /* нужный шрифт */
+      }
 
    .tel{
 text-decoration: none;

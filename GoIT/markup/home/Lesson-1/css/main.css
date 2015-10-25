@@ -1,19 +1,22 @@
- imgCenter {
- 	text-align: center;
+img {
+ 	display:block; margin:15px auto 25px;
  }
 
-  body {
-        width: 600px;   /* ширина */
-        height: 800px; /* высота */
-        padding: 30px 20px 30px 50px; /* внутренние отступы - верх, право, низ, лево */
-        margin: 50px auto;  /* выравнивание по центру */ 
-        box-shadow: 10px 10px 20px black; /* небольшая тень для объемности */
-        background-color: white;  /* цвет фона в блоке */
-        font-family:  "Times New Roman"; /* нужный шрифт *//
-      }
+ body {
+        width: 650px;   /* ширина */
+        height: 700px; /* высота */
+        margin: auto;  /* выравнивание по центру */ 
+        background: grey;
+       }
 
-    tel {
-text-decoration: none;
+       div {
+      background-color: white;
+      border: 2px solid black;
+      padding: 20px 30px 20px 30px; /* внутренние отступы - верх, право, низ, лево */  
+}
+  tel {
+text-decoration: no-none;
 color: black;
 }
+
 

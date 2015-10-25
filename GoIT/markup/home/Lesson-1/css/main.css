@@ -15,7 +15,7 @@ img {
       padding: 20px 30px 20px 30px; /* внутренние отступы - верх, право, низ, лево */  
 }
   tel {
-text-decoration: no-none;
+text-decoration: none;
 color: black;
 }
 

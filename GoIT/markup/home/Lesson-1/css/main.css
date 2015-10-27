@@ -10,7 +10,7 @@
        }
 
        .div {
-      background-color: white;
+      background-color: black;
       border: 2px solid black;
       padding: 20px 30px 20px 30px; /* внутренние отступы - верх, право, низ, лево */  
 }

@@ -2,7 +2,7 @@
  	display:block; margin:15px auto 25px; center: auto;
  }
 
- body {
+ .body {
         width: 650px;   /* ширина */
         height: 700px; /* высота */
         margin: auto;  /* выравнивание по центру */ 

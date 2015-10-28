@@ -1,17 +1,17 @@
 .zoro {
- 	 text-align: center;
- }
+ 	   text-align: center;
+}
 
  body {
-        width: 650px;   /* ширина */
-        height: 700px; /* высота */
-        margin: auto;  /* выравнивание по центру */ 
-        background: #808080;
-       }
+      width: 650px;   /* ширина */
+      height: 700px; /* высота */
+      margin: auto;  /* выравнивание по центру */ 
+      background: #808080;
+}
 
 
 
-       #apDiv1 {
+#apDiv1 {
       background-color: #FFFFFF;
       border: 2px solid black;
       padding: 30px 110px 30px 30px; /* внутренние отступы - верх, право, низ, лево */ 

@@ -105,7 +105,7 @@
       font-family: Arial;
 
 }
-.baza a:hover {
+.baza a:hover { 
     text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
     color: none; /* Цвет ссылки */
 }

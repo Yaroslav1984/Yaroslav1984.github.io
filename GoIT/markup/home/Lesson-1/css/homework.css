@@ -7,33 +7,37 @@
  body {
      background: #c0c0c0;
      margin: 0px auto;
-     width: 1100px;
-     height: 800px;
+     width: 1000px;
+     height: 400px;
 
  } 
 #wrapper{
          background-color: white;
-         width: 1100px;
-         height: 900px;
-         margin-bottom: 0%;
+         width: 900px;
+         height: 700px;
+        
     
 }
 .header {
-	height: 50px;
+	height: 20px;
 	background-color: white;
-    padding: 40px 10px 10px 20px;
-	font-size: 20pt; /* Размер названий в пункте меню */
-      }
+  padding: 20px 30px 10px 20px;
+	font-size: 13pt; /* Размер названий в пункте меню */
+  font-family: Arial;
+}
 
 .List {
       background: #808080;
-      padding:10px 10px 10px 5px;
-	  margin: 20px 20px 10px 20px;
+      padding: 3px 3px 3px 1px;
+	    margin: 25px 20px 10px 20px;
+      font-size: 8pt; /* Размер названий в пункте меню */
+      font-family: Arial;
+     font-weight: bold; /* Жирное начертание */
       } 
       
    span a {
     display: inline;
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding-left: 2.6em;
     text-decoration: none;
     color: white;
@@ -46,7 +50,7 @@
  .menu a {
   background-color: white;
   color: #808080;
-  padding: 12px;
+  padding: 9px;
   text-decoration: none;
   font-weight: bold;
   border: 1px solid #c0c0c0;
@@ -58,11 +62,13 @@
 
 .menu {
       background-color: white;
-      margin: 29px 40px 40px 20px;
+      margin: 11px 40px 40px 20px;
       padding: 1px 2px 3px 4px;
       float: left;
       width: 260px;
       height: 400px;
+      font-size: 8pt; /* Размер названий в пункте меню */
+      font-family: Arial;
       }
 .menu a:hover {
   background-color: #666;
@@ -71,23 +77,35 @@
 
 #content{
       background: white;
-      width: 490px;
-      height: 320px; 
+      width: 465px;
+      height: 310px; 
       border: 1px solid #ccc;
-      padding: 10px 51px 20px 51px;
-      margin: 40px 10px 10px 40px;
-      margin-left: 300px; Сдвигаем подменю вправо
+      padding: 10px 10px 20px 80px;
+      margin: 20px 10px 10px 20px;
+      margin-left: 320px; Сдвигаем подменю вправо
       }
 .box{
      background: white;
       width: 500px;
       height: 120px; 
-      padding: 10px 0px 90px 290px;
+      padding: 10px 0px 50px 290px;
       margin: 1px 70px 10px 50px;
+      font-size: 11px; /* Размер названий в пункте меню */
+      font-family: Arial;
 }
+
 .baza {
-      background: silver;
+   width: 840px;
+      height: 40px auto; 
+      background-color: silver;
       background-color: #808080;
-      padding: 10px 10px 10px 5px;
-	  margin: 30px 20px 10px 20px; 
+      padding: 2px 2px 5px 20px; 
+      margin: 10px 5px 10px 10px;  
+      font-size: 9px; /* Размер названий в пункте меню */
+      font-family: Arial;
+
+}
+.baza a:hover {
+    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    color: none; /* Цвет ссылки */
 }

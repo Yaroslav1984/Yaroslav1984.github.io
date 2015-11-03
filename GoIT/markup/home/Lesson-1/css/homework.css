@@ -109,7 +109,7 @@
 .baza a { 
     color: #000000;/* Цвет ссылки */
     text-decoration: underline; Делает ссылку подчеркнутой при наведении на нее курсора
-    
+
 }
 
    span a {
@@ -118,4 +118,4 @@
     padding-left: 2.7em;
     /* text-decoration: underline; */
     color: white;
-} 
+}  

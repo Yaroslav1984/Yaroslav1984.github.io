@@ -108,13 +108,14 @@
 }
 .baza a { 
     color: #000000;/* Цвет ссылки */
-    text-decoration: underline; Делает ссылку подчеркнутой при наведении на нее курсора 
+    text-decoration: underline; Делает ссылку подчеркнутой при наведении на нее курсора
+    
 }
 
-   span1 a {
+   span a {
     display: inline;
     font-size: 1.2em;
     padding-left: 2.7em;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: white;
 } 

@@ -12,18 +12,23 @@
 
  } 
 #wrapper{
-         background-color: white;
+         background-color: red;
          width: 900px;
-         height: 700px;
-        
-    
+         height: 700px;         
 }
+
 .header {
-	height: 20px;
+	height: 50px;
 	background-color: white;
-  padding: 20px 30px 10px 20px;
-	font-size: 13pt; /* Размер названий в пункте меню */
-  font-family: Arial;
+    padding: 20px 30px 40px 20px;
+	font-size: 19pt; /* Размер названий в пункте меню */
+    font-family: Calibri;
+    font-weight:lighter;
+}
+h1:first-letter {
+    font-size: 43pt;
+
+    font-weight:lighter;
 }
 
 .List {
@@ -111,11 +116,3 @@
     text-decoration: underline; Делает ссылку подчеркнутой при наведении на нее курсора
 
 }
-
-   span a {
-    display: inline;
-    font-size: 1.2em;
-    padding-left: 2.7em;
-    /* text-decoration: underline; */
-    color: white;
-}  

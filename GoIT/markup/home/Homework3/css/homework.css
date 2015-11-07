@@ -10,7 +10,8 @@
      width: 900px;
      height: 400px;
 
- } 
+}
+
 #wrapper{
          background-color: white;
          width: 850px;
@@ -51,12 +52,12 @@ h1:first-letter {
     padding: 6px 30px 6px 25px; 
     font-size: 10.5pt;
     font-family: Times New Roman;
-    }
+}
 
    li a:hover {
     background:  #000;  
     color: #ffe; 
-   }
+}
 
  .menu {
       background-color: white;
@@ -65,7 +66,7 @@ h1:first-letter {
       width: 180px;
       height: 200px;
       border: 0.5px solid #c0c0c0;
-      }
+}
 
  nav a {
   color: black;
@@ -90,7 +91,7 @@ h1:first-letter {
       width: 530px;
       height: 300px;
       margin-left: 260px; Сдвигаем подменю вправо 
-      }
+}
 
 
 .section{
@@ -111,7 +112,7 @@ h1:first-letter {
       height: 18px; 
       padding: 5px 10px 5px 0px;
       margin: 10px 35px 10px 35px;
-      margin-right: 40px; /* Отступ справа */
+      margin-right: 40px; /* Отступ справа */ 
       background-color: #DCDCDC;
       text-decoration: none; Делает ссылку подчеркнутой при наведении на нее кур
 }

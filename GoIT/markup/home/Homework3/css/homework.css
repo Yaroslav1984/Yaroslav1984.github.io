@@ -133,6 +133,10 @@ h1:first-letter {
       padding: 5px 10px 5px 0px;
       margin: 10px 35px 10px 20px;
 } 
+.footer a:hover {
+    color: black; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
 
 .tab{
   margin-left: 136px;

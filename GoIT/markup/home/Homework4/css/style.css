@@ -1,0 +1,79 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ body {     
+  margin: 0px auto;
+  width: 1279px;
+  height: 1013px; 
+  background-color: #333;
+  background-image: url(../img/homework4.png);
+/*    background-repeat: no-repeat;  */
+} 
+
+.wrapper {
+        background-color: white;
+         width: 1000px;
+         height: 900px;
+/*  padding: 0px 25px 0px 25px; */
+margin: 0px 30px 0px 120px;
+} 
+
+.logo1{
+  float:left;
+  background-image: url(../img/Asia-holidays.png);
+
+
+}
+
+/* 
+  body {
+      font-family: Tahoma, Arial, sans-serif;  
+
+}
+
+.wrapper{
+  width: 1000px;
+  margin: 50px auto;
+
+}
+
+.clearfix:after {
+    content: ;
+    display: block;
+    clear: both;
+    height: 0;
+    width: 100%;
+
+}
+
+.menu{
+  Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+0,373737+0,333030+100
+background: rgb(30,87,153); Old browsers
+background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 0%, rgba(55,55,55,1) 0%, rgba(51,48,48,1) 100%); FF3.6+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(0%,rgba(41,137,216,1)), color-stop(0%,rgba(55,55,55,1)), color-stop(100%,rgba(51,48,48,1))); Chrome,Safari4+
+background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 0%,rgba(55,55,55,1) 0%,rgba(51,48,48,1) 100%); Chrome10+,Safari5.1+
+background: -o-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 0%,rgba(55,55,55,1) 0%,rgba(51,48,48,1) 100%); Opera 11.10+
+background: -ms-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 0%,rgba(55,55,55,1) 0%,rgba(51,48,48,1) 100%); IE10+
+background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 0%,rgba(55,55,55,1) 0%,rgba(51,48,48,1) 100%); W3C
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#333030',GradientType=0 ); IE6-9
+ssss
+}
+
+
+.menu li{
+   float-left;
+   list-style:none;
+}
+
+.menu a{
+  display: block;
+  line-height: 28px;
+  color: white;
+}
+
+.menu ul{
+  display: none;
+}  */

@@ -21,27 +21,58 @@
 } 
 
   .Logo img {
+ height: 164px;
+ width: 283px;
  overflow:left;
- margin: 19px 30px 19px 30px; 
- padding:102px 105px 35px 56px;
+ margin: 0px 30px 19px 30px; 
+ padding:13px 8px 2px 8px;
      
 }
 
-.logo span{
+.Contacts{
+ height: 96px;
+ width: 149px;
+left: 120px;
+top: 177px;
+ font-size: 10pt;
+ font-family: Arial;
+ float: right;
+ border: 1px solid #c0c0c0;
+ display: inline-block; 
+ left: 120px;
+top: 177px;
+
+}
+
+ .Contacts li{
+  color: #49b5d6;
+  float: right;
+  position: relative; 
+/*   left: 120px;
+top: 177px; */
+ }
+
+ .Contacrs ul {
+   display: inline-block; 
+   color: ;
+
+}
+
+/* .logo span{
     white-space: nowrap;
-    text-overflow: clip | ellipsis
+    text-overflow: ellipsis;
     margin: 19px 30px 19px 30px; 
-    padding:102px 105px 35px 56px;
+    padding:102px 105px 35px 56px; */
    
 }
 
   .Title-logo img{
     position:absolute;
-    z-index:1;
-    left:20px;
-    top:42px;
-    width:1013px;
-    height:461px
+     z-index:1; 
+    left: 120px;
+    top: 177px;
+    width:1000px;
+    height:235px
     
 }
 . clearfix:after {

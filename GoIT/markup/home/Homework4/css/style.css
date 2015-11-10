@@ -31,28 +31,21 @@
 
 .Contacts{
  height: 96px;
- width: 149px;
-left: 120px;
-top: 177px;
- font-size: 10pt;
- font-family: Arial;
+ width: 180px;
  float: right;
+ margin: 0px 30px 19px 30px;  
  border: 1px solid #c0c0c0;
  display: inline-block; 
- left: 120px;
-top: 177px;
-
+ clear:right;
 }
 
  .Contacts li{
   color: #49b5d6;
-  float: right;
-  position: relative; 
-/*   left: 120px;
-top: 177px; */
+  overflow: right;
+  list-style-type: none;
  }
 
- .Contacrs ul {
+ .Contacts ul {
    display: inline-block; 
    color: ;
 

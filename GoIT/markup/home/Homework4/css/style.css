@@ -20,15 +20,15 @@
 } 
 
 .Logo{
- height: 164px;
- width: 283px;
+ height: 151px;
+ width: 236px;
 }
 
  .Logo img {
  height: 164px;
  width: 283px;
  overflow:left;
- margin-top: 8px ;
+ margin-top: 48px ;
  margin-left: 30px; 
 
 }
@@ -37,22 +37,21 @@
  height: 96px;
  width: 180px;
  position: absolute;
- left: 920px;
+ left: 957px;
  top: 12px;
 }
 
-  .Title{
+  .Box {
   color: #49b5d6;
   overflow: right;
   list-style-type: none;
-  font-size: 11pt;
+  font-size: 10.6pt;
   font-weight: bolder;
-  text-shadow: 0.2px 0.5px #000;
+  text-shadow: 0.2px 0.2px #000;
 } 
 
  .Contacts li{
   color: #49b5d6;
-  overflow: right;
   list-style-type: none;
   font-size: 10.5pt;
   font-weight: normal;
@@ -60,64 +59,74 @@
 
  }
 
-.mainNav li{
-   display: inline; 
-
-
-}
 
 .mainNav{
- height: 52px;
- width: 645px;
- position: absolute;
+ margin-top: -4px;
+ margin-left: 645px;
+ float:right; 
+ width: 399px;
+ height: 60px;
 
 }
 
-/* .logo span{
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    margin: 19px 30px 19px 30px; 
-    padding:102px 105px 35px 56px; */
-   
+.mainNav li{
+  float:left;
+  font-size: 10px;
+  text-align: center;
+  width: 62px;
 }
 
-  .Title-logo img{
-    position:absolute;
-     z-index:1; 
-    left: 120px;
-    top: 177px;
-    width:1000px;
-    height:235px;
+.mainNav ul{
+list-style-type: none; 
+}
+
+.mainNav a{ 
+  color: #49b5d6;
+  font-weight: bold;
+}
+
+   .Title {
+ width:1000px;
+ height:237px;
+}
+ 
+
+
+   .Title img{
+   position:absolute; 
+  left: 120px;
+  top: 212.8px;
+
   
-}
-. clearfix:after {
+ }
+ . clearfix:after {
     content: ;
     display: block;
     clear: both;
     height: 0;
     width: 100%;
+ 
+} 
 
-}
-
-.menu {
-  Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+0,373737+0,333030+100
-background: rgb(30,87,153); Old browsers
-background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 0%, rgba(55,55,55,1) 0%, rgba(51,48,48,1) 100%); FF3.6+
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(0%,rgba(41,137,216,1)), color-stop(0%,rgba(55,55,55,1)), color-stop(100%,rgba(51,48,48,1))); Chrome,Safari4+
-background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 0%,rgba(55,55,55,1) 0%,rgba(51,48,48,1) 100%); Chrome10+,Safari5.1+
-background: -o-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 0%,rgba(55,55,55,1) 0%,rgba(51,48,48,1) 100%); Opera 11.10+
-background: -ms-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 0%,rgba(55,55,55,1) 0%,rgba(51,48,48,1) 100%); IE10+
-background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 0%,rgba(55,55,55,1) 0%,rgba(51,48,48,1) 100%); W3C
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#333030',GradientType=0 ); IE6-9
-ssss
-
+.menu{
+top: -686px;
+height: 28px;
+border-top: 1px solid #cacbcb;
+border-bottom: 1px solid black;
+position: relative;
+text-align: justify;
+z-index: 1;
 box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+background: rgba(55,55,55,1) 0%,rgba(48,48,48,1) 100%);
+
 }
 
 
 .menu li{
-   float-left;
-   list-style:none;
+      position: relative;
+
+/*    list-style:none; */
+       display: inline-block;
 }
 
 .menu a{

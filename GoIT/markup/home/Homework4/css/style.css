@@ -166,17 +166,11 @@ nav li:hover a{ /* Устанавливаем стили для верхнего
   text-decoration:underline;
 }
 
-/* nav li:hover ul a{ Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта
-  text-decoration:none;
-  } */
-
 nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
   background:#333;
   background:rgba(51,51,51,0.75); /* Будет полупрозрачным */
   text-decoration:underline;
-/*   -moz-transform:scale(1.05);
--webkit-transform:scale(1.05);
- */
+
 }
 
 .around {

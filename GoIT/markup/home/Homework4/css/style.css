@@ -23,35 +23,49 @@ head{
   background-color: white;
   width: 1000px;
   height: 998px;
-  margin: 0px 30px 0px 120px;
+  margin: 0 auto;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,1);
 } 
- 
+
+/* зачистка границ */
+ .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    width: 100%;
+}
+/* зачистка границ */
+
 .Logo{
- height: 151px;
- width: 236px;
+ margin: 0;
+ padding: 0;
+ position: relative;
 }
  
  .Logo img {
  height: 164px;
  width: 283px;
  margin-top: 48px ;
- margin-left: 30px; 
+ margin-left: 30px;  
+ position: absolute;
 
 }
 
 .Contacts{
- height: 96px;
- width: 180px;
- position: absolute;
- left: 957px;
- top: 12px;
+   float: right;
+    font-size: 12px;
+    color: #5fa5bb;
+    margin-top: 10px;
+    margin-right: 34px;
+    margin-left: 30px;
 }
 
   .Box {
   color: #49b5d6;
   list-style-type: none;
   font-size: 10.6pt;
-   font-weight: bolder; 
+  font-weight: bolder; 
 } 
 
   .Contacts li{
@@ -63,8 +77,8 @@ head{
 
 
 .mainNav{ 
- margin-top: -4px;
- margin-left: 645px;
+  margin-top: 77px;
+ margin-left: 424px; 
  float:right; 
  width: 399px;
  height: 60px;
@@ -85,17 +99,21 @@ list-style-type: none;
 .mainNav a{ 
   color: #49b5d6;
   font-weight: bold; 
+
 }
 
-   .Title img{
-   position:absolute; 
-  left: 120px;
-  top: 212.8px; 
+  .Title img {
+  position:absolute; 
+  left: 838px;
+  top: 212.8px;  
+  border-top: 1px solid #128aa7; /* Синяя рамка сверху от центральной картинки */
+  border-bottom: 1px solid #128aa7; /* Синяя рамка снизу от центральной картинки */
+  font-size: 0; /* Убираю отступ после картинки */
  }
 
  .nav{
-left: 120px;
-top: -562px;
+left: 838px;
+top: -547px;
 width: 1000px;
 height: 28px; 
 border-top: 1px solid #cacbcb;
@@ -108,10 +126,10 @@ background: linear-gradient(to bottom, rgba(55,55,55,1) 0%,rgba(48,48,48,1) 100%
 }
 
 .nav li{
-      position: relative;
-      display: inline-block; 
-      float:left; 
-        text-align: left;
+position: relative;
+display: inline-block; 
+float:left; 
+text-align: left;
  }
 
 .nav li a{
@@ -124,7 +142,7 @@ background: linear-gradient(to bottom, rgba(55,55,55,1) 0%,rgba(48,48,48,1) 100%
   text-decoration: none;
   font-size: 14px;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
-  padding-left: 51px;
+  padding-left: 49px;
 }  
 
 nav li a:hover{
@@ -157,6 +175,7 @@ left:-9999px;/* Устанавливаем начальное состояние
 .nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
   left:0; /* Приносим его обратно на экран, когда нужно */
   opacity:1; /* Делаем непрозрачным */
+  display: block; 
 
 }
 
@@ -173,53 +192,75 @@ nav li:hover ul li a:hover{ /* Устанавливаем стили для вы
 
 }
 
-.around {
-      font-size: 13px;
-      line-height: 1.91;
-      position:absolute;   
-      overflow: hidden; 
-      top: 466px;
-      height: 540px;
-      width: 1001px;
-      left: 120px;
+.span img{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 15px;
+    height: 15px;
+    border-left-width: 53px;
+    margin-left: 128px;
+  content: "▾";
+
+}
+ 
+.block {
+    font-size: 14px;
+    line-height: 1.714;
+    overflow: hidden;
+    width:1000px;
+    height:550px; 
+    position:absolute;
+    left: 838px;
+    top: 482px;
 }
 
-
 .Form {
-    background: #f0f0f0;
-    position: absolute;
-/*       position-top:-10px; */
-    width:169px;
-    height:532px;
-    overflow:left;
-    padding-left: 7px;
-
+    float: left;
+    text-align: center;
+    width: 210px;
+    color: #424c43;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+    background: #edeef0;
+    padding-bottom: 305px;
+    margin-bottom: -20000px 
+  
 }
 
  .Form2 {
-    background: #f0f0f0;
-    position-top:40;
-    width:176px;
-    height:532px;  
-    position: relative;
-    margin-left: 800px;
-    padding-left: 24px;
+    float: right;
+    text-align: center;
+    width: 210px;
+    color: #424c43;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+    background: #edeef0;
+    padding-bottom: 75px;
+    margin-bottom: -20000px;
 }
 
 .Form h1{
-   font-size: 17px;
+   font-size: 16px;
    text-align: center;
 }
 
 .Form2 h2{
-   font-size: 17px;
+   font-size: 16px;
    text-align: center;
 }
 
-.footer span{
-      display: block;
-          margin: 11px 0;
-              color: white;
-              text-align: center;
-                  font-size: 12px;
+
+.footer {
+  margin-top: 520px;
 }
+
+.footer h3{
+display: block;
+margin: 11px 0;
+text-align: center;
+font-size: 12px;
+color: white; 
+position: relative;
+text-decoration: none;
+}
+

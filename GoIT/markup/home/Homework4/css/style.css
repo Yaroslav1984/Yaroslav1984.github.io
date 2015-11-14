@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  overflow-x: hidden; /* убрать горизонтальную прокрутку */
+}
+
 }
 head{
   display: none;
@@ -10,6 +14,7 @@ head{
 
  body {     
 /*   background:no-repeat; */
+ margin: 0px auto;
   width: 2676px;
   height: 1013px; 
   background-color: #333;
@@ -222,7 +227,7 @@ nav li:hover ul li a:hover{ /* Устанавливаем стили для вы
     border-left: 1px solid #c7cacf;
     border-right: 1px solid #c7cacf;
     background: #edeef0;
-    padding-bottom: 305px;
+    padding-bottom: 295px;
     margin-bottom: -20000px 
   
 }
@@ -235,7 +240,7 @@ nav li:hover ul li a:hover{ /* Устанавливаем стили для вы
     border-left: 1px solid #c7cacf;
     border-right: 1px solid #c7cacf;
     background: #edeef0;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
     margin-bottom: -20000px;
 }
 

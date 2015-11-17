@@ -118,8 +118,8 @@ list-style-type: none;
 top: -547px;
 width: 1000px;
 height: 28px;  
-border-top: 1px solid #cacbcb;
-border-bottom: 1px solid black;
+border-top: 0px solid #cacbcb;
+border-bottom: 0px solid black;
 /* position: relative; */
 text-align: justify;
 z-index: 1;
@@ -253,6 +253,7 @@ nav li:hover ul li a:hover{ /* Устанавливаем стили для вы
  footer{
     display: block;
     text-align: center;
-    font-size: 17px;
+    font-size: 14px;
+    margin-top: 16px;
     color: white;
 }

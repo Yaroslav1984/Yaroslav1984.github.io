@@ -4,10 +4,44 @@
 } 
 
 body {  
-  background-repeat: no-repeat;
-  margin: 0px auto;
-  width: 1214px;
-  height: 1060px;
-  background-image: url(../img/Title.jpg); 
-  position: fixed; /* Фиксированное положение */
+
+    width: 1215px;
+    height: 1030px;
+	margin: 0px auto;
+    background-size: auto;
+    background-position: top; 
+    font-family: Tahoma, serif;
+    font-size: 14px;
+    color: white;
+    background-image: url(../img/Title.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.menu{
+height: 38px;
+width: auto;
+overflow: auto;
+background-color: #074d8a;
+}
+
+.menu ul {
+ list-style-type: none; 
+ margin-left: 375px;
+ margin-top: 6px;
+}
+
+.menu a{
+	float: left;
+	padding-left: 24px;
+	font-size: 13.0pt;
+	opacity: 0.4; /* Значение прозрачности */
+	text-decoration: none;
+	color: white;
+}
+
+  li a:hover {
+    background:  #000;  
+    color: #459ed4; 
+    text-decoration: none;
 }

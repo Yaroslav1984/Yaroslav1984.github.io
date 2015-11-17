@@ -1,0 +1,13 @@
+ *{
+  margin: 0;
+  padding: 0;  
+} 
+
+body {  
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  width: 1214px;
+  height: 1060px;
+  background-image: url(../img/Title.jpg); 
+  position: fixed; /* Фиксированное положение */
+}

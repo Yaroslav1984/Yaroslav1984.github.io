@@ -10,19 +10,21 @@ body {
 	margin: 0px auto;
     background-size: auto;
     background-position: top; 
-    font-family: Tahoma, serif;
+    font-family: "Helvetica Neue Cyr", Tahoma, sans-serif;
     font-size: 14px;
     color: white;
     background-image: url(../img/Title.jpg);
     background-repeat: no-repeat;
+    font-weight: normal;
 
 }
 
-.menu{
+
+.menu {
 height: 38px;
 width: auto;
 overflow: auto;
-background-color: #074d8a;
+background-color: #075395;
 }
 
 .menu ul {
@@ -44,4 +46,143 @@ background-color: #074d8a;
     background:  #000;  
     color: #459ed4; 
     text-decoration: none;
+}
+
+header {
+	width: 566px;
+    height: 615px;
+    padding-left: 330px;
+    padding-right: 330px;
+    padding-top: 174px;
+    padding-bottom: 201px;
+
+}
+
+hr {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    height: 1px;
+    width: 557px;
+    box-shadow: 0px 1px 0px 0.00px black;
+}
+.center {
+    width: 565px;
+    height: 58px;
+    background-color: grey;
+    text-align: center;
+}
+
+
+
+.center h1{
+	text-align: center;
+    padding-top: 13px;
+    padding-bottom: 18px;
+	font-size: 24px;
+}
+
+
+input {
+ width: 261px;
+height: 35px;
+margin-left: 160px;
+margin-right: 145px;
+font-size: 14px;
+padding-left: 15px; 
+background-color: black;
+color: #cccccc;
+border: 0px;
+box-shadow: 0px 1px 0px 0.00px #676767;
+
+}
+
+
+input[type="image"] {
+	width: 280px;
+    height: 35px;
+    margin-left: 154px;s
+    margin-right: 140px;
+    margin-top: 48px;
+} 
+
+
+.first{
+    height: 37px;
+    width: 566px;
+    margin-top: 32px;
+
+}
+
+.last{
+    height: 37px;
+    width: 566px;
+    margin-top: 23px;
+} 
+
+.email{
+    height: 37px;
+    width: 566px;
+    margin-top: 23px;
+
+}
+
+.password{
+    height: 37px;
+    width: 566px;
+    margin-top: 23px;
+
+}
+
+.confirm{
+    height: 37px;
+    width: 566px;
+    margin-top: 23px;
+
+}
+
+.send{
+    height: 37px;
+    width: 566px;
+    margin-top: 23px;
+}
+
+ #Send{
+
+	width: 17px;
+    height: 17px;
+    margin-left: 162px;
+    margin-right: 7px; 
+
+}
+ 
+.create{
+    height: 37px;
+    width: 566px;
+    margin-top: 10px;
+
+} 
+
+
+input[type="submit"] { 
+
+    margin-left: 212px;
+    height: 29px;
+    width: 145px;
+    padding-left: 0px;
+    background: linear-gradient(to bottom, #1f80e2 0%, #0060be 100%);
+    font-weight: 700;
+    border-radius: 2px;
+    border: 1px solid #4299d2;
+    color: white;
+
+}
+
+
+footer{
+    width: 340px;
+    margin-left: 128px;
+    text-align: center;
+    margin-top: 27px;
 }

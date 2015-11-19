@@ -1,7 +1,20 @@
+ @font-face {
+    font-family: 'helveticaneuecyrroman';
+    src: url('font/helveticaneuecyr-roman-webfont.eot');
+    src: url('font/helveticaneuecyr-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/helveticaneuecyr-roman-webfont.woff2') format('woff2'),
+         url('font/helveticaneuecyr-roman-webfont.woff') format('woff'),
+         url('font/helveticaneuecyr-roman-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
  *{
   margin: 0;
   padding: 0;  
 } 
+
 
 body {  
 
@@ -10,8 +23,8 @@ body {
 	margin: 0px auto;
     background-size: auto;
     background-position: top; 
-    font-family: "Helvetica Neue Cyr", Tahoma, sans-serif;
-    font-size: 14px;
+    font-family: helveticaneuecyrromans;
+    font-size: 17px;
     color: white;
     background-image: url(../img/Title.jpg);
     background-repeat: no-repeat;
@@ -21,6 +34,7 @@ body {
 
 
 .menu {
+background: -webkit-linear-gradient(top, rgba(100, 168, 227, 1) 0%, rgba(46, 122, 196, 1) 100%);	
 height: 38px;
 width: auto;
 overflow: auto;
@@ -36,7 +50,7 @@ background-color: #075395;
 .menu a{
 	float: left;
 	padding-left: 24px;
-	font-size: 13.0pt;
+	font-size: 14.0pt;
 	opacity: 0.4; /* Значение прозрачности */
 	text-decoration: none;
 	color: white;
@@ -55,22 +69,23 @@ header {
     padding-right: 330px;
     padding-top: 174px;
     padding-bottom: 201px;
+/*     background:black;  */
 
 }
 
 hr {
     display: inline-block;
     position: relative;
-    top: 30px;
+    top: 3px;
     left: 0px;
     height: 1px;
-    width: 557px;
+    width: 563px;
     box-shadow: 0px 1px 0px 0.00px black;
 }
 .center {
     width: 565px;
     height: 58px;
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
@@ -80,7 +95,15 @@ hr {
 	text-align: center;
     padding-top: 13px;
     padding-bottom: 18px;
-	font-size: 24px;
+	font-size: 29px;
+	font-weight: normal;
+    font-style: normal;
+}
+
+form {
+    height: 595px;
+    width: 566px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -100,11 +123,12 @@ box-shadow: 0px 1px 0px 0.00px #676767;
 
 
 input[type="image"] {
-	width: 280px;
     height: 35px;
-    margin-left: 154px;s
     margin-right: 140px;
     margin-top: 48px;
+    width: 283px;
+    margin-left: 153px;
+    padding-left: 0px;
 } 
 
 
@@ -112,6 +136,10 @@ input[type="image"] {
     height: 37px;
     width: 566px;
     margin-top: 32px;
+     background: linear-gradient(to bottom, #1f80e2 0%, #0060be 100%);
+         border-radius: 2px;
+    border: 1px solid #4299d2;
+     font-weight: 700;
 
 }
 

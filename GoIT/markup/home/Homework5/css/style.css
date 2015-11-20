@@ -23,7 +23,7 @@ body {
 	margin: 0px auto;
     background-size: auto;
     background-position: top; 
-    font-family: helveticaneuecyrromans;
+    font-family:"helveticaneuecyrroman", Tahoma, sans-serif;
     font-size: 17px;
     color: white;
     background-image: url(../img/Title.jpg);
@@ -34,33 +34,77 @@ body {
 
 
 .menu {
-background: -webkit-linear-gradient(top, rgba(100, 168, 227, 1) 0%, rgba(46, 122, 196, 1) 100%);	
-height: 38px;
+height: 33px;
 width: auto;
-overflow: auto;
 background-color: #075395;
+
 }
 
 .menu ul {
  list-style-type: none; 
- margin-left: 375px;
- margin-top: 6px;
+ margin-left: 347px;
+ height: 34px;
+ text-align: center;
+
 }
+
 
 .menu a{
 	float: left;
-	padding-left: 24px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+	padding-left: 10px;
+    padding-right: 10px;
 	font-size: 14.0pt;
-	opacity: 0.4; /* Значение прозрачности */
 	text-decoration: none;
-	color: white;
+	color: #60b5ed;
+    font-size: 12.5pt;
+     text-decoration: none;
+
+
+}
+ .menu li a:hover {
+  background-color: #54b7ea;
+  color: white;
+}
+ 
+
+ .lines a {
+height: 33px;
+float: left;
+padding-bottom: 0px;
+padding-top: 0px;
+padding-left: 10px;
+padding-right: 10px; 
+ }  
+
+ .lines img{
+width: 2px;
+height: 33px;
+
+ }
+
+.line img{
+       margin-left: 26px;
 }
 
-  li a:hover {
-    background:  #000;  
-    color: #459ed4; 
+
+.flag {
+    color: white;
+    line-height: 36px;
+    font-size: 14px;
     text-decoration: none;
 }
+
+.flag:before {
+    position: absolute;
+    left: -20px;
+    content: "";
+    width: 25px;
+    height: 27px;
+    background-image: url("../img/Pip.png") no-repeat;
+}
+
 
 header {
     width: 566px;
@@ -69,40 +113,30 @@ header {
     padding-right: 330px;
     padding-top: 174px;
     padding-bottom: 201px;
-/*     background:black;  */
+
 
 }
-
-hr {
-    display: inline-block;
-    position: relative;
-    top: 3px;
-    left: 0px;
-    height: 1px;
-    width: 563px;
-    box-shadow: 0px 1px 0px 0.00px black;
-    color:white;
-}
-.center {
-    width: 565px;
-    height: 58px;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-
-
 
 h1{
+    width: 565px;
+    padding-top: 17px;  
 	text-align: center;
-    padding-top: 13px;
-    padding-bottom: 18px;
-	font-size: 29px;
+    padding-bottom: 0px;
 	font-weight: normal;
     font-style: normal;
 }
 
+
+hr {
+    top: 1px;
+    height: 2px;
+    width: 565px;
+    box-shadow: 0px 2px 0px 0.00px white;
+    color:white;
+}
+
 form {
-    height: 595px;
+    height: 675px;
     width: 566px;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -126,7 +160,7 @@ box-shadow: 0px 1px 0px 0.00px #676767;
 input[type="image"] {
     height: 35px;
     margin-right: 140px;
-    margin-top: 48px;
+    margin-top: 33px;
     width: 283px;
     margin-left: 153px;
     padding-left: 0px;
@@ -136,53 +170,54 @@ input[type="image"] {
 .first{
     height: 37px;
     width: 566px;
-    margin-top: 32px;
-     background: linear-gradient(to bottom, #1f80e2 0%, #0060be 100%);
-         border-radius: 2px;
-    border: 1px solid #4299d2;
-     font-weight: 700;
+    margin-top: 10px;
+    border-radius: 40px;
+
 
 }
 
 .last{
     height: 37px;
     width: 566px;
-    margin-top: 23px;
+    margin-top: 10px;
 } 
 
 .email{
     height: 37px;
     width: 566px;
-    margin-top: 23px;
+     margin-top: 10px;
 
 }
 
 .password{
     height: 37px;
     width: 566px;
-    margin-top: 23px;
+     margin-top: 10px;
 
 }
 
 .confirm{
     height: 37px;
     width: 566px;
-    margin-top: 23px;
+    margin-top: 10px;
 
 }
 
 .send{
     height: 37px;
-    width: 566px;
-    margin-top: 23px;
+    width: 539px;
+    margin-top: 10px;
+    font-size: 17px;
+    margin-right: 97px;
+
 }
 
  #Send{
 
 	width: 17px;
     height: 17px;
-    margin-left: 162px;
-    margin-right: 7px; 
+    margin-left: 56px;
+    margin-right: 10px;
 
 }
  
@@ -196,12 +231,11 @@ input[type="image"] {
 
 input[type="submit"] { 
 
-    margin-left: 212px;
+    margin-left: 145px;
     height: 29px;
     width: 145px;
     padding-left: 0px;
     background: linear-gradient(to bottom, #1f80e2 0%, #0060be 100%);
-    font-weight: 700;
     border-radius: 2px;
     border: 1px solid #4299d2;
     color: white;
@@ -210,8 +244,19 @@ input[type="submit"] {
 
 
 footer{
-    width: 340px;
-    margin-left: 128px;
+    height: 45px;
+    width: 344px;
+    margin-left: 120px;
     text-align: center;
     margin-top: 27px;
+    font-size: 15px;
+}
+
+/* подсветка ячейки*/
+input:focus {
+    background-color: #1b5288;
+    color: white;
+    box-shadow: 0px 1px 0px 0.00px #4b4b4b;
+    -webkit-box-shadow: 0 0 30px rgba(81, 203, 238, 1);
+    -moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 }

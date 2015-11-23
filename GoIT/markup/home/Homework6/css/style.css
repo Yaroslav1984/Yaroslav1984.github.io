@@ -54,3 +54,21 @@ font-size:: 90px;
 .submit{
 font-size:: 106px;	
 }
+
+menu{
+    display: block;
+    position: relative; 
+    overflow:hidden;
+    width: 100%;	
+}
+.menu ul {
+ list-style-type: none; 
+ margin-left: 347px;
+ height: 34px;
+ text-align: center;
+}
+
+.check{
+  float: left;
+  width: 9%;	
+}

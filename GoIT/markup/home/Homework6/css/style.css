@@ -38,11 +38,15 @@ header {
 
  .registr{
   float: left;
-  width: 56%;
+  width: 61%;
+ margin-top: 4px;
 }
 
 .home{
-   float: left;
-   width: 10%;
+  float: left;
+  width: 9%;
 }
 
+.input{
+width: 102px;	
+}

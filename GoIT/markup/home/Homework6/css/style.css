@@ -47,10 +47,10 @@ header {
   width: 9%;
 }
 
-.registr input text{
+.registr input-text{
 width: 90px;	
 }
 
-.registr input submit{
+.registr input-submit{
 width: 106px;	
 }

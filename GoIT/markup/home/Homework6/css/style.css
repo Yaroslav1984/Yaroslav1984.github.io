@@ -53,6 +53,13 @@ header {
    width: 40%;
    
 }
+
+
+.registr img{
+    float: left;
+    left: 344px;
+    top: 22px;
+}
 /*
  input{
     width: 118px;
@@ -73,12 +80,6 @@ header {
     border-bottom-width: 0px;
     width: 50px;*/
  
-
-.registr img{
-    float: right;
-    left: 344px;
-    top: 22px;
-}
  
 .registr form {
    display: block; 

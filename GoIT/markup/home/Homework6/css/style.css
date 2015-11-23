@@ -9,58 +9,70 @@ background-color: black;
 
 
  body{
-	width: 1000px;
+    width: 1000px;
     height: 1310px;
     padding-left: 44px;
- 	background-image: url(../img/title.jpg); 
-	background-repeat: no-repeat;
-	margin: 0px auto;
+    background-image: url(../img/title.jpg);  
+    background-repeat: no-repeat;
+    margin: 0px auto;
     font-size: 17px;
     font-weight: normal;
 } 
 
 header { 
     display: block;
-    height: 49px;
-    width: 913px;
-
+    position: relative; 
+    overflow:hidden;
+    width: 100%;
+/*    height: 49px;
+    width: 913px;*/
 }
 
 .contact{
-	width: 309px;
-    height: 27px;
+    width: 40%;	
     margin-top: 0px;
     padding-top: 20px;
-}
-
-.contact img{
- 	position: relative; 
     float: left;
+/*    width: 309px;
+    height: 27px;*/
 }
 
-.contact h3{
+/*.contact img{
+/*    position: relative; 
+    float: left;*/
+}
+
+/*.contact h3{
 	width: 280px;
     margin-left: 30px;
 }
+}*/
 
+ .registr{
+   float: left;
+   width: 40%;
+   
+}
+/*
  input{
-	width: 118px;
+    width: 118px;
     height: 19px;
+}
+*/
+
+.home{
+   float: left;
+   width: 20%;
 }
 
 
-.submite{
+/*.submite{
     border-left-width: 0px;
     border-top-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 0px;
-    width: 50px;
+    width: 50px;*/
  
-}
- .registr{
-  float: right;
-}
-
 
 .registr img{
     float: right;

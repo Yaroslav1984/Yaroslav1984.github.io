@@ -34,14 +34,12 @@ header {
 }
 
  .registr{
-   float: left;
-   width: 40%;
-   
+  float: left;
+  width: 56%;
 }
 
-
 .home{
-    float: left;
+   float: left;
    width: 20%;
 }
 

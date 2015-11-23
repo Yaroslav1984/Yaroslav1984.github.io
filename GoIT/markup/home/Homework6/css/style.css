@@ -50,3 +50,7 @@ header {
 .registr input text{
 width: 90px;	
 }
+
+.registr input submit{
+width: 106px;	
+}

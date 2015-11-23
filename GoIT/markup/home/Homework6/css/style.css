@@ -31,7 +31,7 @@ header {
 .contact{
     width: 40%;	
     margin-top: 0px;
-    padding-top: 20px;
+    padding-top: 11px;
     float: left;
 /*    width: 309px;
     height: 27px;*/
@@ -65,7 +65,7 @@ header {
     width: 118px;
     height: 19px;
 }
-*/
+
 
 .home{
    float: left;
@@ -80,7 +80,7 @@ header {
     border-bottom-width: 0px;
     width: 50px;*/
  
- 
+/* 
 .registr form {
    display: block; 
    float: right;
@@ -97,4 +97,5 @@ header {
 .menu_oll ul{
 	  list-style-type: none;
 	/*    font-size: 10.6pt; */
-}
+}*/
+*/

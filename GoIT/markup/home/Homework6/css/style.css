@@ -55,12 +55,18 @@ font-size:: 90px;
 font-size:: 106px;	
 }
 
-menu{
-    display: block;
+.menu{
+   float:left;
     position: relative; 
     overflow:hidden;
     width: 100%;	
 }
+
+.menu li{
+    float:left;
+    text-align: center;
+}
+
 .menu ul {
  list-style-type: none; 
  margin-left: 347px;

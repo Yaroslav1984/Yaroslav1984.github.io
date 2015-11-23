@@ -27,10 +27,15 @@ header {
 }
 
 .contact{
-    width: 40%;	
+    width: 26%;	
     margin-top: 0px;
-    padding-top: 11px;
+    padding-top: 0px;
     float: left;
+}
+
+.avtor{
+  float: left;
+  width: 10%;	
 }
 
  .registr{

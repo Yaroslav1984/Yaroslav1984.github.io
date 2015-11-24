@@ -199,16 +199,18 @@ section{
   margin-bottom: -20000px;
 }
 
-nav{
-  float:right;
-  padding-bottom: 20000px;
-  margin-bottom: -20000px;
-}
-
-.main{
+.article{
   float: none;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
   width: 60px;
   height: 500;
 }
+
+nav{
+  float:right;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+}
+
+

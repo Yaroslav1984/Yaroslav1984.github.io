@@ -197,15 +197,17 @@ menu li a{
   float: left;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
+  width: 229px;
 }
 
  .figure{
   float: none;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
-  height: 700px;
-  width: 440px;
+  width: 372px;
+  height: 360px
   padding-left: 257px
+  position: relative;  
 }
 
 nav{

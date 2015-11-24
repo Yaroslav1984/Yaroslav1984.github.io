@@ -15,7 +15,7 @@ background-color: black;
     background-image: url(../img/title.jpg);  
     background-repeat: no-repeat;
     margin: 0px auto;
-    font-size: 17px;
+    font-size: 12px;
     font-weight: normal;
 } 
 
@@ -189,8 +189,8 @@ menu li a{
 }
 
 .clearfix{
-      height: 711px;
-      width: 915px;
+    height: 627px;
+    width: 922px
 }
 
 section{
@@ -204,11 +204,10 @@ section{
   float: left;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
-  width: 372px;
-  height: 360px
-  padding-left: 257px
-  display: table; margin: 0 auto; 
-  text-align: center
+  width: 502px;
+  height: 633px;
+  text-align: center;
+  background-image: url(../img/fon.jpg);
 }
 
 nav{
@@ -217,4 +216,55 @@ nav{
   margin-bottom: -20000px;
 }
 
+.img_title{
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-top: 2px;
+    border-top-width: 27px;
+    width: 193px;
+    height: 28px;
+    border: 1px solid #000;
+    border-radius: 19px;
+    margin-bottom: 13px;
+}
 
+.avto_detal img{
+    width: 30px;
+    border-right-width: 23px;
+    padding-right: 11px;
+}
+
+.img_title img{
+    width: 30px;
+    border-right-width: 23px;
+    padding-right: 11px;
+
+}
+
+.avto{
+        padding-bottom: 13px;
+}
+
+.avto_detal{
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 146px;
+    height: 28px;
+    padding-left: 6px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+}
+
+.avto ul{
+      padding-left: 39px;
+      list-style-type:circle;
+}
+
+section li{
+      padding-top: 3px;
+      padding-bottom: 3px;
+}
+
+.img-avto_detal{
+    border-radius: 10px;
+}

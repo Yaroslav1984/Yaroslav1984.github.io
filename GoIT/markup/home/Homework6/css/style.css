@@ -197,7 +197,7 @@ section{
   float: left;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
-  width: 229px;
+  width: 207px;
 }
 
  figure{
@@ -214,14 +214,31 @@ nav{
   float:right;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
+  width: 198px;
 }
+
+nav input[type="checkbox"]{
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+
+  }
+
+  .form{
+        height: 105px;
+  }
+
+.pin [action="tack"]{
+      padding-left: 26px;
+      height: 121px;;
+} 
 
 .img_title{
     padding-bottom: 3px;
     padding-left: 7px;
     padding-top: 2px;
     border-top-width: 27px;
-    width: 193px;
+    width: 180px;
     height: 28px;
     border: 1px solid #000;
     border-radius: 19px;
@@ -237,7 +254,7 @@ nav{
 .img_title img{
     width: 30px;
     border-right-width: 23px;
-    padding-right: 11px;
+    padding-right: 6px;
 
 }
 

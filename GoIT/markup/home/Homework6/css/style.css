@@ -193,21 +193,20 @@ menu li a{
       width: 915px;
 }
 
-.section{
+section{
   float: left;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
   width: 229px;
 }
 
- .figure{
-  float: none;
+ figure{
+  float: left;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
   width: 372px;
   height: 360px
   padding-left: 257px
-  position: relative;  
   display: table; margin: 0 auto; 
   text-align: center
 }

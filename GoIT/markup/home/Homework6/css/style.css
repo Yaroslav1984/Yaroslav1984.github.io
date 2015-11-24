@@ -193,18 +193,19 @@ menu li a{
       width: 915px;
 }
 
-section{
+.section{
   float: left;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
 }
 
-.article{
+ .figure{
   float: none;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
-  width: 60px;
-  height: 500;
+  height: 700px;
+  width: 440px;
+  padding-left: 257px
 }
 
 nav{

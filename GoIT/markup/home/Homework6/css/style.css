@@ -124,12 +124,15 @@ menu{
     top: 0px;
     height: 37px;
     width: 911px;
+    
     -webkit-box-shadow: inset 0px 0px 6px 0px rgba(77,86,99,0.32);
    -moz-box-shadow: inset 0px 0px 6px 0px rgba(77,86,99,0.32);
     box-shadow: inset 0px 0px 6px 0px rgba(77,86,99,0.32);
+    
     background-color: rgba(40, 40, 42, 1);
     background: rgba(40, 40, 42, 1);
     color: rgba(40, 40, 42, 1);
+    
     border-radius: 7px 7px 7px 7px;
     -moz-border-radius: 7px 7px 7px 7px;
     -webkit-border-radius: 7px 7px 7px 7px;

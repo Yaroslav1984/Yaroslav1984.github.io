@@ -25,11 +25,13 @@ header {
     overflow:hidden;
     width: 100%;
     padding-top: 9px;
+    padding-bottom: 1px;
 }
 
 .contact{
-    width: 26%;	
+    width: 29%;	
     float: left;
+    padding-top: 5px;
 }
 
 .avtor{
@@ -42,8 +44,24 @@ header {
  float: left;
  width: 55%;
  margin-top: 4px;
- box-shadow:0px 0px 4px 0px rgba(0,0,0,0.75);
- background: linear-gradient(to bottom, rgba(55,55,55,1) 0%,rgba(48,48,48,1) 100%);
+    padding-bottom: 0px;
+    padding-top: 3px;
+-webkit-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
+-moz-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
+box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
+
+background: rgba(250,129,107,1);
+background: -moz-linear-gradient(left, rgba(250,129,107,1) 0%, rgba(17,67,111,1) 0%, rgba(244,97,78,1) 0%, rgba(246,168,156,1) 0%, rgba(17,67,111,1) 0%, rgba(27,110,182,1) 0%, rgba(27,110,182,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250,129,107,1)), color-stop(0%, rgba(17,67,111,1)), color-stop(0%, rgba(244,97,78,1)), color-stop(0%, rgba(246,168,156,1)), color-stop(0%, rgba(17,67,111,1)), color-stop(0%, rgba(27,110,182,1)), color-stop(100%, rgba(27,110,182,1)));
+background: -webkit-linear-gradient(left, rgba(250,129,107,1) 0%, rgba(17,67,111,1) 0%, rgba(244,97,78,1) 0%, rgba(246,168,156,1) 0%, rgba(17,67,111,1) 0%, rgba(27,110,182,1) 0%, rgba(27,110,182,1) 100%);
+background: -o-linear-gradient(left, rgba(250,129,107,1) 0%, rgba(17,67,111,1) 0%, rgba(244,97,78,1) 0%, rgba(246,168,156,1) 0%, rgba(17,67,111,1) 0%, rgba(27,110,182,1) 0%, rgba(27,110,182,1) 100%);
+background: -ms-linear-gradient(left, rgba(250,129,107,1) 0%, rgba(17,67,111,1) 0%, rgba(244,97,78,1) 0%, rgba(246,168,156,1) 0%, rgba(17,67,111,1) 0%, rgba(27,110,182,1) 0%, rgba(27,110,182,1) 100%);
+background: linear-gradient(to right, rgba(250,129,107,1) 0%, rgba(17,67,111,1) 0%, rgba(244,97,78,1) 0%, rgba(246,168,156,1) 0%, rgba(17,67,111,1) 0%, rgba(27,110,182,1) 0%, rgba(27,110,182,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa816b', endColorstr='#1b6eb6', GradientType=1 );
+
+border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4pxss
 
 }
 
@@ -52,13 +70,24 @@ header {
   width: 9%;
 }
 
+.home img{
+    width: 71px;
+    height: 31px;
+    padding-top: 1px;
+}
+
+.registr span{
+padding-left: 4px;
+}
+
+
 input[type="name"]{
     width: 110px;
-    height: 20px;
+    height: 17px;
+    padding-left: 9px;
 }
 
 .b1{
-    background: blue; /* Синий цвет фона */ 
     color: white; /* Белые буквы */ 
     font-size: 9pt; /* Размер шрифта в пунктах */
 }
@@ -70,7 +99,8 @@ input[type="submit"]{
     border-left-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 0px;
-    width: 88px;
+    width: 74px;
+    background: none;
 }
 
 input[type="button"]{
@@ -79,7 +109,10 @@ input[type="button"]{
     border-right-width: 0px;
     border-bottom-width: 0px;
     width: 110px;
+    background: none;
     text-decoration:underline;
+     color: #81898d; 
+
 }
 
 
@@ -91,12 +124,15 @@ menu{
     top: 0px;
     height: 37px;
     width: 911px;
--webkit-box-shadow: inset -1px 0px 0px 5px rgba(0,0,0,0.02);
--moz-box-shadow: inset -1px 0px 0px 5px rgba(0,0,0,0.02);
-box-shadow: inset -1px 0px 0px 5px rgba(0,0,0,0.02);
+    -webkit-box-shadow: inset 0px 0px 6px 0px rgba(77,86,99,0.32);
+   -moz-box-shadow: inset 0px 0px 6px 0px rgba(77,86,99,0.32);
+    box-shadow: inset 0px 0px 6px 0px rgba(77,86,99,0.32);
     background-color: rgba(40, 40, 42, 1);
     background: rgba(40, 40, 42, 1);
     color: rgba(40, 40, 42, 1);
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
 }
 
 menu ul {
@@ -105,21 +141,20 @@ menu ul {
       height: 34px; 
      text-align: center;
      height: 25px;
-     margin-left: 81px;
-      padding-top: 10px; 
+      margin-left: 145px;
       border-radius: 20px 5px;
 
 }
 
 menu a:hover {
-  border-radius: 40px 40px;
+  border-radius: 110px 110px;
   background-color: #0066FF;
 }
  
 menu li{
     float:left;
     text-align: center;
-    padding-right: 25px;
+    padding: 8px 8px 6px 8px;
 
 }
 
@@ -127,20 +162,50 @@ menu li a{
        text-decoration:none;
        color: #81898d;
        font-size: 15px;
+        text-align: center;
 }
 
 .check{
     float: left;
     width: 26%;
-    padding-top: 8px;
-    margin-left: 66px; 
+    text-align: center;
+    margin-left: 36px;
+    padding: 8px 8px 6px 8px
 }
 
-span{
+.check span{
        text-decoration:none;
-       color: #81898d;
-       font-size: 15px;
+        color: #81898d; 
+       font-size: 16px;
        margin-left: 7px;
 }
 
- 
+.zenter img{
+    width: 914px;
+    height: 177px;
+}
+
+.clearfix{
+      height: 711px;
+      width: 915px;
+}
+
+section{
+  float: left;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+}
+
+nav{
+  float:right;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+}
+
+.main{
+  float: none;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+  width: 60px;
+  height: 500;
+}

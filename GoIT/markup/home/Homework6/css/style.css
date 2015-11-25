@@ -291,7 +291,7 @@ section li{
     border-radius: 10px;
 }
 
-.pixel input {
+.pixel [type="submit"] {
 	padding-top: 22px;
         margin-left: 10px;
 }

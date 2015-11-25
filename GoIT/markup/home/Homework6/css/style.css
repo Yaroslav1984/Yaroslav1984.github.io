@@ -259,7 +259,7 @@ nav input[type="checkbox"]{
 }
 
 .avto{
-        padding-bottom: 13px;
+        padding-bottom: 0px;
 }
 
 .avto_detal{
@@ -275,6 +275,7 @@ nav input[type="checkbox"]{
 .avto ul{
       padding-left: 39px;
       list-style-type:circle;
+      padding-top: 2px;
 }
 
 section li{

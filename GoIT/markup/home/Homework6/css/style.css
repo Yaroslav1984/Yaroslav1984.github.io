@@ -225,11 +225,12 @@ nav input[type="checkbox"]{
 
 
   }
-/*
+
   .form{
-        height: 75px;
+    height: 75px;
+    width: 171px;
   }
-*/
+
 .pin [action="tack"]{
       padding-left: 26px;
       height: 75px;;

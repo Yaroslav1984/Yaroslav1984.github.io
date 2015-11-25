@@ -225,14 +225,14 @@ nav input[type="checkbox"]{
 
 
   }
-
+/*
   .form{
         height: 75px;
   }
-
+*/
 .pin [action="tack"]{
       padding-left: 26px;
-      height: 121px;;
+      height: 75px;;
 } 
 
 .img_title{

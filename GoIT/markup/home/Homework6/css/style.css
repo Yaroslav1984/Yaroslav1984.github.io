@@ -201,6 +201,8 @@ section{
 }
 
  figure{
+  position: relative;   
+  overflow:hidden;  	
   float: left;
   padding-bottom: 20000px;
   margin-bottom: -20000px;

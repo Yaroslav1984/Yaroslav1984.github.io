@@ -297,16 +297,27 @@ nav input[type="checkbox"]{
         padding-bottom: 0px;
 }
 
- .avto_detal a {
+.avto ul{
+      padding-left: 55px;
+      list-style-type:circle;
+      padding-top: 2px;
+}
+      
+.avto li{
+      text-decoration: none; 	
+}
+
+ .avto li a {
     color: #008000; /* Цвет обычной ссылки */ 
     text-decoration: none; /* Убираем подчеркивание у ссылок */
    }
-  .avto_detal a:visited {
+  .avto li a:visited {
     color: #800080; /* Цвет посещённой ссылки */
    } 
-   .avto_detal a:hover {
+   .avto li a:hover {
     color: #786b59; /* Цвет ссылки при наведении на нее курсора мыши */  
     text-decoration: underline; /* Добавляем подчеркивание */
+    font-style: italic;
    }
 
 .avto_detal{
@@ -319,17 +330,6 @@ nav input[type="checkbox"]{
     padding-bottom: 3px;
     margin-left: 3px;
 }
-
-.avto ul{
-      padding-left: 55px;
-      list-style-type:circle;
-      padding-top: 2px;
-}
-      
-.avto li{
-      text-decoration: none; 	
-}
-
 
 section li{
       padding-top: 3px;

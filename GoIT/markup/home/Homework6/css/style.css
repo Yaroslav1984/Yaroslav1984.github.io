@@ -1,3 +1,17 @@
+ @font-face {
+    font-family: 'helveticaneuecyrroman';
+    src: url('font/helveticaneuecyr-roman-webfont.eot');
+    src: url('font/helveticaneuecyr-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/helveticaneuecyr-roman-webfont.woff2') format('woff2'),
+         url('font/helveticaneuecyr-roman-webfont.woff') format('woff'),
+         url('font/helveticaneuecyr-roman-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+
+
 *{
 	margin: 0;
 	padding: 0;	
@@ -13,6 +27,8 @@ background-color: black;
     height: 1310px;
     padding-left: 44px;
     background-image: url(../img/title.jpg);  
+    font-family:"helveticaneuecyrroman", Tahoma, sans-serif;
+    font-weight: bold;
     background-repeat: no-repeat;
     margin: 0px auto;
     font-size: 12px;
@@ -28,6 +44,10 @@ header {
     padding-bottom: 1px;
 }
 
+.contact span{
+font-size: 18px;
+
+}
 .contact{
     width: 29%;	
     float: left;
@@ -92,6 +112,13 @@ input[type="name"]{
     font-size: 9pt; /* Размер шрифта в пунктах */
 }
 
+/* .input b2 {
+    color: white; Белые буквы 
+    font-size: 9pt; Размер шрифта в пунктах
+    width: 56px;
+    height: 17px;
+}
+ */
 
 
 input[type="submit"]{
@@ -150,8 +177,9 @@ menu ul {
 }
 
 menu a:hover {
-  border-radius: 110px 110px;
-  background-color: #0066FF;
+  border-radius: 200px 200px;
+  background-color: #225484;
+  color: white;
 }
  
 menu li{
@@ -189,7 +217,7 @@ menu li a{
 }
 
 .clearfix{
-    height: 627px;
+    height: 714px;
     width: 922px
 }
 
@@ -198,18 +226,18 @@ section{
   padding-bottom: 20000px;
   margin-bottom: -20000px;
   width: 207px;
+  color: #2a4263;
+
 }
 
  figure{
   position: relative;   
   overflow:hidden;  	
   float: left;
-  padding-bottom: 20000px;
-  margin-bottom: -20000px;
   width: 502px;
-  height: 633px;
-  text-align: center;
-  background-image: url(../img/fon.jpg);
+  height: 516px;
+  padding-top: 4px;
+  background: #dbdee0;
 }
 
 nav{
@@ -217,12 +245,13 @@ nav{
   padding-bottom: 20000px;
   margin-bottom: -20000px;
   width: 198px;
+  color: #2a4263;
 }
+
 
 nav input[type="checkbox"]{
     margin-top: 6px;
     margin-bottom: 6px;
-
 
   }
 
@@ -237,21 +266,23 @@ nav input[type="checkbox"]{
 } 
 
 .img_title{
-    padding-bottom: 3px;
+    padding-bottom: 4px;
     padding-left: 7px;
     padding-top: 2px;
     border-top-width: 27px;
     width: 180px;
     height: 28px;
-    border: 1px solid #000;
+    border: 2px solid #9ea9af;
     border-radius: 19px;
     margin-bottom: 13px;
+
 }
 
 .avto_detal img{
+    height: 30px;
     width: 30px;
     border-right-width: 23px;
-    padding-right: 11px;
+    padding-right: 4px;
 }
 
 .img_title img{
@@ -266,18 +297,18 @@ nav input[type="checkbox"]{
 }
 
 .avto_detal{
-    border: 1px solid #000;
+    border: 2px solid #9ea9af;
     border-radius: 15px;
-    width: 146px;
-    height: 28px;
-    padding-left: 6px;
-    padding-top: 1px;
+    width: 141px;
+    height: 29px;
+    padding-left: 3px;
+    padding-top: 2px;
     padding-bottom: 3px;
-    margin-left: 11px;
+    margin-left: 3px;
 }
 
 .avto ul{
-      padding-left: 39px;
+      padding-left: 55px;
       list-style-type:circle;
       padding-top: 2px;
 }
@@ -294,4 +325,86 @@ section li{
 .pixel [type="submit"] {
 	padding-top: 22px;
         margin-left: 10px;
+}
+
+.line_one img{
+    width: 145px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 14px;
+        border-left-width: 12px;
+
+}
+
+.line_two img{
+    width: 145px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 14px;
+        border-left-width: 12px;
+}
+
+.line_three img{
+    width: 145px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 14px;
+        border-left-width: 12px;
+}
+
+.partner {
+  text-align: center; 
+
+}
+
+.partner img{
+      padding-top: 34px;
+}
+
+footer{
+    width: 900px;
+    height: 111px;
+    background-color: #193658;
+}
+
+footer ul{
+     list-style-type: none; 
+       text-align: center;
+           margin-left: 308px;
+    /*  float:left */
+}
+
+footer li{
+   float: left; 
+  padding-right: 15px;
+  padding-top: 10px;
+   font-size: 15px; 
+   text-align: center;
+   color: white;
+   font-weight 
+
+
+}
+
+footer p{
+ font-size: 12px;
+    padding-top: 33px;;
+    color: #661233;
+    margin-left: 365px; 
+      font-weight;bold;
+}
+
+.pixel img{
+
+}
+
+.check span{
+   text-decoration: none;
+    color: #81898d;
+    font-size: 14px;
+    margin-left: 4px;
+
+    -webkit-box-shadow: 0px 0px 17px 1px rgba(53,85,116,1);
+-moz-box-shadow: 0px 0px 17px 1px rgba(53,85,116,1);
+box-shadow: 0px 0px 17px 1px rgba(53,85,116,1);
 }

@@ -339,9 +339,14 @@ nav input[type="checkbox"]{
     height: 28px;
     width: 150px;
     padding-left: 6px;
+    margin-left: 3px;
+}
+
+.avto_detal li{
+    height: 15px;
+    width: 150px;
     padding-top: 2px;
     padding-bottom: 3px;
-    margin-left: 3px;
 }
 
 section li{

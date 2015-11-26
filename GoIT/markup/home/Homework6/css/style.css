@@ -219,6 +219,7 @@ menu li a{
 .clearfix{
     height: 714px;
     width: 922px
+      font-weight: bold 700;
 }
 
 section{
@@ -227,7 +228,6 @@ section{
   margin-bottom: -20000px;
   width: 207px;
   color: #2a4263;
-  font-weight: bold 700;
 
 }
 

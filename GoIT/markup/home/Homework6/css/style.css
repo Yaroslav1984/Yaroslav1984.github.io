@@ -411,7 +411,7 @@ footer li{
    font-weight 
 }
 
- .footer li a:hover {
+ footer li a:hover {
     color: #00CED1; /* Цвет ссылки при наведении на нее курсора мыши */  
     text-decoration: none; /* Добавляем подчеркивание */
     font-size: 10pt;

@@ -349,11 +349,6 @@ section li{
     border-radius: 10px;
 }
 
-.pixel [type="submit"] {
-	padding-top: 22px;
-        margin-left: 10px;
-}
-
 .line_one img{
     width: 145px;
     height: 150px;
@@ -442,6 +437,11 @@ footer p{
     border-radius: 5px;
 
 }
+
+.pixel [type="submit"] {
+        margin-left: 10px;
+}
+
 .check span{
     text-decoration: none;
     color: #81898d; 

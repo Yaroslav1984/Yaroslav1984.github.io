@@ -196,6 +196,10 @@ menu li a{
        color: #81898d;
        font-size: 15px;
        text-align: center;
+       padding-top: 6px;
+       padding-bottom: 6px;
+       padding-left: 9px;
+       padding-right: 9px;
 }
 
 .check{

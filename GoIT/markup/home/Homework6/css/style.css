@@ -231,7 +231,7 @@ menu li a{
    font-weight: bold 700;
 }
 
-.section{
+section{
   float: left;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
@@ -240,7 +240,7 @@ menu li a{
 
 }
 
- .figure{
+ figure{
   position: relative;   
   overflow:hidden;  	
   float: left;
@@ -250,7 +250,7 @@ menu li a{
   background: #dbdee0;
 }
 
-.nav{
+nav{
   float:right;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
@@ -259,7 +259,7 @@ menu li a{
 }
 
 
-.nav input[type="checkbox"]{
+nav input[type="checkbox"]{
     margin-top: 6px;
     margin-bottom: 6px;
 
@@ -302,30 +302,30 @@ menu li a{
 
 }
 
-avto{
+.avto{
         padding-bottom: 0px;
 }
 
-avto ul{
+.avto ul{
       padding-left: 55px;
       list-style-type:circle;
       padding-top: 2px;
       display: block;
 }
       
-avto li{
+.avto li{
       text-decoration: none;
       font-size: 9pt;
 }
 
- avto li a {
+ .avto li a {
     color: #2a4263; /* Цвет обычной ссылки */ 
     text-decoration: none; /* Убираем подчеркивание у ссылок */
    }
-  avto li a:visited {
+  .avto li a:visited {
     color: #2a4263; /* Цвет посещённой ссылки */
    } 
-   avto li a:hover {
+   .avto li a:hover {
     color: #2a4263; /* Цвет ссылки при наведении на нее курсора мыши */  
     text-decoration: underline; /* Добавляем подчеркивание */
     font-style: italic;
@@ -333,7 +333,7 @@ avto li{
     font-weight: 600;
    }
 
-avto_detal{
+.avto_detal{
     border: 2px solid #9ea9af;
     border-radius: 15px;
     height: 18px;

@@ -231,7 +231,7 @@ menu li a{
    font-weight: bold 700;
 }
 
-section{
+.section{
   float: left;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
@@ -240,7 +240,7 @@ section{
 
 }
 
- figure{
+ .figure{
   position: relative;   
   overflow:hidden;  	
   float: left;
@@ -250,7 +250,7 @@ section{
   background: #dbdee0;
 }
 
-nav{
+.nav{
   float:right;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
@@ -259,7 +259,7 @@ nav{
 }
 
 
-nav input[type="checkbox"]{
+.nav input[type="checkbox"]{
     margin-top: 6px;
     margin-bottom: 6px;
 
@@ -288,14 +288,14 @@ nav input[type="checkbox"]{
 
 }
 
-avto_detal img{
+.avto_detal img{
     height: 30px;
     width: 30px;
     border-right-width: 23px;
     padding-right: 4px;
 }
 
-img_title img{
+.img_title img{
     width: 30px;
     border-right-width: 23px;
     padding-right: 6px;

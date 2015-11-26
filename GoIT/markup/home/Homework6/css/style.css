@@ -440,7 +440,7 @@ pixel input{
 }
 .check span{
     text-decoration: none;
-    color: #81898d;
+    color: #81898d; 
     font-size: 14px;
     margin-left: 4px;
 }

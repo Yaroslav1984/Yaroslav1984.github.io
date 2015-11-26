@@ -188,14 +188,14 @@ menu li{
     float:left;
     text-align: center;
     padding: 8px 8px 6px 8px;
-    width: 88px;
+    width: 100px;
     height: 21px;
 }
 
 menu li a{
        text-decoration:none;
        color: #81898d;
-       font-size: 15px;
+       font-size: 12px;
        text-align: center;
        padding-top: 6px;
        padding-bottom: 6px;

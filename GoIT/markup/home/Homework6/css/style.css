@@ -318,8 +318,8 @@ nav input[type="checkbox"]{
     font-size: 9pt;
     height: 15px;
     width: 150px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 4px;
 }
 
  .avto li a {

@@ -297,13 +297,17 @@ nav input[type="checkbox"]{
         padding-bottom: 0px;
 }
 
-.avto_detal a:link {
-    color: #0000d0; /* Цвет ссылок */
-    padding: 2px; /* Поля вокруг текста */ 
+ .avto_detal a {
+    color: #008000; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
    }
+  .avto_detal a:visited {
+    color: #800080; /* Цвет посещённой ссылки */
+   } 
    .avto_detal a:hover {
-    background: #786b59; /* Цвет фона под ссылкой */ 
-    color: #ffe; /* Цвет ссылки */ 
+    color: #786b59; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
 
 .avto_detal{
     border: 2px solid #9ea9af;

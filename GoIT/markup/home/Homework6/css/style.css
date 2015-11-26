@@ -416,6 +416,8 @@ footer li{
     text-decoration: none; /* Добавляем подчеркивание */
     font-size: 10pt;
     font-weight: normal;
+    text-decoration: none; /* Добавляем подчеркивание */
+    color: white;
 
 
 footer p{

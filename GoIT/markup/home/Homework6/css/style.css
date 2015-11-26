@@ -316,6 +316,10 @@ nav input[type="checkbox"]{
 .avto li{
       text-decoration: none;
       font-size: 9pt;
+          height: 15px;
+    width: 150px;
+    padding-top: 2px;
+    padding-bottom: 3px;
 }
 
  .avto li a {
@@ -342,13 +346,13 @@ nav input[type="checkbox"]{
     margin-left: 3px;
 }
 
-.avto_detal li{
+/*.avto_detal li{
     height: 15px;
     width: 150px;
     padding-top: 2px;
     padding-bottom: 3px;
 }
-
+*/
 section li{
       padding-top: 3px;
       padding-bottom: 3px;

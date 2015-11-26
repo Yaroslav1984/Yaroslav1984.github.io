@@ -143,7 +143,7 @@ input[type="button"]{
 
 }
 
-.menu{
+menu{
     float:left; 
     position: relative;   
     overflow:hidden;  
@@ -165,7 +165,7 @@ input[type="button"]{
     -webkit-border-radius: 7px 7px 7px 7px;
 }
 
-.menu ul {
+menu ul {
      list-style-type: none; 
      float:left; 
      height: 34px; 
@@ -175,7 +175,7 @@ input[type="button"]{
      border-radius: 20px 5px;
 }
 
-.menu li a:hover{
+menu li a:hover{
   border-radius: 200px 200px;
   background-color: #225484;
   color: white;
@@ -183,7 +183,7 @@ input[type="button"]{
   font-weight: normal;
 }
  
-.menu li{
+menu li{
     float:left;
     text-align: center;
     padding: 8px 8px 6px 8px;
@@ -192,7 +192,7 @@ input[type="button"]{
     padding-right: 8px;
 }
 
-.menu li a{
+menu li a{
        text-decoration:none;
        color: #81898d;
        font-size: 12px;

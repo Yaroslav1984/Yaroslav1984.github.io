@@ -142,7 +142,6 @@ input[type="button"]{
 
 }
 
-
 menu{
     float:left; 
     position: relative;   
@@ -318,7 +317,7 @@ nav input[type="checkbox"]{
     color: #2a4263; /* Цвет ссылки при наведении на нее курсора мыши */  
     text-decoration: underline; /* Добавляем подчеркивание */
     font-style: italic;
-    font-size: 40pt;
+    font-size: 20pt;
    }
 
 .avto_detal{

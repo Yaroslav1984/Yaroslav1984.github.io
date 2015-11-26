@@ -308,14 +308,14 @@ nav input[type="checkbox"]{
 }
 
  .avto li a {
-    color: #008000; /* Цвет обычной ссылки */ 
+    color: #2a4263; /* Цвет обычной ссылки */ 
     text-decoration: none; /* Убираем подчеркивание у ссылок */
    }
   .avto li a:visited {
-    color: #800080; /* Цвет посещённой ссылки */
+    color: #2a4263; /* Цвет посещённой ссылки */
    } 
    .avto li a:hover {
-    color: #786b59; /* Цвет ссылки при наведении на нее курсора мыши */  
+    color: #2a4263; /* Цвет ссылки при наведении на нее курсора мыши */  
     text-decoration: underline; /* Добавляем подчеркивание */
     font-style: italic;
    }

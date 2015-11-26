@@ -81,7 +81,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa816b', end
 
 border-radius: 4px 4px 4px 4px;
 -moz-border-radius: 4px 4px 4px 4px;
--webkit-border-radius: 4px 4px 4px 4pxss
+-webkit-border-radius: 4px 4px 4px 4pxss;
 
 }
 
@@ -193,7 +193,7 @@ menu li a{
        text-decoration:none;
        color: #81898d;
        font-size: 15px;
-        text-align: center;
+       text-align: center;
 }
 
 .check{
@@ -227,6 +227,7 @@ section{
   margin-bottom: -20000px;
   width: 207px;
   color: #2a4263;
+  font-weight: bold 700;
 
 }
 
@@ -332,7 +333,7 @@ section li{
     height: 150px;
     margin-top: 10px;
     margin-left: 14px;
-        border-left-width: 12px;
+    border-left-width: 12px;
 
 }
 
@@ -341,7 +342,7 @@ section li{
     height: 150px;
     margin-top: 10px;
     margin-left: 14px;
-        border-left-width: 12px;
+    border-left-width: 12px;
 }
 
 .line_three img{
@@ -349,7 +350,7 @@ section li{
     height: 150px;
     margin-top: 10px;
     margin-left: 14px;
-        border-left-width: 12px;
+    border-left-width: 12px;
 }
 
 .partner {
@@ -369,15 +370,15 @@ footer{
 
 footer ul{
      list-style-type: none; 
-       text-align: center;
-           margin-left: 308px;
+     text-align: center;
+     margin-left: 308px;
     /*  float:left */
 }
 
 footer li{
    float: left; 
-  padding-right: 15px;
-  padding-top: 10px;
+   padding-right: 15px;
+   padding-top: 10px;
    font-size: 15px; 
    text-align: center;
    color: white;
@@ -387,11 +388,11 @@ footer li{
 }
 
 footer p{
- font-size: 12px;
-    padding-top: 33px;;
-    color: #A52A2A;
-    margin-left: 365px; 
-      font-weight;bold;
+  font-size: 12px;
+  padding-top: 33px;;
+  color: #A52A2A;
+  margin-left: 365px; 
+  font-weight;bold;
 }
 
 .pixel img{
@@ -399,7 +400,7 @@ footer p{
 }
 
 .check span{
-   text-decoration: none;
+    text-decoration: none;
     color: #81898d;
     font-size: 14px;
     margin-left: 4px;

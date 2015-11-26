@@ -168,17 +168,19 @@ menu{
 menu ul {
      list-style-type: none; 
      float:left; 
-      height: 34px; 
+     height: 34px; 
      text-align: center;
      height: 25px;
-      margin-left: 145px;
-      border-radius: 20px 5px;
+     margin-left: 145px;
+     border-radius: 20px 5px;
 
 }
 
-menu a:hover {
+.menu a:hover {
   border-radius: 200px 200px;
   background-color: #225484;
+  width: 100px; /* Ширина кнопки */
+  height: 40px; /* Высота */
   color: white;
 }
  

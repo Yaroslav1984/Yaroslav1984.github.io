@@ -168,10 +168,12 @@ menu{
 menu ul {
      list-style-type: none; 
      float:left; 
-     height: 34px; 
+     margin-left: 77px;
      text-align: center;
      height: 25px;
      margin-left: 99px;
+     height: 32px;
+     padding-top: 4px;
      border-radius: 20px 5px;
 }
 

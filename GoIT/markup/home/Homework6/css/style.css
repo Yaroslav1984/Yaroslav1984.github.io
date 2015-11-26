@@ -175,7 +175,7 @@ menu ul {
      border-radius: 20px 5px;
 }
 
-menu li a:hover {
+.menu li a:hover{
   border-radius: 200px 200px;
   background-color: #225484;
   color: white;
@@ -312,7 +312,8 @@ nav input[type="checkbox"]{
 }
       
 .avto li{
-      text-decoration: none; 	
+      text-decoration: none;
+      font-size: 9pt;
 }
 
  .avto li a {
@@ -333,8 +334,8 @@ nav input[type="checkbox"]{
 .avto_detal{
     border: 2px solid #9ea9af;
     border-radius: 15px;
-    width: 141px;
-    height: 29px;
+    height: 19px;
+    width: 133px;
     padding-left: 6px;
     padding-top: 2px;
     padding-bottom: 3px;

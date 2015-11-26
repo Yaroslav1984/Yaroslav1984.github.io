@@ -297,6 +297,14 @@ nav input[type="checkbox"]{
         padding-bottom: 0px;
 }
 
+.avto_detal a:link {
+    color: #0000d0; /* Цвет ссылок */
+    padding: 2px; /* Поля вокруг текста */ 
+   }
+   .avto_detal a:hover {
+    background: #786b59; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+
 .avto_detal{
     border: 2px solid #9ea9af;
     border-radius: 15px;

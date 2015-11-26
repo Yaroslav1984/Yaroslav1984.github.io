@@ -419,10 +419,11 @@ footer li a{
     font-size: 10pt;
     font-weight: normal;
     text-decoration: none; /* Добавляем подчеркивание */
+ }
 
 
 footer p{
-  font-size: 12px;
+  font-size: 6px;
   padding-top: 33px;;
   color: #A52A2A;
   margin-left: 365px; 

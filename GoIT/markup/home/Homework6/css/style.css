@@ -176,7 +176,7 @@ menu ul {
 
 }
 
-.menu a:hover {
+.menu li a:hover {
   border-radius: 200px 200px;
   background-color: #225484;
   color: white;

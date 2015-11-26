@@ -420,7 +420,6 @@ pixel input{
     width: 84px;
     height: 26px;
     color: white;
-    
     background: #4682B4; /* Цвет фона */
     border: 1px solid #4682B4; /* Параметры рамки */
     width: 84px; /* Ширина кнопки */
@@ -428,11 +427,9 @@ pixel input{
     border-radius: 5px;
 
 }
-
 .check span{
     text-decoration: none;
     color: #81898d;
     font-size: 14px;
     margin-left: 4px;
-
 }

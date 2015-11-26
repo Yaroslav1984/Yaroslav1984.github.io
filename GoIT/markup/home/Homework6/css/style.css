@@ -17,8 +17,8 @@
 	padding: 0;	
 }
 
-html{
-background-color: black;
+  html{
+       background-color: black;
 }
 
 
@@ -256,7 +256,7 @@ nav input[type="checkbox"]{
 
   }
 
-  .form{
+.form{
     height: 75px;
     width: 171px;
   }
@@ -325,6 +325,11 @@ nav input[type="checkbox"]{
       list-style-type:circle;
       padding-top: 2px;
 }
+      
+.avto li{
+      text-decoration: none; 	
+}
+
 
 section li{
       padding-top: 3px;

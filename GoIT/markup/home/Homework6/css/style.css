@@ -409,9 +409,14 @@ footer li{
    text-align: center;
    color: white;
    font-weight 
-
-
 }
+
+ footer li a:hover {
+    color: #00CED1; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: none; /* Добавляем подчеркивание */
+    font-size: 10pt;
+    font-weight: normal;
+
 
 footer p{
   font-size: 12px;

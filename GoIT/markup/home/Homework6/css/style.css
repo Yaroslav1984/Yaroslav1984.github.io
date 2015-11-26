@@ -401,7 +401,7 @@ footer ul{
     /*  float:left */
 }
 
-footer li{
+footer li a{
    float: left; 
    padding-right: 15px;
    padding-top: 10px;
@@ -417,7 +417,6 @@ footer li{
     font-size: 10pt;
     font-weight: normal;
     text-decoration: none; /* Добавляем подчеркивание */
-    color: white;
 
 
 footer p{

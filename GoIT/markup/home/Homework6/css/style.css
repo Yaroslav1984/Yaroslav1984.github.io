@@ -400,10 +400,12 @@ pixel input{
     width: 84px;
     height: 26px;
     color: white;
+    
     background: #4682B4; /* Цвет фона */
-    color: white; /* Цвет текста */
-    padding: 10px; /* Поля вокруг текста */
-    border-radius: 5px; /* Уголки */
+    border: 1px solid #4682B4; /* Параметры рамки */
+    width: 84px; /* Ширина кнопки */
+    height: 28px; /* Высота */
+    border-radius: 5px;
 
 }
 

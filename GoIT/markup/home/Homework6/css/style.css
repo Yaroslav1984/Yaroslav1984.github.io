@@ -26,15 +26,13 @@ body {
 .wrapper{
     width: 1000px; 
     height: 1308px;
-    padding-left: 37px;
     background-image: url(../img/title.jpg);  
     font-family:"helveticaneuecyrroman", Tahoma, sans-serif;
     font-weight: normal 400;
-    background-repeat: no-repeat;
     margin: 0px auto;
     font-size: 12px;
-/*     background-size: auto;
-    background-position: top*/
+    background-size: auto;
+    background-position: top
 } 
 
 .contact span{

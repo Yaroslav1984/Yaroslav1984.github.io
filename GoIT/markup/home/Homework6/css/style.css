@@ -32,7 +32,6 @@
     background-repeat: no-repeat;
     margin: 0px auto;
     font-size: 12px;
-/*    font-weight: normal;*/
 } 
 
 header { 
@@ -45,9 +44,10 @@ header {
 }
 
 .contact span{
-font-size: 17px;
+    font-size: 17px;
 
 }
+
 .contact{
     width: 29%;	
     float: left;
@@ -55,20 +55,20 @@ font-size: 17px;
 }
 
 .avtor{
-  float: left;
-  width: 4%;	
-  padding-top: 2px;
+   float: left;
+   width: 4%;	
+   padding-top: 2px;
 }
 
  .registr{
- float: left;
- width: 55%;
- margin-top: 4px;
-    padding-bottom: 0px;
-    padding-top: 3px;
--webkit-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
--moz-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
+  float: left;
+  width: 55%;
+  margin-top: 4px;
+  padding-bottom: 0px;
+  padding-top: 3px;
+ -webkit-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
+ -moz-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
+  box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
 
 background: rgba(250,129,107,1);
 background: -moz-linear-gradient(left, rgba(250,129,107,1) 0%, rgba(17,67,111,1) 0%, rgba(244,97,78,1) 0%, rgba(246,168,156,1) 0%, rgba(17,67,111,1) 0%, rgba(27,110,182,1) 0%, rgba(27,110,182,1) 100%);
@@ -97,7 +97,7 @@ border-radius: 4px 4px 4px 4px;
 }
 
 .registr span{
-padding-left: 4px;
+   padding-left: 4px;
 }
 
 
@@ -111,14 +111,6 @@ input[type="name"]{
     color: white; /* Белые буквы */ 
     font-size: 9pt; /* Размер шрифта в пунктах */
 }
-
-/* .input b2 {
-    color: white; Белые буквы 
-    font-size: 9pt; Размер шрифта в пунктах
-    width: 56px;
-    height: 17px;
-}
- */
 
 
 input[type="submit"]{
@@ -178,11 +170,11 @@ menu ul {
 }
 
 menu li a:hover{
-  border-radius: 200px 200px;
-  background-color: #225484;
-  color: white;
-  font-size: 12px;
-  font-weight: normal;
+     border-radius: 200px 200px;
+     background-color: #225484;
+     color: white;
+    font-size: 12px;
+    font-weight: normal;
 }
  
 menu li{
@@ -327,9 +319,11 @@ nav input[type="checkbox"]{
     color: #2a4263; /* Цвет обычной ссылки */ 
     text-decoration: none; /* Убираем подчеркивание у ссылок */
    }
+
   .avto li a:visited {
     color: #2a4263; /* Цвет посещённой ссылки */
    } 
+
    .avto li a:hover {
     color: #2a4263; /* Цвет ссылки при наведении на нее курсора мыши */  
     text-decoration: underline; /* Добавляем подчеркивание */
@@ -353,13 +347,7 @@ nav input[type="checkbox"]{
     padding-bottom: 1px;
 } 
 
-/*.avto_detal li{
-    height: 15px;
-    width: 150px;
-    padding-top: 2px;
-    padding-bottom: 3px;
-}
-*/
+
 section li{
       padding-top: 3px;
       padding-bottom: 3px;
@@ -379,7 +367,6 @@ section li{
 }
 
 	
-}
 .line_two img{
     width: 145px;
     height: 150px;
@@ -398,7 +385,6 @@ section li{
 
 .partner {
   text-align: center; 
-
 }
 
 .partner img{
@@ -415,7 +401,6 @@ footer ul{
      list-style-type: none; 
      text-align: center;
      margin-left: 308px;
-    /*  float:left */
 }
 
 footer li a{
@@ -444,7 +429,7 @@ footer p{
   padding-top: 33px;;
   color: #A52A2A;
   margin-left: 361px;
-  font-weight;bold;
+  font-weight:bold;
 }
 
 .pixel input{

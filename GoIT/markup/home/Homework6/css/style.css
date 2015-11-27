@@ -367,7 +367,7 @@ nav input[type="checkbox"]{
 } 
 
 
-section li{
+.section li{
     padding-top: 2px;
     padding-bottom: 8px;
 }

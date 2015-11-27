@@ -107,6 +107,10 @@ input[type="name"]{
     padding-left: 9px;
 }
 
+.span hr{
+  float: left;
+}
+
 .b1{
     color: white; /* Белые буквы */ 
     font-size: 9pt; /* Размер шрифта в пунктах */

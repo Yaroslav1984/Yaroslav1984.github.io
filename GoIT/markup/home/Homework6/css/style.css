@@ -178,7 +178,7 @@ menu ul {
      margin-left: 77px;
      text-align: center;
      height: 25px;
-     margin-left: 120px;
+     margin-left: 142px;
      height: 32px;
      padding-top: 4px;
      border-radius: 20px 5px;
@@ -188,10 +188,14 @@ menu li a:hover{
      border-radius: 200px 200px;
      background-color: #225484;
      color: white;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: normal;
 }
  
+menu li [href="kompan"]{
+      width: 103px;
+}
+
 menu li{
     float: left;
     text-align: center;

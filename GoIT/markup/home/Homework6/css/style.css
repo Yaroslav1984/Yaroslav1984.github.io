@@ -381,17 +381,30 @@ section li{
 .line_one img{
     height: 185px;
     width: 159px;
+
+}
+
+.line_one{
     margin-top: 3px;
+    margin-left: 0px;
+    border-left-width: 12px;
+}
+	
+.line_two img{
+    height: 185px;
+    width: 159px;
+
+}
+
+.line_two {
+    margin-top: 12px;
     margin-left: 0px;
     border-left-width: 12px;
 
 }
 
-	
-.line_two img{
-    height: 185px;
-    width: 159px;
-    margin-top: 12px;
+.line_three {
+    margin-top: 11px;
     margin-left: 0px;
     border-left-width: 12px;
 }
@@ -399,9 +412,6 @@ section li{
 .line_three img{
     height: 185px;
     width: 159px;
-    margin-top: 11px;
-    margin-left: 0px;
-    border-left-width: 12px;
 }
 
 .partner {

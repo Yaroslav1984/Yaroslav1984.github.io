@@ -25,7 +25,7 @@
  body{
     width: 1000px; 
     height: 1308px;
-    padding-left: 44px;
+    padding-left: 54px;
     background-image: url(../img/title.jpg);  
     font-family:"helveticaneuecyrroman", Tahoma, sans-serif;
     font-weight: normal 400;
@@ -39,17 +39,18 @@ header {
     position: relative; 
     overflow:hidden;
     width: 100%;
-    padding-top: 9px;
+    padding-top: 16px;
     padding-bottom: 1px;
+    bottom: 1px;
 }
 
 .contact span{
-    font-size: 17px;
+    font-size: 18px;
 
 }
 
 .contact{
-    width: 29%;	
+    width: 31%;	
     float: left;
     padding-top: 5px;
 }
@@ -62,7 +63,7 @@ header {
 
  .registr{
   float: left;
-  width: 55%;
+  width: 53%;
   margin-top: 4px;
   padding-bottom: 0px;
   padding-top: 3px;
@@ -102,14 +103,11 @@ border-radius: 4px 4px 4px 4px;
 
 
 input[type="name"]{
-    width: 110px;
+    width: 104px;
     height: 17px;
     padding-left: 9px;
 }
 
-.span hr{
-  float: left;
-}
 
 .b1{
     color: white; /* Белые буквы */ 
@@ -117,14 +115,27 @@ input[type="name"]{
 }
 
 
-input[type="submit"]{
+input[value="вход"]{
     border-top-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 0px;
-    width: 74px;
+    width: 42px;
     background: none;
+    font-size: 10pt;
+ 
 }
+
+input[value="регистрация"]{
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    width: 85px;
+    background: none;
+    font-size: 10pt;
+}
+
 
 input[type="button"]{
     border-top-width: 0px;
@@ -136,7 +147,7 @@ input[type="button"]{
     text-decoration:underline;
     color: #A5A5A5;
     font-weight: 600;
-
+    margin-left: 13px;
 }
 
 menu{
@@ -182,13 +193,18 @@ menu li a:hover{
 }
  
 menu li{
-    float:left;
+    float: left;
     text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    height: 19px;
+    width: 110px;
+    padding-right: 1px;
+    padding-left: 1px;
     padding: 8px 8px 6px 8px;
-    height: 16px;
-    width: 97px;
-    padding-right: 8px;
-}
+    margin-top: 3px;
+    margin-left: 32px;
+  }
 
 menu li a{
        text-decoration:none;

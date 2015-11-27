@@ -296,13 +296,13 @@ nav input[type="checkbox"]{
 .img_title{
     padding-bottom: 4px;
     padding-left: 7px;
-    padding-top: 2px;
+    padding-top: 1px;
     border-top-width: 27px;
     width: 180px;
-    height: 28px;
+    height: 21px;
     border: 2px solid #9ea9af;
     border-radius: 19px;
-    margin-bottom: 3px;
+    margin-bottom: 9px;
 
 }
 
@@ -314,7 +314,7 @@ nav input[type="checkbox"]{
 }
 
 .img_title img{
-    width: 30px;
+    width: 24px;
     border-right-width: 23px;
     padding-right: 6px;
 

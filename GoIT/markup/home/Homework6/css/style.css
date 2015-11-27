@@ -13,9 +13,24 @@
 	margin: 0;
 	padding: 0;	
 }
+body{
+	margin: 0px auto;
+	 padding: 0;
+	 width: 1000px; 
+	 font-family:"helveticaneuecyrroman", Tahoma, sans-serif;
+	 line-height: 1;
+}
 
-
- body{
+header{
+    background-color: gray;
+    width: 1000px; 
+    height: 1308px;
+    margin: 0 auto;
+    background-image: url(../img/title.jpg);
+    padding-left: 37px;
+    
+}
+/* body{
     width: 1000px; 
     height: 1308px;
     padding-left: 37px;
@@ -28,8 +43,8 @@
      background-size: auto;
     background-position: top
 } 
-
-header { 
+*/
+/*header { 
     display: block;
     position: relative; 
     overflow:hidden;
@@ -37,7 +52,7 @@ header {
     padding-top: 16px;
     padding-bottom: 1px;
     bottom: 1px;
-}
+}*/
 
 .contact span{
     font-size: 18px;

@@ -256,9 +256,10 @@ section{
   position: relative;   
   overflow:hidden;  	
   float: left;
-  width: 502px;
+  width: 513px;
   height: 516px;
-  padding-top: 4px;
+  padding-top: 0px;
+  right: 2px;
   background: #dbdee0;
 }
 
@@ -380,8 +381,8 @@ section li{
 .line_one img{
     height: 185px;
     width: 159px;
-    margin-top: 8px;
-    margin-left: 14px;
+    margin-top: 3px;
+    margin-left: 0px;
     border-left-width: 12px;
 
 }
@@ -408,7 +409,7 @@ section li{
 }
 
 .partner img{
-      padding-top: 34px;
+          margin-top: 119px;
 }
 
 footer{

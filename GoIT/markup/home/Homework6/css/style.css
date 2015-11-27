@@ -389,18 +389,18 @@ section li{
 
 	
 .line_two img{
-    width: 145px;
-    height: 150px;
-    margin-top: 10px;
-    margin-left: 2px;
+    height: 185px;
+    width: 159px;
+    margin-top: 3px;
+    margin-left: 0px;
     border-left-width: 12px;
 }
 
 .line_three img{
-    width: 145px;
-    height: 150px;
-    margin-top: 10px;
-    margin-left: 14px;
+    height: 185px;
+    width: 159px;
+    margin-top: 3px;
+    margin-left: 0px;
     border-left-width: 12px;
 }
 

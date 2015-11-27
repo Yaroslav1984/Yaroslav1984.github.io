@@ -178,7 +178,7 @@ menu ul {
      margin-left: 77px;
      text-align: center;
      height: 25px;
-     margin-left: 142px;
+     margin-left: 137px;
      height: 32px;
      padding-top: 4px;
      border-radius: 20px 5px;
@@ -192,9 +192,6 @@ menu li a:hover{
     font-weight: normal;
 }
  
-menu li [href="kompan"]{
-      width: 103px;
-}
 
 menu li{
     float: left;
@@ -215,8 +212,8 @@ menu li a{
        text-align: center;
        padding-top: 6px;
        padding-bottom: 6px;
-       padding-left: 9px;
-       padding-right: 9px;
+       padding-left: 4px;
+       padding-right: 4px;
 }
 
 .check{

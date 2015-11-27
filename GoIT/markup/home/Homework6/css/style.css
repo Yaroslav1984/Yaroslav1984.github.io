@@ -285,7 +285,7 @@ nav input[type="checkbox"]{
   }
 
 .pin{
-      margin-bottom: 7.5px;
+      margin-bottom: 7px;
 }
 
 .pin [action="tack"]{
@@ -362,7 +362,7 @@ nav input[type="checkbox"]{
     border-radius: 15px;
     width: 150px;
     padding-left: 6px;
-    margin-left: 3px;
+    margin-left: 15px;
     margin-top: 0px;
     height: 26px;
     border-top-width: 2px;
@@ -471,6 +471,10 @@ footer p{
     height: 28px; /* Высота */
     border-radius: 5px;
 
+}
+
+.input {
+      margin-left: 32px;
 }
 
 .pixel [type="submit"] {

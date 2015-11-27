@@ -216,7 +216,7 @@ menu li a{
        padding-right: 4px;
 }
 
-.company li [href="one"]{
+menu li [href="one"]{
     height: 19px;
     width: 99px;
 }

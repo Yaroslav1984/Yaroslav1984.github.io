@@ -368,8 +368,8 @@ nav input[type="checkbox"]{
 
 
 section li{
-      padding-top: 3px;
-      padding-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 8px;
 }
 
 .img-avto_detal{

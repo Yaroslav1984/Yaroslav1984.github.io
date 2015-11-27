@@ -333,7 +333,7 @@ nav input[type="checkbox"]{
     height: 15px;
     width: 150px;
     padding-top: 2px;
-    padding-bottom: 4px;
+    padding-bottom: 8px;
 }
 
  .avto li a {
@@ -366,11 +366,6 @@ nav input[type="checkbox"]{
     padding-bottom: 1px;
 } 
 
-
-.section li{
-    padding-top: 2px;
-    padding-bottom: 8px;
-}
 
 .img-avto_detal{
     border-radius: 10px;

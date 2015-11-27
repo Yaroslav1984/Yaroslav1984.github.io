@@ -216,11 +216,10 @@ menu li a{
        padding-right: 4px;
 }
 
-menu li [href="one"]{
+a.first{
     height: 19px;
     width: 99px;
 }
-
 .check{
     float: left;
     width: 26%;

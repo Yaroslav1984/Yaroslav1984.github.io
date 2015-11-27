@@ -210,10 +210,10 @@ menu li a{
        color:#F5F5F5;
        font-size: 12px;
        text-align: center;
-       padding-top: 6px;
-       padding-bottom: 6px;
-       padding-left: 4px;
-       padding-right: 4px;
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-top: 7px;
+       padding-bottom: 8px;
 }
 
 .first{

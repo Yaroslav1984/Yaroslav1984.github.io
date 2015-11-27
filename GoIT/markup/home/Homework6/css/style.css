@@ -284,6 +284,10 @@ nav input[type="checkbox"]{
     width: 171px;
   }
 
+.pin{
+      margin-bottom: 7px;
+}
+
 .pin [action="tack"]{
       padding-left: 26px;
       height: 75px;;

@@ -257,7 +257,7 @@ section{
   overflow:hidden;  	
   float: left;
   width: 513px;
-  height: 516px;
+  height: 602px;
   padding-top: 0px;
   right: 2px;
   background: #dbdee0;
@@ -391,7 +391,7 @@ section li{
 .line_two img{
     height: 185px;
     width: 159px;
-    margin-top: 3px;
+    margin-top: 10px;
     margin-left: 0px;
     border-left-width: 12px;
 }
@@ -399,7 +399,7 @@ section li{
 .line_three img{
     height: 185px;
     width: 159px;
-    margin-top: 3px;
+    margin-top: 11px;
     margin-left: 0px;
     border-left-width: 12px;
 }

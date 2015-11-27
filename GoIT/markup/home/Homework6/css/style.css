@@ -178,7 +178,7 @@ menu ul {
      margin-left: 77px;
      text-align: center;
      height: 25px;
-     margin-left: 81px;
+     margin-left: 120px;
      height: 32px;
      padding-top: 4px;
      border-radius: 20px 5px;
@@ -203,7 +203,7 @@ menu li{
     padding-left: 1px;
     padding: 8px 8px 6px 8px;
     margin-top: 3px;
-    margin-left: 32px;
+    margin-left: 0px;
   }
 
 menu li a{

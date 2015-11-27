@@ -385,7 +385,7 @@ section li{
 }
 
 .line_one{
-    margin-top: 3px;
+    margin-top: 5px;
     margin-left: 0px;
     border-left-width: 12px;
 }
@@ -397,14 +397,14 @@ section li{
 }
 
 .line_two {
-    margin-top: 15px;
+    margin-top: 16px;
     margin-left: 0px;
     border-left-width: 12px;
 
 }
 
 .line_three {
-    margin-top: 13px;
+    margin-top: 17px;
     margin-left: 0px;
     border-left-width: 12px;
 }

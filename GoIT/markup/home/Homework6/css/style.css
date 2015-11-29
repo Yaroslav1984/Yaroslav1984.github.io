@@ -147,6 +147,10 @@ input[type="button"]{
     color: #A5A5A5;
     font-weight: 600;
     margin-left: 13px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
 }
 
 menu{

@@ -491,7 +491,7 @@ nav input[type="checkbox"]{
     padding-bottom: 1px;
 } 
 
-.avto_detal_left form{
+.pin.form{
       width: 165px;
       height: 75px;
       padding-left: 10px;

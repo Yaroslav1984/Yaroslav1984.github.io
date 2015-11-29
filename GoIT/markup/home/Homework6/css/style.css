@@ -297,11 +297,15 @@ nav input[type="checkbox"]{
 
   }
 
-.form{
+.pin form{
     height: 75px;
-    width: 171px;
+    width: 165px;
     margin-top: 3px;
+    padding-left: 9px;
   }
+
+
+.formaction
 
 .pin{
     margin-bottom: 12px;

@@ -140,7 +140,7 @@ input[value="регистрация"]{
 } 
 
 
-input[value="забыли пароль"]{
+input[type="button"]{
     width: 110px;
     background: none;
     text-decoration:underline;

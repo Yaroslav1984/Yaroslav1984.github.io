@@ -60,6 +60,7 @@ body {
   float: left;
   width: 53%;
   padding-bottom: 0px;
+  padding-top: 3px;
  -webkit-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
  -moz-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
   box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
@@ -91,7 +92,9 @@ input[type="name"]{
     width: 102px;
     height: 17px;
     padding-left: 0px;
-    font-size: 8px;
+    font-size: 11px;
+/*     border-bottom-width: 0px;
+border-top-width: 0px; */
 }
 
 
@@ -295,6 +298,7 @@ nav input[type="checkbox"]{
 .form{
     height: 75px;
     width: 171px;
+    margin-top: 3px;
   }
 
 .pin{

@@ -116,7 +116,7 @@ input[type="name"]{
   }
 
 
- input[value="вход"]{
+ input[value="enter"]{
     width: 29px;
     background: none;
     font-size: 9pt;
@@ -296,23 +296,6 @@ nav input[type="checkbox"]{
     margin-bottom: 6px;
 
   }
-
-/* .pin form{
-    height: 75px;
-    width: 165px;
-    margin-top: 3px;
-    padding-left: 9px;
-    margin-bottom: 12px;
-    margin-left: 16px;
-  }
- */
-
-/* 
-nav.pin{
-    margin-bottom: 6px;
- margin-left: 16px;
-} */
-
 
 .pin [action="tack"]{
       padding-left: 24px;

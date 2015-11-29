@@ -112,7 +112,7 @@ input[type="name"]{
   }
 
 
-input[value="вход"]{
+ input[value="вход"]{
     width: 29px;
     background: none;
     font-size: 8pt;
@@ -123,7 +123,7 @@ input[value="регистрация"]{
     width: 64px;
     background: none;
     font-size: 8pt;
-}
+} 
 
 
 input[type="button"]{

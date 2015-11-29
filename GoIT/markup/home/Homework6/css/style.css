@@ -41,7 +41,8 @@ body {
 .contact{
     width: 31%;	
     float: left;
-    padding-top: 5px;
+    margin-left: 8px;
+    padding-top: 1px;
 }
 
 .avtor{

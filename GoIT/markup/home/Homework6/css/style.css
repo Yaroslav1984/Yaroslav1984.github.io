@@ -216,6 +216,13 @@ menu li a{
     margin-left: 19px;
 
 }
+
+.article{
+    margin-left: 10px;
+    height: 19px;
+    width: 80px;
+}
+
 .check{
     float: left;
     width: 26%;

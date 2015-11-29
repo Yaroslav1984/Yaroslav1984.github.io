@@ -542,7 +542,8 @@ footer p{
 }
 
 .input {
-      margin-left: 32px;
+    margin-left: 22px;
+    margin-top: 3px;
 }
 
 .pixel [type="submit"] {

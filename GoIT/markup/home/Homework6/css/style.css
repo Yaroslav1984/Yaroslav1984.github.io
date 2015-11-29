@@ -284,6 +284,11 @@ section{
   font-size: 10pt;
 }
 
+section li{
+    padding-left: -14px;
+
+}
+
  figure{
   position: relative;   
   overflow:hidden;  	
@@ -361,7 +366,6 @@ nav input[type="checkbox"]{
     padding-top: 2px;
     padding-bottom: 7.5px;
     margin-bottom: 2px;
-    padding-left: 20px; /* Отступ от маркера до текста */
 }
 
  .avto li a {

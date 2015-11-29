@@ -402,10 +402,12 @@ nav input[type="checkbox"]{
     padding-bottom: 1px;
 } 
 .avto img{
+      margin-left: 3px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    margin-bottom: 16px;
     height: 22px;
     padding-right: 4px;
-    padding-bottom:3px;
-    padding-top: 2px;
 }
 
 

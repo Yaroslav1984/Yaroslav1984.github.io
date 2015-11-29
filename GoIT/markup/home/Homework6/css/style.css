@@ -345,6 +345,7 @@ nav input[type="checkbox"]{
       list-style-type:circle;
       padding-top: 0px;
       display: block;
+      margin-top: 3px;
 }
       
 .avto li{
@@ -385,6 +386,7 @@ nav input[type="checkbox"]{
     border-top-width: 2px;
     padding-top: 1px;
     padding-bottom: 1px;
+    margin-top: 6px;
 } 
 
 .avto_detal {
@@ -402,7 +404,7 @@ nav input[type="checkbox"]{
 .avto img{
     height: 22px;
     padding-right: 4px;
-    padding-bottom: 16px;
+    padding-bottom:3px;
     padding-top: 2px;
 }
 

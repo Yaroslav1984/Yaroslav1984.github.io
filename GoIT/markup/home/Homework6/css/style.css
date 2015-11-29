@@ -184,7 +184,7 @@ menu li{
     width: 80px; 
     padding: 8px 0px 6px 0px;
     margin-top: 3px;
-    margin-left: 5px;
+    margin-left: 0px;
   }
 
 menu li a{
@@ -201,13 +201,14 @@ menu li a{
 .first{
     height: 20px;
     width: 130px;
+    margin-left: 9px;
 }
 
 
 .delivery{
     height: 19px;
     width: 80px;
-    margin-left: 12px;;
+    margin-left: 14px;
 }
 
 .contact{
@@ -219,7 +220,7 @@ menu li a{
 }
 
 .article{
-    margin-left: 16px;
+    margin-left: 15px;
     height: 19px;
     width: 80px;
 }
@@ -228,7 +229,7 @@ menu li a{
     float: left;
     width: 26%;
     text-align: center;
-    margin-left: 11px;
+    margin-left: 44px;
     padding: 8px 8px 6px 8px
 }
 

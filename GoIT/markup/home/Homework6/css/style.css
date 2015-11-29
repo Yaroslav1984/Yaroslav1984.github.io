@@ -116,7 +116,7 @@ input[type="name"]{
   }
 
 
- input[value="enter"]{
+ input[value="вход"]{
     width: 29px;
     background: none;
     font-size: 9pt;
@@ -124,7 +124,7 @@ input[type="name"]{
     border-top-width: 0px;
     border-bottom-width: 0px;
     border-right-width: 0px;
-    margin-left: 0px
+    margin-left: 9px;
 }
 
 input[value="регистрация"]{

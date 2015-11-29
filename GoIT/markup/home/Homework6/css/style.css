@@ -41,8 +41,14 @@ body {
 
 .contact{
     width: 308px;	
+    height: 21px;
     float: left;
     margin-left: 8px;
+}
+
+.contact img{
+    height: 18px;
+    width: 20px;
 }
 
 .tell{
@@ -52,15 +58,16 @@ body {
 
 .avtor{
    float: left;
-   width: 4%;	
-   padding-top: 2px;
+   height: 17px;
+   padding-left: 3px;
+   padding-top: 1px;
 }
 
  .registr{
   float: left;
-  width: 51%;
-  padding-bottom: 0px;
-  padding-top: 3px;
+  height: 19px;
+  width: 510px;
+  padding-top: 1px;
  -webkit-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
  -moz-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
   box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
@@ -106,32 +113,20 @@ input[type="name"]{
 
 
 input[value="вход"]{
-    border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    width: 42px;
+    width: 29px;
     background: none;
     font-size: 8pt;
  
 }
 
 input[value="регистрация"]{
-    border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    width: 85px;
+    width: 64px;
     background: none;
     font-size: 8pt;
 }
 
 
 input[type="button"]{
-    border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
     width: 110px;
     background: none;
     text-decoration:underline;

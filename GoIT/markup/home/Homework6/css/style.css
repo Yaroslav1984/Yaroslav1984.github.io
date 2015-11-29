@@ -387,6 +387,18 @@ nav input[type="checkbox"]{
     padding-bottom: 1px;
 } 
 
+.avto_detal {
+    border: 2px solid #9ea9af;
+    border-radius: 15px;
+    width: 149px;
+    padding-left: 6px;
+    padding-left: 4px;
+    border-left-width: 2px;
+    height: 23px;
+    border-top-width: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+} 
 .avto img{
     height: 22px;
     padding-right: 4px;

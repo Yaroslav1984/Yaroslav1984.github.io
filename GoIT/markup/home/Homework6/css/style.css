@@ -258,7 +258,7 @@ menu li a{
    height: 714px;
    width: 926px;
    font-weight: bold 700;
-   padding-top: 4px;
+   padding-top: 0px;
 }
 
 section{
@@ -314,10 +314,10 @@ nav input[type="checkbox"]{
 
 .img_title{
     padding-bottom: 4px;
-    padding-left: 7px;
-    padding-top: 1px;
-    border-top-width: 27px;
-    width: 191px;
+    padding-left: 4px;
+    padding-top: 2px;
+    border-top-width: 2px;
+    width: 175px;
     height: 21px;
     border: 2px solid #9ea9af;
     border-radius: 19px;
@@ -333,9 +333,10 @@ nav input[type="checkbox"]{
 }
 
 .img_title img{
-    width: 24px;
+    width: 23px;
     border-right-width: 23px;
-    padding-right: 6px;
+    padding-right: 1px;
+    margin-bottom: 6px;
 
 }
 
@@ -379,14 +380,16 @@ nav input[type="checkbox"]{
 .avto_detal{
     border: 2px solid #9ea9af;
     border-radius: 15px;
-    width: 150px;
+    width: 149px;
     padding-left: 6px;
-    margin-left: 15px;
-    margin-top: 0px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    padding-left: 4px;
+    border-left-width: 2px;
     height: 26px;
     border-top-width: 2px;
     padding-top: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 2px;
 } 
 
 

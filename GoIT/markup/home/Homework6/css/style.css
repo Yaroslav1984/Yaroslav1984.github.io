@@ -304,7 +304,8 @@ nav input[type="checkbox"]{
   }
 
 .pin{
-      margin-bottom: 7px;
+    margin-bottom: 12px;
+    margin-left: 16px;
 }
 
 .pin [action="tack"]{

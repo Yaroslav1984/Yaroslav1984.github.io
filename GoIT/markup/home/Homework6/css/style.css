@@ -284,10 +284,6 @@ section{
   font-size: 10pt;
 }
 
-section li{
-    padding-left: -14px;
-
-}
 
  figure{
   position: relative;   
@@ -310,6 +306,10 @@ nav{
 }
 
 
+nav li{
+    padding-left: -14px;
+
+}
 nav input[type="checkbox"]{
     margin-top: 6px;
     margin-bottom: 6px;

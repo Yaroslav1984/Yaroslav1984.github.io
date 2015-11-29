@@ -191,7 +191,7 @@ menu li a{
        color:#F5F5F5;
        font-size: 13px;
        text-align: center;
-       padding-left: 11px;
+       padding-left: 7px;
        padding-right: 7px;
        padding-top: 7px;
        padding-bottom: 8px;
@@ -206,11 +206,14 @@ menu li a{
 .delivery{
     height: 19px;
     width: 80px;
+    margin-left: 9px;
 }
 
 .contact{
     height: 19px;
     width: 80px;
+    margin-top: 5px;
+    margin-left: 19px;
 
 }
 .check{

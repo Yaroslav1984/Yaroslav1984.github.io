@@ -334,7 +334,8 @@ nav input[type="checkbox"]{
 }
 
 .avto{
-        padding-bottom: 0px;
+    width: 204px;
+    height: 125px;
 }
 
 .avto ul{

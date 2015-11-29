@@ -481,6 +481,11 @@ nav.pin{
 
 } 
 
+.avto_detal_left img{
+    margin-bottom: 14px;
+    margin-left: 2px;
+    padding-top: 2px;
+ }
  
 footer{
     width: 911px;

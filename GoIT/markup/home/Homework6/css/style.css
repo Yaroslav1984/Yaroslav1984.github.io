@@ -172,6 +172,7 @@ menu ul {
      height: 32px;
      padding-top: 0px;
      border-radius: 20px 5px;
+     font-size: 12px;
 }
 
 menu li a:hover{

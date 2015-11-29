@@ -493,11 +493,18 @@ nav input[type="checkbox"]{
 
 .pin [action="tack"]{
       width: 165px;
-      height: 75px;
+      height: 70px;;
       padding-left: 10px;
-      margin-top: 4px;
-      font-size: 10pt;
+      margin-top: 5px;
+      font-size: 11pt;
+}
 
+.pin [action="tack"] {
+    width: 165px;
+    height: 70px;
+    padding-left: 10px;
+    margin-top: 4px;
+    font-size: 11pt;
 }
 
 footer{

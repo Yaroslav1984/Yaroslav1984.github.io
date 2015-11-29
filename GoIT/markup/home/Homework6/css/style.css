@@ -25,6 +25,9 @@ body {
     top: 11px;
 }
 
+header{
+    padding-bottom: 35px;
+}
 
 .wrapper{
     width: 1000px; 

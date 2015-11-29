@@ -21,7 +21,8 @@ body {
     margin: auto;
     width: 100%;
     max-width: 1100px;
-     height: 1408px;
+    height: 1408px;
+    top: 11px;
 }
 
 
@@ -46,8 +47,8 @@ body {
 }
 
 .tell{
-    margin-left: 13px;
-  
+    margin-left: 5px;
+
 }
 
 .avtor{
@@ -214,7 +215,7 @@ menu li a{
 .delivery{
     height: 19px;
     width: 80px;
-    margin-left: 14px;
+    margin-left: 15px;
 }
 
 .contacts{

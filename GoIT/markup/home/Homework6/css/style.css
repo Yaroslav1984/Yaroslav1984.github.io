@@ -89,8 +89,8 @@ border-radius: 3px 3px 3px 3px;
 }
 
 .home img{
-    width: 71px;
-    height: 31px;
+    width: 97px;
+    height: 30px;
     padding-top: 1px;
 }
 
@@ -468,14 +468,14 @@ nav input[type="checkbox"]{
 .avto_detal_left {
     border: 2px solid #9ea9af;
     border-radius: 15px;
-    width: 129px;
+    width: 135px;
     padding-left: 2px;
     border-left-width: 2px;
     height: 25px;
     border-top-width: 2px;
     padding-top: 1px;
     padding-bottom: 1px;
-    margin-left: 10px;
+    margin-left: 14px;
 
 } 
 

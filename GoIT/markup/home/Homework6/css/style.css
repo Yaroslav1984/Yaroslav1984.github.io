@@ -120,13 +120,23 @@ input[type="name"]{
     width: 29px;
     background: none;
     font-size: 9pt;
- 
+     border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    margin-left: 0px
 }
 
 input[value="регистрация"]{
     width: 64px;
     background: none;
     font-size: 8pt;
+    width: 33px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    margin-left: 0px
 } 
 
 

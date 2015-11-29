@@ -316,7 +316,8 @@ nav.pin{
 
 .pin [action="tack"]{
       padding-left: 26px;
-      height: 75px;;
+      height: 75px;
+      margin-left: 14px;
 } 
 
 .img_title{
@@ -469,20 +470,16 @@ nav.pin{
     border: 2px solid #9ea9af;
     border-radius: 15px;
     width: 129px;
-    padding-left: 3px;
+    padding-left: 2px;
     border-left-width: 2px;
     height: 25px;
     border-top-width: 2px;
     padding-top: 1px;
     padding-bottom: 1px;
+    margin-left: 10px;
+
 } 
 
-.pin[action="tack"]{
-    width: 165px;
-    height: 70px;
-    padding-left: 10px;
-    font-size: 11pt;
-}
  
 footer{
     width: 911px;

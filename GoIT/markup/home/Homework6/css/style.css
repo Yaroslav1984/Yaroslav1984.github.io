@@ -325,13 +325,6 @@ nav input[type="checkbox"]{
 
 }
 
-.avto_detal img{
-    height: 24px;
-    width: 25px;
-    border-right-width: 23px;
-    padding-right: 4px;
-}
-
 .img_title img{
     width: 23px;
     border-right-width: 23px;
@@ -353,11 +346,12 @@ nav input[type="checkbox"]{
       
 .avto li{
     text-decoration: none;
-    font-size: 10pt;
+    font-size: 11pt;
     height: 15px;
     width: 150px;
     padding-top: 2px;
     padding-bottom: 7.5px;
+    margin-bottom: 2px;
 }
 
  .avto li a {
@@ -382,8 +376,7 @@ nav input[type="checkbox"]{
     border-radius: 15px;
     width: 149px;
     padding-left: 6px;
-    margin-top: 9px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     padding-left: 4px;
     border-left-width: 2px;
     height: 26px;
@@ -392,6 +385,13 @@ nav input[type="checkbox"]{
     padding-bottom: 2px;
 } 
 
+
+.avto_detal img{
+    height: 24px;
+    padding-right: 4px;
+    padding-bottom: 16px;
+    padding-top: 2px;
+}
 
 .img-avto_detal{
     border-radius: 10px;

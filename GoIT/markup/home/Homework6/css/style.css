@@ -46,7 +46,7 @@ body {
 }
 
 .tell{
-    margin-left: 5px;
+    margin-left: 1px;
 
 }
 
@@ -112,7 +112,7 @@ input[value="вход"]{
     border-bottom-width: 0px;
     width: 42px;
     background: none;
-    font-size: 10pt;
+    font-size: 8pt;
  
 }
 
@@ -123,7 +123,7 @@ input[value="регистрация"]{
     border-bottom-width: 0px;
     width: 85px;
     background: none;
-    font-size: 10pt;
+    font-size: 8pt;
 }
 
 

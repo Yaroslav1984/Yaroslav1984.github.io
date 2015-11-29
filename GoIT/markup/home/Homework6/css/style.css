@@ -387,7 +387,8 @@ nav input[type="checkbox"]{
 
 
 .avto_detal img{
-    height: 24px;
+    height: 23px;
+    width: 24px;
     padding-right: 4px;
     padding-bottom: 16px;
     padding-top: 2px;

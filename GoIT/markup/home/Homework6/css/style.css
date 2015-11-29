@@ -336,6 +336,7 @@ nav input[type="checkbox"]{
 .avto{
     width: 204px;
     height: 125px;
+    margin-bottom: 3px;
 }
 
 .avto ul{
@@ -380,7 +381,7 @@ nav input[type="checkbox"]{
     padding-left: 6px;
     padding-left: 4px;
     border-left-width: 2px;
-    height: 25px;
+    height: 23px;
     border-top-width: 2px;
     padding-top: 1px;
     padding-bottom: 1px;

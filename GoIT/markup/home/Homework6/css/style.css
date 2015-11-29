@@ -438,7 +438,7 @@ nav input[type="checkbox"]{
 
 .line_one{
     margin-top: 4px;
-    margin-left: 1px;
+    margin-left: 2px;
     border-left-width: 12px;
 }
 	
@@ -449,7 +449,7 @@ nav input[type="checkbox"]{
 }
 
 .line_two {
-    margin-top: 16px;
+    margin-top: 13px;
     margin-left: 0px;
     border-left-width: 12px;
 

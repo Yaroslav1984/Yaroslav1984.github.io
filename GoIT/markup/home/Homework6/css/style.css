@@ -317,7 +317,8 @@ nav.pin{
 .pin [action="tack"]{
       padding-left: 26px;
       height: 75px;
-      margin-left: 14px;
+      margin-bottom: 10px;
+      margin-top: 2px;
 } 
 
 .img_title{

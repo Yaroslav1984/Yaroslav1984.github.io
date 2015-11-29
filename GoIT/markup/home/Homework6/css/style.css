@@ -307,10 +307,12 @@ nav input[type="checkbox"]{
   }
  */
 
+/* 
 nav.pin{
     margin-bottom: 6px;
-    margin-left: 16px;
-}
+ margin-left: 16px;
+} */
+
 
 .pin [action="tack"]{
       padding-left: 26px;
@@ -353,7 +355,7 @@ nav.pin{
 }
       
 .avto li{
-    text-decoration: none;
+   text-decoration: none;
     font-size: 11pt;
     height: 15px;
     width: 150px;

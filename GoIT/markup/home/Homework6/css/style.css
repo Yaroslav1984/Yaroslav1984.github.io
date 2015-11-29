@@ -431,14 +431,14 @@ nav input[type="checkbox"]{
 }
 
 .line_one img{
-    height: 185px;
+    height: 190px;
     width: 159px;
 
 }
 
 .line_one{
     margin-top: 4px;
-    margin-left: 2px;
+    margin-left: 1px;
     border-left-width: 12px;
 }
 	

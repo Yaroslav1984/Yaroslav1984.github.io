@@ -482,16 +482,22 @@ nav input[type="checkbox"]{
 .avto_detal_left {
     border: 2px solid #9ea9af;
     border-radius: 15px;
-    width: 149px;
-    padding-left: 6px;
+    width: 129px;
     padding-left: 3px;
     border-left-width: 2px;
     height: 25px;
     border-top-width: 2px;
-    padding-top: 0px;
+    padding-top: 1px;
     padding-bottom: 1px;
 } 
 
+.avto_detal_left form{
+      width: 165px;
+      height: 75px;
+      padding-left: 10px;
+      margin-top: 4px;
+
+}
 
 footer{
     width: 911px;

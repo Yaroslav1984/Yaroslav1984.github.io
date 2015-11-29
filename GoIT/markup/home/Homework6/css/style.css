@@ -361,6 +361,7 @@ nav input[type="checkbox"]{
     padding-top: 2px;
     padding-bottom: 7.5px;
     margin-bottom: 2px;
+    padding-left: 20px; /* Отступ от маркера до текста */
 }
 
  .avto li a {
@@ -370,6 +371,7 @@ nav input[type="checkbox"]{
 
   .avto li a:visited {
     color: #2a4263; /* Цвет посещённой ссылки */
+
    } 
 
    .avto li a:hover {

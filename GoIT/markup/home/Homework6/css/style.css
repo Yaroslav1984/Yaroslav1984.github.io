@@ -417,22 +417,6 @@ nav.pin{
 }
 
 
-/* 
-.avto_detal img{
-    height: 22px;
-    padding-right: 4px;
-    padding-bottom: 16px;
-    padding-top: 2px;
-}
-
-
-.avto_detal img{
-    height: 22px;
-    padding-right: 4px;
-    padding-bottom: 16px;
-    padding-top: 2px;
-}
- */
 .img-avto_detal{
     border-radius: 10px;
 }
@@ -492,16 +476,8 @@ nav.pin{
     padding-top: 1px;
     padding-bottom: 1px;
 } 
-/* 
-.pin [action="tack"]{
-      width: 165px;
-      height: 70px;;
-      padding-left: 10px;
-      margin-top: 5px;
-      font-size: 11pt;
-} */
- 
-.pin [action="tack"] {
+
+.pin[action="tack"]{
     width: 165px;
     height: 70px;
     padding-left: 10px;

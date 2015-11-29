@@ -486,7 +486,7 @@ nav.pin{
     margin-left: 2px;
     padding-top: 2px;
  }
- 
+
 footer{
     width: 911px;
     height: 97px;
@@ -541,14 +541,10 @@ footer p{
 
 }
 
-.input {
-    margin-left: 22px;
-    margin-top: 3px;
-}
-
 .pixel [type="submit"] {
-        margin-left: 10px;
+        margin-left: 22px;
         border-radius: 50px 50px;
+      margin-top: 3px;
 }
 
 .check span{

@@ -124,7 +124,7 @@ input[type="name"]{
     border-top-width: 0px;
     border-bottom-width: 0px;
     border-right-width: 0px;
-    margin-left: 7px;
+    margin-left: 5px;
 }
 
 input[value="регистрация"]{
@@ -140,7 +140,7 @@ input[value="регистрация"]{
 } 
 
 
-.input[type="button"]{
+input[value="забыли пароль"]{
     width: 110px;
     background: none;
     text-decoration:underline;

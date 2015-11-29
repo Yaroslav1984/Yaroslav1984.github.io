@@ -377,13 +377,12 @@ nav input[type="checkbox"]{
     border-radius: 15px;
     width: 149px;
     padding-left: 6px;
-    margin-bottom: 2px;
     padding-left: 4px;
     border-left-width: 2px;
-    height: 26px;
+    height: 25px;
     border-top-width: 2px;
     padding-top: 1px;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
 } 
 
 

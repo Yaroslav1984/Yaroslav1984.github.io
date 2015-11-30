@@ -365,6 +365,7 @@ section{
     width: 204px;
     height: 112px;
     margin-bottom: 3px;
+    margin-top: 19px;
  }
  
  .avto ul{
@@ -409,7 +410,7 @@ section{
  .avto_detal {
     border: 1px solid #9ea9af;
     border-radius: 15px;
-    padding-bottom: 0px;
+    margin-bottom: 3px;
     border-left-width: 1px;
     border-top-width: 1px;
     width: 149px;

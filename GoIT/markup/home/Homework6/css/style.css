@@ -382,6 +382,7 @@ section{
     padding-bottom: 5px;
     list-style-type: circle;
      text-decoration: none;
+     font-size: 9pt;
  }
 
   
@@ -431,7 +432,7 @@ section{
 
 .img_title {
     padding-top: 2px;
-    margin-bottom: 9px;
+    margin-bottom: 12px;
     padding-bottom: 4px;
 }
 
@@ -482,7 +483,7 @@ section{
 figcaption{
    margin-left: 8px;
    font-weight:bold;
-   font-size: 9pt;
+   font-size: 8pt;
 }
 
 

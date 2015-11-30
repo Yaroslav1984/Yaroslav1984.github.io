@@ -185,7 +185,8 @@ input[type="button"]{
 /* ------------------------------------------MENU------------------------------------------------------------------- */
 
 .zazor{
-     margin-bottom: 6px;
+     margin-bottom: 2px;
+     width: 911px;
 }
 
 menu{
@@ -221,7 +222,7 @@ menu ul {
     margin-left: 77px;
     text-align: center;
     height: 25px;
-    margin-left: 117px;
+    margin-left: 114px;
     height: 32px;
     padding-top: 0px;
     border-radius: 20px 5px;
@@ -244,7 +245,7 @@ menu li{
     padding-bottom: 5px;
     height: 19px;
     width: 80px; 
-    padding: 8px 0px 6px 0px;
+    padding: 6px 0px 6px 0px;
     margin-left: 0px;
   }
 
@@ -290,10 +291,10 @@ menu li a{
     width: 237px;
     height: 19px;
     text-align: center;
-    margin-left: 44px;
+    margin-left: 55px;
     padding: 3px 8px 6px 8px;
-    padding-top: 10px;
-    font-size: 6pt;
+    padding-top: 7px;
+    font-size: 9pt;
 }
  
 .check p{
@@ -303,13 +304,13 @@ menu li a{
 
 .check img{
      position: absolute;
-     top: 7px;
-     right: 226px;
+    top: 287px;
+    right: 348px;
 }
 
 .zero{
      color: #355a8c;
-     margin-right: 21px;
+     margin-right: 30px;
 }
 
 .zero2{
@@ -425,6 +426,12 @@ section{
     padding-bottom: 0px;
     height: 22px;
     padding-right: 4px;
+}
+
+.img_title {
+    padding-top: 2px;
+    margin-bottom: 9px;
+    padding-bottom: 4px;
 }
 
  /* ---------------------------------------------------------End Blok left---------------------------------------------- 

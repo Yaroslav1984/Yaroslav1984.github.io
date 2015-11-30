@@ -22,12 +22,15 @@ body {
     width: 100%;
     max-width: 1100px;
     height: 1408px;
-    top: 11px;
+    top: 6px;
 }
 
 header{
-    padding-bottom: 35px;
+ padding-bottom: 35px;
+ margin-bottom: 6px;
+ width: 893px;
 }
+
 
 .wrapper{
     width: 1000px; 
@@ -38,8 +41,12 @@ header{
     font-size: 12px;
 } 
 
+/* -------------------------------------------------Blok telephone---------------------------------------------------- */
+
 .contact span{
     font-size: 18px;
+    color: #61696d;
+    margin-left: 26px;
 }
 
 .contact{
@@ -47,11 +54,15 @@ header{
     height: 21px;
     float: left;
     margin-left: 8px;
+    margin-top: 7px;
+
 }
 
 .contact img{
     height: 18px;
     width: 20px;
+    top: 10px;
+    position: absolute;
 }
 
 .tell{
@@ -59,39 +70,60 @@ header{
 
 }
 
-.avtor{
-   float: left;
-   height: 17px;
-   padding-left: 3px;
-   padding-top: 1px;
-}
+/* -----------------------------------------------End telephone--------------------------------------------------------- */
 
- .registr{
+
+.registr{
   float: left;
-  width: 498px;
-  height: 23px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  width: 494px;
+  height: 24px;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  margin-top: 3px;
+
+-webkit-box-shadow: 2px 4px 2px 1px rgba(201,201,201,0.61);
+-moz-box-shadow: 2px 4px 2px 1px rgba(201,201,201,0.61);
+box-shadow: 2px 4px 2px 1px rgba(201,201,201,0.61);
+/* 
  -webkit-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
  -moz-box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
-  box-shadow: 0px 2px 2px 0px rgba(14,57,94,1);
-
+  box-shadow: 1px 2px 5px 0px rgba(14,57,94,1);
+ */
 background: #225484;
-border-radius: 3px 3px 3px 3px;
+border-radius: 2px 2px 2px 2px;
 -moz-border-radius: 4px 4px 4px 4px;
--webkit-border-radius: 4px 4px 4px 4pxss;
+-webkit-border-radius: 4px 4px 4px 4px;
 
 }
 
+.registr [action="registr"]{
+    height: 22px;
+    width: 496px;
+    padding-top: 2px;
+
+}
+
+.avtor{
+   float: left;
+   width: 16px;
+   height: 19px;
+   padding-left: 6px;
+   padding-top: 3px;
+   padding-right: 2px;
+}
+
+
 .home{
-  float: left;
+  float:right;
   width: 9%;
 }
 
 .home img{
-    width: 97px;
-    height: 30px;
-    padding-top: 1px;
+    width: 77px;
+    height: 25px;
+    margin-top: 2px;
+    margin-left: 15px;
+    position: absolute;
 }
 
 .registr span{
@@ -100,43 +132,36 @@ border-radius: 3px 3px 3px 3px;
 
 
 input[type="name"]{
-    height: 16px;
+    height: 10px;
     width: 107px;
     padding-left: 7px;
-    font-size: 10px;
+    font-size: 11px;
     padding-bottom: 2px;
 }
-
-
-
-.b1{
-    color: white; /* Белые буквы */ 
-    font-size: 9pt; /* Размер шрифта в пунктах */
-    margin-left: 9px;
-  }
-
 
  input[value="вход"]{
     width: 29px;
     background: none;
-    font-size: 9pt;
+    font-size: 8pt;
      border-left-width: 0px;
     border-top-width: 0px;
     border-bottom-width: 0px;
     border-right-width: 0px;
-    margin-left: 5px;
+    color: white;  
 }
 
 input[value="регистрация"]{
     width: 64px;
     background: none;
-    font-size: 9pt;
+    font-size: 8pt;
     width: 73px;
     border-left-width: 0px;
     border-top-width: 0px;
     border-bottom-width: 0px;
     border-right-width: 0px;
-    margin-left: 0px
+    margin-left: 0px;
+    color: white; 
+    padding-right: 5px; 
 } 
 
 
@@ -144,13 +169,20 @@ input[type="button"]{
     width: 110px;
     background: none;
     text-decoration:underline;
-    color: #A5A5A5;
+    color: #b7b8b9;
     font-weight: 600;
     margin-left: 1px;
     border-left-width: 0px;
     border-top-width: 0px;
     border-bottom-width: 0px;
     border-right-width: 0px;
+    font-size: 8pt;
+}
+
+/* ------------------------------------------MENU------------------------------------------------------------------- */
+
+.zazor{
+     margin-bottom: 6px;
 }
 
 menu{
@@ -159,40 +191,45 @@ menu{
     overflow:hidden;  
     display: block; 
     top: 0px;
-    height: 37px;
+    height: 33px;
     width: 911px;
     
-    -webkit-box-shadow: inset 0px 0px 6px 0px rgba(77,86,99,0.32);
-   -moz-box-shadow: inset 0px 0px 6px 0px rgba(77,86,99,0.32);
-    box-shadow: inset 0px 0px 6px 0px rgba(77,86,99,0.32);
+-webkit-box-shadow: 6px 7px 7px -4px rgba(83,88,95,1);
+-moz-box-shadow: 6px 7px 7px -4px rgba(83,88,95,1);
+box-shadow: 6px 7px 7px -4px rgba(83,88,95,1);
     
-    background-color: rgba(40, 40, 42, 1);
-    background: rgba(40, 40, 42, 1);
-    color: rgba(40, 40, 42, 1);
-    
-    border-radius: 7px 7px 7px 7px;
-    -moz-border-radius: 7px 7px 7px 7px;
-    -webkit-border-radius: 7px 7px 7px 7px;
+bbackground: rgba(41,41,41,1);
+background: -moz-linear-gradient(left, rgba(41,41,41,1) 0%, rgba(23,23,23,1) 0%, rgba(48,48,48,1) 12%, rgba(56,56,56,1) 25%, rgba(38,38,38,1) 39%, rgba(10,10,10,1) 60%, rgba(23,23,23,1) 76%, rgba(15,15,15,1) 91%, rgba(10,10,10,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(41,41,41,1)), color-stop(0%, rgba(23,23,23,1)), color-stop(12%, rgba(48,48,48,1)), color-stop(25%, rgba(56,56,56,1)), color-stop(39%, rgba(38,38,38,1)), color-stop(60%, rgba(10,10,10,1)), color-stop(76%, rgba(23,23,23,1)), color-stop(91%, rgba(15,15,15,1)), color-stop(100%, rgba(10,10,10,1)));
+background: -webkit-linear-gradient(left, rgba(41,41,41,1) 0%, rgba(23,23,23,1) 0%, rgba(48,48,48,1) 12%, rgba(56,56,56,1) 25%, rgba(38,38,38,1) 39%, rgba(10,10,10,1) 60%, rgba(23,23,23,1) 76%, rgba(15,15,15,1) 91%, rgba(10,10,10,1) 100%);
+background: -o-linear-gradient(left, rgba(41,41,41,1) 0%, rgba(23,23,23,1) 0%, rgba(48,48,48,1) 12%, rgba(56,56,56,1) 25%, rgba(38,38,38,1) 39%, rgba(10,10,10,1) 60%, rgba(23,23,23,1) 76%, rgba(15,15,15,1) 91%, rgba(10,10,10,1) 100%);
+background: -ms-linear-gradient(left, rgba(41,41,41,1) 0%, rgba(23,23,23,1) 0%, rgba(48,48,48,1) 12%, rgba(56,56,56,1) 25%, rgba(38,38,38,1) 39%, rgba(10,10,10,1) 60%, rgba(23,23,23,1) 76%, rgba(15,15,15,1) 91%, rgba(10,10,10,1) 100%);
+background: linear-gradient(to right, rgba(41,41,41,1) 0%, rgba(23,23,23,1) 0%, rgba(48,48,48,1) 12%, rgba(56,56,56,1) 25%, rgba(38,38,38,1) 39%, rgba(10,10,10,1) 60%, rgba(23,23,23,1) 76%, rgba(15,15,15,1) 91%, rgba(10,10,10,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#292929', endColorstr='#0a0a0a', GradientType=1 );
+
+border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+border: 1px solid #35395b;
 }
 
 menu ul {
-     list-style-type: none;
-     margin-top: 1px; 
-     float:left; 
-     margin-left: 77px;
-     text-align: center;
-     height: 25px;
-     margin-left: 117px;
-     height: 32px;
-     padding-top: 0px;
-     border-radius: 20px 5px;
-     font-size: 12px;
+    list-style-type: none;
+    float:left; 
+    margin-left: 77px;
+    text-align: center;
+    height: 25px;
+    margin-left: 117px;
+    height: 32px;
+    padding-top: 0px;
+    border-radius: 20px 5px;
+    font-size: 12px;
 }
 
 menu li a:hover{
-     border-radius: 200px 200px;
-     background-color: #225484;
-     color: white;
+    border-radius: 200px 200px;
+    background-color: #225484;
+    color: white;
     font-size: 13px;
     font-weight: normal;
 }
@@ -206,19 +243,18 @@ menu li{
     height: 19px;
     width: 80px; 
     padding: 8px 0px 6px 0px;
-    margin-top: 3px;
     margin-left: 0px;
   }
 
 menu li a{
-       text-decoration:none;
-       color:#F5F5F5;
-       font-size: 13px;
-       text-align: center;
-       padding-left: 8px;
-       padding-right: 8px;
-       padding-top: 7px;
-       padding-bottom: 8px;
+   text-decoration:none;
+   color:#b3babe;
+   font-size: 13px;
+   text-align: center;
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-top: 7px;
+   padding-bottom: 7px;
 }
 
 .first{
@@ -237,7 +273,6 @@ menu li a{
 .contacts{
     height: 19px;
     width: 80px;
-    margin-top: 3px;
     margin-left: 8px;
 
 }
@@ -253,20 +288,32 @@ menu li a{
     width: 26%;
     text-align: center;
     margin-left: 44px;
-    padding: 8px 8px 6px 8px
+    padding: 3px 8px 6px 8px;
+    padding-top: 10px;
+}
+ 
+.check p{
+    text-decoration:none;
+    color: #81898d; 
+} 
+
+.check img{
+     position: absolute;
+     top: 7px;
+     right: 226px;
 }
 
-.check span{
-       text-decoration:none;
-        color: #81898d; 
-       font-size: 16pt;
-       margin-left: 4px;
+.zero{
+     color: #355a8c;
+     margin-right: 21px;
 }
 
-.zenter img{
-    width: 914px;
-    height: 177px;
+.zero2{
+    color: #355a8c;
 }
+
+/* ----------------------------------------------------------Menu End--------------------------------------------------- */
+
 
 .clearfix{
    height: 714px;
@@ -274,6 +321,8 @@ menu li a{
    font-weight: bold 700;
    padding-top: 0px;
 }
+
+/* ------------------------------------------------------------------Blok left-------------------------------------------- */
 
 section{
   float: left;
@@ -283,277 +332,292 @@ section{
   color: #2a4263;
   font-size: 10pt;
 }
+ 
+.katalog{
+    position: relative;  
+    top: 3px;
+}
+ 
+ .img_title{
+    -webkit-box-shadow: 4px 14px 1px -12px rgba(190,190,190,1);
+    -moz-box-shadow: 4px 14px 1px -12px rgba(190,190,190,1);
+    box-shadow: 4px 14px 1px -12px rgba(190,190,190,1);
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-top: 1px;
+    border-top-width: 2px;
+    width: 175px;
+    height: 21px;
+    border: 1px solid #9ea9af;
+    border-radius: 19px;
+    margin-bottom: 9px;
+    font-size: 9pt;
+    font-weight: 600;
+ }
 
+ .avto{
+    width: 204px;
+    height: 112px;
+    margin-bottom: 3px;
+ }
+ 
+ .avto ul{
+      padding-left: 54px;
+      height: 100px;
+      padding-top: 0px;
+      display: block;
+ }
+      
+ .avto li{
+    font-size: 8pt;
+    height: 15px;
+    width: 150px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    list-style-type: circle;
+     text-decoration: none;
+ }
 
- figure{
-  position: relative;   
-  overflow:hidden;  	
-  float: left;
-  width: 497px;
-  height: 602px;
-  padding-top: 0px;
-  right: 2px;
-  background: #dbdee0;
+  
+.avto li a {
+   color: #2a4263; Цвет обычной ссылки 
+   text-decoration: none; Убираем подчеркивание у ссылок
+   list-style-type:circle; 
+  }
+
+ .avto li a:visited {
+   color: #2a4263; Цвет посещённой ссылки
+
+  } 
+
+  .avto li a:hover {
+   color: #2a4263; Цвет ссылки при наведении на нее курсора мыши  
+   text-decoration: underline; Добавляем подчеркивание 
+   font-style: italic;
+   font-size: 10pt;
+   font-weight: 600;
+  }
+    
+
+ .avto_detal {
+    border: 1px solid #9ea9af;
+    border-radius: 15px;
+    padding-bottom: 0px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    width: 149px;
+    padding-left: 6px;
+    padding-left: 3px;
+    height: 25px;
+    padding-top: 0px;
+    font-size: 9pt;
+    font-weight: 600;
+ }
+
+.avto_detal img {
+    margin-bottom: 10px;
+    margin-left: 3px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    height: 22px;
+    padding-right: 4px;
 }
 
-nav{
+ /* ---------------------------------------------------------End Blok left---------------------------------------------- 
+
+
+/* ----------------------------------------------------------Zenter Blok--------------------------------------------------
+ */
+  
+  .zentr_menu{
+    float: left;
+    width: 507px;
+    height: 570px;
+    background: linear-gradient(to top, #9da8b0, #e4e6e7); 
+  }
+
+
+  figure{
+    position: relative;   
+    overflow:hidden;    
+    float: left;
+    width: 125px;
+    height: 166px;
+    padding-top: 0px;
+    right: 2px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 15px
+ }
+
+.name{
+    margin-left: 18px;
+    color:#4b6f8a; 
+    font-weight:bold;
+    font-size: 9pt;
+}
+
+
+.price{
+    margin-left: 24px;
+    color: #2a4364;
+    font-weight:bold;
+    font-style:italic;
+    font-size: 10pt;
+}
+
+
+figcaption{
+   margin-left: 8px;
+   font-weight:bold;
+   font-size: 8pt;
+}
+
+
+
+/* -------------------------------------------------- End Zentr Blok---------------------------------------------------- */
+
+
+/* ----------------------------------------------------- Left Blok------------------------------------------------------- */
+ 
+
+ .avto_detal_left form{
+      margin-left: 29px;
+ } 
+  
+ .img_title img{
+    width: 23px;
+    border-right-width: 23px;
+    padding-right: 1px;
+    margin-bottom: 6px; 
+ }
+
+  .img-avto_detal{
+   border-radius: 10px;
+}
+
+ .avto_detal_left {
+    border: 1px solid #9ea9af;
+    border-radius: 15px;
+    padding-bottom: 0px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    width: 149px;
+    padding-left: 6px;
+    padding-left: 3px;
+    height: 25px;
+    padding-top: 0px;
+    font-size: 9pt;
+    font-weight: 600;
+    margin-left: 16px;
+} 
+
+.avto_detal_left img{
+    margin-bottom: 10px;
+    margin-left: 3px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    height: 22px;
+    padding-right: 4px;
+}
+ 
+
+ 
+ nav{
   float:right;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
   width: 198px;
   color: #2a4263;
-  font-size: 10pt;
-}
-
-
-nav li{
-    padding-left: -14px;
-
-}
-nav input[type="checkbox"]{
-    margin-top: 6px;
-    margin-bottom: 6px;
-
-  }
-
-.pin [action="tack"]{
-      padding-left: 24px;
-      height: 75px;
-      margin-bottom: 10px;
-      margin-top: 2px;
-} 
-
-.img_title{
-    padding-bottom: 2px;
-    padding-left: 4px;
-    padding-top: 2px;
-    border-top-width: 2px;
-    width: 175px;
-    height: 21px;
-    border: 2px solid #9ea9af;
-    border-radius: 19px;
-    margin-bottom: 9px;
-
-}
-
-.img_title img{
-    width: 23px;
-    border-right-width: 23px;
-    padding-right: 1px;
-    margin-bottom: 6px;
-
-}
-
-.avto{
-    width: 204px;
-    height: 125px;
-    margin-bottom: 3px;
-}
-
-.avto ul{
-      padding-left: 54px;
-      height: 100px;
-      list-style-type:circle;
-      padding-top: 0px;
-      display: block;
-}
-      
-.avto li{
-   text-decoration: none;
-    font-size: 11pt;
-    height: 15px;
-    width: 150px;
-    padding-top: 2px;
-    padding-bottom: 7.5px;
-    margin-bottom: 2px;
-}
-
- .avto li a {
-    color: #2a4263; /* Цвет обычной ссылки */ 
-    text-decoration: none; /* Убираем подчеркивание у ссылок */
-   }
-
-  .avto li a:visited {
-    color: #2a4263; /* Цвет посещённой ссылки */
-
-   } 
-
-   .avto li a:hover {
-    color: #2a4263; /* Цвет ссылки при наведении на нее курсора мыши */  
-    text-decoration: underline; /* Добавляем подчеркивание */
-    font-style: italic;
-    font-size: 10pt;
-    font-weight: 600;
-   }
-
-.avto_detal_bal{
-    border: 2px solid #9ea9af;
-    border-radius: 15px;
-    width: 149px;
-    padding-left: 6px;
-    padding-left: 4px;
-    border-left-width: 2px;
-    height: 23px;
-    border-top-width: 2px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-top: 6px;
-} 
-
-.avto_detal {
-    border: 2px solid #9ea9af;
-    border-radius: 15px;
-    width: 149px;
-    padding-left: 6px;
-    padding-left: 3px;
-    border-left-width: 2px;
-    height: 25px;
-    border-top-width: 2px;
-    padding-top: 0px;
-    padding-bottom: 1px;
-} 
-.avto img{
-      margin-left: 3px;
-    padding-top: 1px;
-    padding-bottom: 0px;
-    margin-bottom: 16px;
-    height: 22px;
-    padding-right: 4px;
-}
-
-
-.img-avto_detal{
-    border-radius: 10px;
-}
-
-.line_one img{
-    height: 190px;
-    width: 159px;
-
-}
-
-.line_one{
-    margin-top: 4px;
-    margin-left: 2px;
-    border-left-width: 12px;
-}
-	
-.line_two img{
-    height: 185px;
-    width: 159px;
-
-}
-
-.line_two {
-    margin-top: 13px;
-    margin-left: 0px;
-    border-left-width: 12px;
-
-}
-
-.line_three {
-    margin-top: 17px;
-    margin-left: 0px;
-    border-left-width: 12px;
-}
-
-.line_three img{
-    height: 185px;
-    width: 159px;
-}
-
-.partner {
-  text-align: center; 
-}
-
-.partner img{
-      margin-top: 48px;
-     margin-right: 14px;
-}
-
-.avto_detal_left {
-    border: 2px solid #9ea9af;
-    border-radius: 15px;
-    width: 135px;
-    padding-left: 2px;
-    border-left-width: 2px;
-    height: 25px;
-    border-top-width: 2px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-left: 14px;
-
-} 
-
-.avto_detal_left img{
-    margin-bottom: 14px;
-    margin-left: 2px;
-    padding-top: 2px;
+  font-size: 8pt;
  }
+ 
+ 
+ nav li{
+    padding-left: -14px;
+ 
+ }
+ nav input[type="checkbox"]{
+    margin-top: 6px;
+    margin-bottom: 6px;
+ 
+  }
+ 
+.zona{
+      margin-left: 29px;
+}
 
-footer{
-    width: 911px;
-    height: 97px;
-    background-color: #193658;
+/* --------------------------------------------------------------End left blok--------------------------------------------
+ 
+ 
+/* ----------------------------------------------Fotter--------------------------------------------------------------- */
+
+ footer{
+   width: 911px;
+   height: 97px;
+   background-color: #193658;
 }
 
 footer ul{
-     list-style-type: none; 
-     text-align: center;
-     margin-left: 308px;
+    list-style-type: none; 
+    text-align: center;
+    margin-left: 308px;
 }
 
 footer li a{
-   float: left; 
-   padding-right: 15px;
-   padding-top: 10px;
-   font-size: 15px; 
-   text-align: center;
-   color: white;
-   font-size: 10pt;
-   font-weight: normal;
-   text-decoration: none; /* Добавляем подчеркивание */
+  float: left; 
+  padding-right: 15px;
+  padding-top: 10px;
+  font-size: 15px; 
+  text-align: center;
+  color: #bfc4c7;
+  font-size: 10pt;
+  font-weight: normal;
+  text-decoration: none; Добавляем подчеркивание
 }
 
- footer li a:hover {
-    color: #00CED1; /* Цвет ссылки при наведении на нее курсора мыши */  
-    text-decoration: none; /* Добавляем подчеркивание */
-    font-size: 10pt;
-    font-weight: normal;
-    text-decoration: none; /* Добавляем подчеркивание */
- }
+footer li a:hover {
+   color: #00CED1; Цвет ссылки при наведении на нее курсора мыши  
+   text-decoration: none; Добавляем подчеркивание
+   font-size: 10pt;
+   font-weight: normal;
+   text-decoration: none; Добавляем подчеркивание
+}
 
 
 footer p{
-  font-size: 11px;
-  padding-top: 21px;;
-  color: #A52A2A;
-  margin-left: 361px;
-  font-weight:bold;
+ font-size: 11px;
+ padding-top: 21px;;
+ color: #524249;
+ margin-left: 361px;
+ font-weight:bold;
 }
 
 .pixel input{
-    margin-top: 18px;
-    width: 84px;
-    height: 26px;
-    color: white;
-    background: #225484; /* Цвет фона */
-    border: 1px solid #225484; /* Параметры рамки */
-    width: 84px; /* Ширина кнопки */
-    height: 28px; /* Высота */
-    border-radius: 5px;
+   margin-top: 18px;
+   width: 84px;
+   height: 26px;
+   color: white;
+   background: #225484; Цвет фона
+   border: 1px solid #225484; Параметры рамки
+   width: 84px; Ширина кнопки
+   height: 28px; Высота
+   border-radius: 5px;
 
 }
 
 .pixel [type="submit"] {
-        margin-left: 22px;
-        border-radius: 50px 50px;
-      margin-top: 3px;
+       margin-left: 22px;
+       border-radius: 50px 50px;
+        margin-top: 18px;
 }
 
-.check span{
-    text-decoration: none;
-    color: #81898d; 
-    font-size: 12px;
-    margin-left: 4px;
+ .partner {
+ text-align: center; 
+} 
+
+ .partner img{
+     margin-top: 48px;
+    margin-right: 14px;
 }
+ 

@@ -295,7 +295,7 @@ menu li a{
     margin-left: 44px;
     padding: 3px 8px 6px 8px;
     padding-top: 10px;
-    font-size: 8pt;
+    font-size: 9pt;
 }
  
 .check p{
@@ -306,7 +306,7 @@ menu li a{
 .check img{
      position: absolute;
      top: 282px;
-     right: 354px;
+     right: 367px;
 }
 
 .zero{
@@ -466,7 +466,7 @@ section{
     margin-left: 18px;
     color:#4b6f8a; 
     font-weight:bold;
-    font-size: 9pt;
+    font-size: 10pt;
 }
 
 
@@ -475,14 +475,14 @@ section{
     color: #2a4364;
     font-weight:bold;
     font-style:italic;
-    font-size: 10pt;
+    font-size: 11pt;
 }
 
 
 figcaption{
    margin-left: 8px;
    font-weight:bold;
-   font-size: 8pt;
+   font-size: 9pt;
 }
 
 

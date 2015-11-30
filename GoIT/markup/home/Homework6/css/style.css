@@ -446,7 +446,7 @@ section{
   .zentr_menu{
     float: left;
     width: 510px;
-    height: 623px;
+    height: 643px;
     background: linear-gradient(to top, #9da8b0, #e4e6e7); 
   }
 
@@ -461,7 +461,7 @@ section{
     right: 2px;
     padding-left: 14px;
     padding-right: 31px;
-    padding-top: 12px;
+    padding-top: 17px;
     padding-bottom: 20px;
  }
 

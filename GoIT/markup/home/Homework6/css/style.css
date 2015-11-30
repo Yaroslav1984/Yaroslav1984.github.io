@@ -291,10 +291,10 @@ menu li a{
     width: 237px;
     height: 19px;
     text-align: center;
-    margin-left: 55px;
+    margin-left: 44px;
     padding: 3px 8px 6px 8px;
-    padding-top: 7px;
-    font-size: 9pt;
+    padding-top: 5px;
+    font-size: 8pt;
 }
  
 .check p{

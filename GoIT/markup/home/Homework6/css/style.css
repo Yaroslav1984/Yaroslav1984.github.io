@@ -560,7 +560,7 @@ figcaption{
  
 .zona{
       margin-left: 26px;
-      margin-bottom: 12px;
+          margin-bottom: 12px;
 }
 
 /* --------------------------------------------------------------End left blok--------------------------------------------
@@ -625,7 +625,8 @@ footer p{
 .pixel [type="submit"] {
        margin-left: 22px;
        border-radius: 50px 50px;
-        margin-top: 18px;
+      margin-top: 4px;
+    margin-left: 72px;
 }
 
  .partner {

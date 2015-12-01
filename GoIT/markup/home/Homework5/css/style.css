@@ -69,6 +69,14 @@ body {
       margin-top: 12px;
 }
 
+.ola a{
+    background-color: #4eabda;
+    color: #ffffff;
+}
+
+span{
+    text-decoration: underline;
+}
 
 .lines a {
       height: 33px;

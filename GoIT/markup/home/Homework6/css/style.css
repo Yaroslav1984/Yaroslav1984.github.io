@@ -567,12 +567,13 @@ figcaption{
 .pixel{
     width: 163px;
     height: 32px;
-    margin-top: 48px;
+    margin-top: 22px;
+    position: relative;
 }
 
 .pin{
 
-      margin-top: 13px;
+      margin-top: 15px;
 }
 
 /* --------------------------------------------------------------End left blok--------------------------------------------

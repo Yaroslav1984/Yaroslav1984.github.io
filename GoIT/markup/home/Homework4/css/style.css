@@ -5,7 +5,7 @@
 } 
 
   html { 
- overflow-x: hidden; убрать горизонтальную прокрутку
+ overflow-x: hidden; /* убрать горизонтальную прокрутку */
 } 
 
  body {     
@@ -36,14 +36,14 @@
 }
 /* зачистка границ */
 
-.Logo{
+.logo{
  margin: 0;
  padding: 0;
  position: relative;
  float:left;
 }
  
- .Logo img {
+ .logo img {
  height: 164px;
  width: 283px;
  margin-top: 41px ;
@@ -53,8 +53,8 @@
 
 }
 
-.Contacts{
-   float: right;
+.contacts{
+    float: right;
     font-size: 12px;
     color: #5fa5bb;
     margin-top: 10px;
@@ -62,14 +62,14 @@
     margin-left: 30px;
 }
 
-  .Box {
+  .box {
   color: #49b5d6;
   list-style-type: none;
   font-size: 10.6pt;
   font-weight: bolder; 
 } 
 
-  .Contacts li{
+  .contacts li{
   color: #49b5d6;
   list-style-type: none;
   font-size: 10.5pt;
@@ -78,7 +78,7 @@
 
 
 .mainNav{ 
-  margin-top: 72px;
+ margin-top: 72px;
  margin-left: 424px; 
  float:right; 
  width: 399px;
@@ -105,7 +105,7 @@ list-style-type: none;
 
 }
 
-  .Title img {
+  .title img {
   position:absolute;
   width: 100%;
   border-top: 1px solid #128aa7; /* Синяя рамка сверху от центральной картинки */
@@ -113,8 +113,8 @@ list-style-type: none;
   font-size: 0; /* Убираю отступ после картинки */
  }
 
- .nav{
- left: 838px;
+.nav_clearfix{
+left: 838px;
 top: -547px;
 width: 1000px;
 height: 28px;  
@@ -127,15 +127,15 @@ box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
 background: linear-gradient(to bottom, rgba(55,55,55,1) 0%,rgba(48,48,48,1) 100%);
 }
 
-.nav li{
+.nav_clearfix li{
 position: relative;
 display: inline-block; 
 float:left; 
 text-align: left;
  }
 
-.nav li a{
-  padding: 0 19px;
+.nav_clearfix li a{
+/*   padding: 0 19px; */
   color: white;
   background: #333;
   text-align: left;
@@ -144,7 +144,7 @@ text-align: left;
   text-decoration: none;
   font-size: 14px;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
-  padding-left: 49px;
+  padding-left: 66px;
 }  
 
 nav li a:hover{
@@ -154,7 +154,7 @@ nav li a:hover{
   text-decoration:none;
 }
 
-.nav ul{
+.nav_clearfix ul{
 display: inline-block;
 list-style:none;
 position:absolute;/* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
@@ -162,19 +162,19 @@ left:-9999px;/* Устанавливаем начальное состояние
      
 }
 
-.nav ul li{
+.nav_clearfix ul li{
   padding-top: 0px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
   float:none;
   text-align: left;
 }
 
-.nav ul a{
+.nav_clearfix ul a{
   white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
   display:block;
   padding: 0 60px 0 10px;
 }
 
-.nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+.nav_clearfix li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
   left:0; /* Приносим его обратно на экран, когда нужно */
   opacity:1; /* Делаем непрозрачным */
   display: block; 
@@ -205,7 +205,7 @@ nav li:hover ul li a:hover{ /* Устанавливаем стили для вы
 
 }
  
-.block {
+.block_clearfix {
     font-size: 14px;
     line-height: 1.714;
     overflow: hidden;
@@ -215,7 +215,7 @@ nav li:hover ul li a:hover{ /* Устанавливаем стили для вы
     top: 482px; 
 }
 
-.Form {
+.form {
     float: left;
     text-align: center;
     width: 210px;
@@ -228,7 +228,7 @@ nav li:hover ul li a:hover{ /* Устанавливаем стили для вы
   
 }
 
- .Form2 {
+ .form_two {
     float: right;
     text-align: center;
     width: 210px;
@@ -240,12 +240,12 @@ nav li:hover ul li a:hover{ /* Устанавливаем стили для вы
     margin-bottom: -20000px;
 }
 
-.Form h1{
+.form h1{
    font-size: 16px;
    text-align: center;
 }
 
-.Form2 h2{
+.form_two h2{
    font-size: 16px;
    text-align: center;
 }

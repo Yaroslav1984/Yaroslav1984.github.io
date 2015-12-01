@@ -552,15 +552,14 @@ figcaption{
     padding-left: -14px;
  
  }
- nav input[type="checkbox"]{
-    margin-top: 12px;
-    margin-bottom: 10px;
+  input[type="checkbox"]{
+    margin-top: 4px;
  
   }
  
 .zona{
       margin-left: 26px;
-      margin-bottom: 9px;
+      margin-bottom: 6px;
 }
 
 .pixel{
@@ -610,7 +609,7 @@ footer p{
  font-size: 11px;
  padding-top: 21px;;
  color: #524249;
- margin-left: 361px;
+margin-left: 354px;
  font-weight:bold;
 }
 
@@ -639,7 +638,8 @@ footer p{
 } 
 
  .partner img{
-     margin-top: 48px;
     margin-right: 14px;
+    margin-top: 5px;
+    margin-left: 95px;
 }
  

@@ -296,6 +296,7 @@ menu li a{
     padding: 3px 8px 6px 8px;
     padding-top: 10px;
     font-size: 9pt;
+    position: relative;
 }
  
 .check p{
@@ -382,15 +383,13 @@ section{
     padding-top: 2px;
     padding-bottom: 7px;
     list-style-type: circle;
-     text-decoration: none;
      font-size: 9pt;
  }
 
   
 .avto li a {
-   color: #2a4263; Цвет обычной ссылки 
-   text-decoration: none; Убираем подчеркивание у ссылок
-   list-style-type:circle; 
+  text-decoration: none;
+  color: #2a4263; Цвет обычной ссылки 
   }
 
  .avto li a:visited {
@@ -400,7 +399,7 @@ section{
 
   .avto li a:hover {
    color: #2a4263; Цвет ссылки при наведении на нее курсора мыши  
-   text-decoration: underline; Добавляем подчеркивание 
+   text-decoration: underline; Добавляем подчеркивание  
    font-style: italic;
    font-size: 10pt;
    font-weight: 600;

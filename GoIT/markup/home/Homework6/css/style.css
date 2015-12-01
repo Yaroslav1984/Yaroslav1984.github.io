@@ -553,18 +553,26 @@ figcaption{
  
  }
   input[type="checkbox"]{
-    margin-top: 4px;
+    margin-top: 48px;
+    margin-top: 7px;
  
   }
  
 .zona{
       margin-left: 26px;
-      margin-bottom: 6px;
+      margin-bottom: 5px;
+      padding-top: 5px;
 }
 
 .pixel{
     width: 163px;
     height: 32px;
+    margin-top: 48px;
+}
+
+.pin{
+
+      margin-top: 13px;
 }
 
 /* --------------------------------------------------------------End left blok--------------------------------------------
@@ -574,8 +582,9 @@ figcaption{
 
  footer{
    width: 911px;
-   height: 97px;
+   height: 99px;
    background-color: #193658;
+  padding-top: 2px;
 }
 
 footer ul{
@@ -640,6 +649,6 @@ margin-left: 354px;
  .partner img{
     margin-right: 14px;
     margin-top: 5px;
-    margin-left: 95px;
+    margin-left: 0px;
 }
  

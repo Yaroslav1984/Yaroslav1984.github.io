@@ -521,7 +521,7 @@ figcaption{
     padding-left: 6px;
     padding-left: 3px;
     height: 25px;
-    padding-top: 4px;
+    padding-top: 2px;
     font-size: 9pt;
     font-weight: 600;
     margin-left: 16px;
@@ -560,8 +560,8 @@ figcaption{
  
 .zona{
       margin-left: 26px;
-      margin-bottom: 5px;
-      padding-top: 5px;
+      margin-bottom: 16px;
+      padding-top: 0px;
 }
 
 .pixel{

@@ -397,10 +397,10 @@ section{
 
   } 
 
-  .avto li a:hover {
-   color: #2a4263; Цвет ссылки при наведении на нее курсора мыши  
-   text-decoration: underline; Добавляем подчеркивание  
-   font-style: italic;
+  .avto li a:hover { 
+   color: #2a4263; Цвет ссылки при наведении на нее курсора мыши 
+   text-decoration: underline;
+   font-size: italic;
    font-size: 10pt;
    font-weight: 600;
   }
@@ -427,7 +427,7 @@ section{
     padding-top: 1px;
     padding-bottom: 0px;
     height: 22px;
-    padding-right: 4px;
+    padding-right: 0px;
 }
 
 .img_title {

@@ -553,14 +553,19 @@ figcaption{
  
  }
  nav input[type="checkbox"]{
-    margin-top: 9px;
-    margin-bottom: 6px;
+    margin-top: 4px;
+    margin-bottom: 10px;
  
   }
  
 .zona{
       margin-left: 26px;
-          margin-bottom: 12px;
+      margin-bottom: 6px;
+}
+
+.pixel{
+    width: 163px;
+    height: 32px;
 }
 
 /* --------------------------------------------------------------End left blok--------------------------------------------

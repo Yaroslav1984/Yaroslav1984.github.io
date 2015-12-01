@@ -567,8 +567,9 @@ figcaption{
 .pixel{
     width: 163px;
     height: 32px;
-    margin-top: 22px;
+    margin-top: 20px;
     position: relative;
+    right: 50px;
 }
 
 .pin{

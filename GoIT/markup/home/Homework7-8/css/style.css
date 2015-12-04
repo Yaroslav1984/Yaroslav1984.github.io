@@ -9,18 +9,25 @@ body {
     position: relative;  
     margin: auto;
     width: 100%; 
-	width: 2407px;
+	width: 2394px;
 	height: 2306px;
     background: white;
 }
  
- .wrapper{
-    text-align: center;
-    width: 960px;
-    position:relative;
-    display: block;
-} 
+/*  .wrapper{
+   text-align: center;
+   width: 2394px;
+   position:relative;
+   display: block;
+}  */
   
+.wrapper{
+	position absolute;
+width: 960px;
+margin-left: 720px;
+margin-right: 720px;
+}
+
 /* <!-- -------------------------------------------------------Menu---------------------------------------------------------- --> */
 
 header{
@@ -32,14 +39,17 @@ header{
  	font-family: 'Myriad Pro', sans-serif; 
  }
 
+
+
  .ping h1{
  	position: absolute; 
  	top: 69px;
     left: 720px; 
     color: #ffffff;
     font-weight: bold 700;
-    font-size: 48px;
-     font-stretch:extra-condensed; 
+    font-size: 43px;
+    font-stretch:extra-condensed; 
+
 }
 
 .ping span{
@@ -50,14 +60,16 @@ header{
 .menu {
 	margin: 0; /* Обнуляем значение отступов */
 	padding: 4px; /* Значение полей  */
+	padding-right: 0px;
 	margin-top: 75px;
-	margin-left: 350px;
+	margin-left: 287px;
+    width: 667px;
 }
 
 .menu li{
 	display: inline; /* Отображать как строчный элемент */
 	text-align: center;
-	padding-right: 53px;
+	padding-right: 35px;
 } 
 
 .menu li a{
@@ -88,13 +100,14 @@ header{
 	background-image: url(../img/fon.png);
 	margin-top: 172px;
 	height: 350px;
+	font-family: 'Myriad Pro', sans-serif; 
 	/* position: relative; */
 }
 
 .lorem_nav{
 	width: 500px;
     height: 233px;
-    margin-left: 720px;
+    margin-left: 0px;
     padding-top: 78px;
 }
 
@@ -142,5 +155,172 @@ header{
  left: 1900px;
  top: 437px;
  position: absolute;
+}
 
+.radio{
+	float: right;
+	margin-right: 175px;
+}
+
+ .radio ul{
+text-align: center;
+list-style: none; /* сбрасываем стандартный маркер */
+
+ }
+
+ .radio li{
+ 	display: inline-block; 
+	padding-right: 10px;
+	background: url(../img/point.png);
+	text-decoration: none;
+
+
+} 
+
+.radio a:active{
+color:#0000FF;
+
+}
+
+.radio li a{
+	text-align: center;
+	text-decoration: none;
+
+}
+
+/* ---------------------------------------------------------section-------------------------------------------------------------------------- */
+
+section {
+	overflow:hidden;
+	position: relative;
+	background-image: url(../img/fon_2.png);
+	height: 336px;
+}
+
+-/* ---------------------------------------------------sprite---------------------------------------------------------------------------------- */
+
+.menu_pip{
+   	overflow:hidden;
+	position: absolute;
+	height: 337px;
+	padding-top: 76px;
+}
+
+.menu_pip li{
+	float: left;
+
+}
+.menu_pip a{
+	height: 26px;
+	width: 30px;
+	display: block;
+	/* background: black url(../img/oll_pip.png) 0 0 no-repeat;  */
+}
+
+
+.key_about{
+	float: left;
+	width: 227px;
+	height: 196px;
+	padding-top: 76px;
+	padding-right: 114px
+
+}
+
+.speak_about{
+	float: left;
+	width: 227px;
+	height: 196px;
+	padding-top: 76px;
+	padding-right: 114px
+
+}
+
+.music_about{
+    float: left;
+	width: 227px;
+	height: 196px;
+	padding-top: 76px;
+}
+
+.about{
+	font-size: 30px;
+	color: #ffffff;
+	font-stretch:extra-condensed; 
+    font-family: 'Myriad Pro', sans-serif; 
+}
+
+section p{
+	font-size: 16px;
+	color: #e2e1e3;
+	margin-top: 16px;
+	width: 221px;
+	margin-bottom: 25px
+}
+
+.read{
+	float: right;
+}
+
+.read a{
+	color: white;
+	text-decoration: none;
+
+}
+
+-/* ---------------------------------------------------------</article>------------------------------------------------------------------------------- */
+
+.article {
+/* background-image: url(../img/fon_white.png); */
+overflow:hidden;
+position: relative;
+height: 604px;
+}
+
+.starts{
+	width: 369px;
+	height: 214px;
+	background-image: url(../img/foto_spook.png);
+	 padding-left: 50px;
+    padding-top: 30px;
+}
+
+.starts h1{
+font-family: 'Myriad Pro', sans-serif;
+text-transform: uppercase;
+font-size: 30px;
+float: left;
+}
+
+.starts span{
+	color: #edbfff;
+}
+
+.updates{
+	height: 302px;
+	width: 460px;
+	float: left;
+}
+
+.updates h1{
+	font-size: 30px;
+	font-family: 'Myriad Pro', sans-serif;
+}
+
+.updates li {
+	list-style-type: none;
+/* 	text-decoration: none; */
+}
+
+span.hear{
+	float: left;
+	margin-top: 32px;;
+}
+
+span.hear a{
+	float: left;;
+	margin-left: 190px;
+	font-family: 'Myriad Pro', sans-serif;
+	text-decoration: none;
+	color: black;
 }

@@ -268,21 +268,24 @@ section p{
 
 }
 
--/* ---------------------------------------------------------</article>------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------</article>------------------------------------------------------------------------------- */ 
 
-.article {
-/* background-image: url(../img/fon_white.png); */
+article {
+background-image: url(../img/fon_white.png); 
 overflow:hidden;
 position: relative;
 height: 604px;
+/* background: #F5F5F5; */
 }
 
 .starts{
-	width: 369px;
+	width: 363px;
 	height: 214px;
 	background-image: url(../img/foto_spook.png);
-	 padding-left: 50px;
+	padding-left: 70px;
+	margin-top: 97px;
     padding-top: 30px;
+    
 }
 
 .starts h1{
@@ -299,7 +302,7 @@ float: left;
 .updates{
 	height: 302px;
 	width: 460px;
-	float: left;
+/* 	float: left; */
 }
 
 .updates h1{
@@ -310,6 +313,10 @@ float: left;
 .updates li {
 	list-style-type: none;
 /* 	text-decoration: none; */
+}
+
+.updates ul{
+	margin-top: 30px;
 }
 
 span.hear{

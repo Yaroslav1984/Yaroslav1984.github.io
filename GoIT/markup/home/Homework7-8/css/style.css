@@ -14,15 +14,7 @@ body {
     background: white;
 }
  
-/*  .wrapper{
-   text-align: center;
-   width: 2394px;
-   position:relative;
-   display: block;
-}  */
-  
 .wrapper{
-	position absolute;
 width: 960px;
 margin-left: 720px;
 margin-right: 720px;
@@ -157,36 +149,54 @@ header{
  position: absolute;
 }
 
-.radio{
+/* ---------------------------------------------карусель----------------------------------------------------------
+ */
+
+ .radio{
 	float: right;
 	margin-right: 175px;
+	overflow:hidden;
+	width: 100px;
+    height: 20px;
+    margin-top: 94px;
+    overflow:hidden;
 }
 
- .radio ul{
+
+   .radio ul{
 text-align: center;
-list-style: none; /* сбрасываем стандартный маркер */
-
- }
-
- .radio li{
- 	display: inline-block; 
-	padding-right: 10px;
-	background: url(../img/point.png);
-	text-decoration: none;
-
+list-style: none; сбрасываем стандартный маркер
 
 } 
 
-.radio a:active{
-color:#0000FF;
+ .radio li{
+ 	list-style: none;
+	padding-right: 10px;
+	text-decoration: none;
+	display: inline; Отображать как строчный элемент	
+} 
 
+
+
+.radio a:hover{
+background-image: url(../img/pin.png);
 }
+
 
 .radio li a{
 	text-align: center;
 	text-decoration: none;
+	display: block;
 
+} 
+
+
+.radio li a{
+	text-align: center;
+	text-decoration: none;
+	display: block;
 }
+
 
 /* ---------------------------------------------------------section-------------------------------------------------------------------------- */
 
@@ -215,7 +225,7 @@ section {
 	height: 28px;
 	width: 28px;
 	display: block;
-	 background: url(../img/sprite.png) 0 0 no-repeat;  
+	background: url(../img/sprite.png) 0 0 no-repeat;  
 }
 
 .menu_sprite.key{
@@ -281,6 +291,11 @@ section p{
     font-stretch:extra-condensed; 
     font-family: 'Myriad Pro', sans-serif; 
 
+}
+
+p:active{
+color:  #f00;
+	  
 }
 
 /* ---------------------------------------------------------</article>------------------------------------------------------------------------------- */ 
@@ -355,36 +370,44 @@ span.hear a{
 	font-stretch: extra-condensed;
 	font-weight: bold;
 }
- 
+
+
+
+.radio li a{
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+   
 .radio_one{
 	float: left;
 	margin-left: 180px;
 	margin-bottom: 50px;
+    width: 100px;
+    height: 20px;
+	overflow:hidden;
 }
- 
- .radio-one ul{
- text-align: center; 
- list-style: none; /* сбрасываем стандартный маркер */
 
- }
+.radio-one ul{
+text-align: center; 
+list-style: none; сбрасываем стандартный маркер
 
- .radio_one li{
- 	display: inline-block; 
+}
+
+.radio_one li{
+	display: inline-block; 
 	padding-right: 10px;
-	background: url(../img/point.png);
+	list-style: none;
+	text-decoration: none;
+	display: inline;  Отображать как строчный элемент 
 	text-decoration: none;
 } 
 
-.radio_one a:active{
-color:#0000FF;
-
+ .radio_one a:hover{
+background-image: url(../img/pin.png);
 }
 
-.radio_one li a{
-	text-align: center;
-	text-decoration: none;
-
-}
 
 .logo{
     width: 100%;

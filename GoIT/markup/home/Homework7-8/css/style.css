@@ -197,33 +197,46 @@ section {
 	height: 336px;
 }
 
--/* ---------------------------------------------------sprite---------------------------------------------------------------------------------- */
+/* ---------------------------------------------------sprite---------------------------------------------------------------------------------- */
 
-.menu_pip{
+.menu_sprite{
    	overflow:hidden;
 	position: absolute;
-	height: 337px;
-	padding-top: 76px;
 }
 
-.menu_pip li{
+.menu_sprite li{
 	float: left;
-
+	list-style: none;
+ 	margin-top: 80px;
+    margin-right: 300px; 
 }
-.menu_pip a{
-	height: 26px;
-	width: 30px;
+
+.menu_sprite a{
+	height: 28px;
+	width: 28px;
 	display: block;
-	/* background: black url(../img/oll_pip.png) 0 0 no-repeat;  */
+	 background: url(../img/sprite.png) 0 0 no-repeat;  
 }
 
+.menu_sprite.key{
+	background-position: -38px 0;
+}
+
+.menu_sprite.spaek{
+	background-position: -66px 0;
+}
+
+.menu_sprite.musik{
+	background-position: -104px 0;
+}
 
 .key_about{
 	float: left;
 	width: 227px;
 	height: 196px;
 	padding-top: 76px;
-	padding-right: 114px
+	padding-right: 105px;
+	margin-left: 56px;
 
 }
 
@@ -265,6 +278,8 @@ section p{
 .read a{
 	color: white;
 	text-decoration: none;
+    font-stretch:extra-condensed; 
+    font-family: 'Myriad Pro', sans-serif; 
 
 }
 
@@ -451,7 +466,7 @@ text-align: center;
  .menu_bootom li{
  	display: inline-block; 
 	text-decoration: none;
-	margin-right: 57px;
+	margin-right: 39px;
 
 
 } 
@@ -474,7 +489,11 @@ font-weight: bold;
 color: white;	
 }
 
+li.as{
+	    margin-left: 100px; 
+}
+
 .as span{
 	color: #dcdbde;
 	font-weight: normal;
-}
+} 

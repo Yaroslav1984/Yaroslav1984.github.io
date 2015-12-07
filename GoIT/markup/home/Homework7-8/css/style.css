@@ -228,17 +228,19 @@ section {
 	background: url(../img/sprite.png) 0 0 no-repeat;  
 }
 
- .sprite. key{
-	background-position: -38px 0;
+ .sprite .key{
+	background-position: 0px 0;
 }
 
-.sprite. spaek{
-	background-position: -66px 0;
+.sprite .spaek{
+	background-position: -34.5px 0;
 }
 
-.sprite. musik{
-	background-position: -104px 0;
+.sprite .musik{
+	 background-position: -67px 0;
 }
+
+/* ----------------------------------------------------end sprite------------------------------------------------------ */
 
 .key_about{
 	float: left;

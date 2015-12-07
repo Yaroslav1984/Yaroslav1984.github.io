@@ -77,7 +77,6 @@ header{
 	  
 }
 
-
 /* ------------------------------------------------серый фон lorem ipsum text------------------------------------------------------------------ */
 
 .slider{
@@ -144,50 +143,42 @@ header{
 /* ---------------------------------------------карусель----------------------------------------------------------
  */
 
- .radio{
-	float: right;
-	margin-right: 175px;
-	overflow:hidden;
-	width: 100px;
-    height: 20px;
-    margin-top: 94px;
-    overflow:hidden;
+.radio{
+/* 	position: absolute; */
+    bottom: 0;
+    left: 15px;
+    overflow: hidden;
+    margin-left: 690px;
+    margin-top: 120px;
 }
 
+.radio li{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #3b3942;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    margin-right: 2px;
+    opacity: .75;
 
-   .radio ul{
-text-align: center;
-list-style: none; сбрасываем стандартный маркер
-
-} 
-
- .radio li{
- 	list-style: none;
-	padding-right: 10px;
-	text-decoration: none;
-	display: inline; Отображать как строчный элемент	
-} 
-
-
-
-.radio a:hover{
-background-image: url(../img/pin.png);
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 
-
-.radio li a{
-	text-align: center;
-	text-decoration: none;
-	display: block;
+.radio li .active{
+	background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 
 } 
-
-
-.radio li a{
-	text-align: center;
-	text-decoration: none;
-	display: block;
-}
 
 
 /* ---------------------------------------------------------section-------------------------------------------------------------------------- */
@@ -385,8 +376,8 @@ span.hear a{
 
 .radio-one ul{
 text-align: center; 
-list-style: none; сбрасываем стандартный маркер
-
+list-style: none; /* сбрасываем стандартный маркер
+ */
 }
 
 .radio_one li{
@@ -394,13 +385,13 @@ list-style: none; сбрасываем стандартный маркер
 	padding-right: 10px;
 	list-style: none;
 	text-decoration: none;
-	display: inline;  Отображать как строчный элемент 
+	display: inline;  /* Отображать как строчный элемент */ 
 	text-decoration: none;
 } 
 
- .radio_one a:hover{
+/*  .radio_one a:hover{
 background-image: url(../img/pin.png);
-}
+} */
 
 
 .logo{

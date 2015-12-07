@@ -209,34 +209,34 @@ section {
 
 /* ---------------------------------------------------sprite---------------------------------------------------------------------------------- */
 
-.menu_sprite{
+.sprite{
    	overflow:hidden;
 	position: absolute;
 }
 
-.menu_sprite li{
+.sprite li{
 	float: left;
 	list-style: none;
  	margin-top: 80px;
     margin-right: 300px; 
 }
 
-.menu_sprite a{
+.sprite a{
 	height: 28px;
 	width: 28px;
 	display: block;
 	background: url(../img/sprite.png) 0 0 no-repeat;  
 }
 
-.menu_sprite.key{
+ .sprite. key{
 	background-position: -38px 0;
 }
 
-.menu_sprite.spaek{
+.sprite. spaek{
 	background-position: -66px 0;
 }
 
-.menu_sprite.musik{
+.sprite. musik{
 	background-position: -104px 0;
 }
 

@@ -19,7 +19,7 @@
 body {  
     width: 1215px;
     height: 1030px;
-	margin: 0px auto;
+    margin: 0px auto;
     background-size: auto;
     background-position: top; 
     font-family:"helveticaneuecyrroman", Tahoma, sans-serif;
@@ -46,14 +46,14 @@ body {
 
 
 .menu a{
-	  float: left;
+      float: left;
       padding-bottom: 7px;
       padding-top: 5px;
-	  padding-left: 10px;
+      padding-left: 10px;
       padding-right: 10px;
-	  font-size: 14.0pt;
-	  text-decoration: none;
-	  color: #60b5ed;
+      font-size: 14.0pt;
+      text-decoration: none;
+      color: #60b5ed;
       font-size: 12.5pt;
 }
 
@@ -70,12 +70,12 @@ body {
 }
 
 .ola a{
-    background-color: #4eabda;
-    color: #ffffff;
+      background-color: #4eabda;
+      color: #ffffff;
 }
 
 span{
-    text-decoration: underline;
+      text-decoration: underline;
 }
 
 .lines a {
@@ -91,7 +91,6 @@ span{
 .lines img{
       width: 2px;
       height: 33px;
-
  }
 
 
@@ -184,8 +183,8 @@ input[type="image"] {
     color: #DCDCDC;
 }
 
- #Send{
-	width: 17px;
+ #send{
+    width: 17px;
     height: 17px;
     margin-left: 160px;
     margin-right: 10px;

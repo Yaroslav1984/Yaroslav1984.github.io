@@ -1,1 +1,107 @@
-style.css
+td {
+  border: 3px solid #000000;
+  width: 65px;
+}
+
+.tr1 {
+  height: 45px;
+}
+
+.tr2 {
+  height: 110px;
+}
+
+.tr3 {
+  height: 110px;
+}
+
+.tr4 {
+  height: 45px;
+}
+
+.tr5 {
+  height: 45px;
+}
+
+.tr6 {
+  height: 30px;
+}
+.tr7 {
+  height: 30px;
+}
+
+.white_top1 {
+  border-top: none;
+  border-left: none;
+}
+
+.white_top2 {
+  border-top: none;
+}
+
+.yellow_top1 {
+  border-top: none;
+  border-right: none;
+  background: #FFD700;
+}
+
+.white_left {
+  border-left: none;
+}
+
+.red1 {
+  border-bottom: none;
+  background: #FF4500;
+}
+
+.red2 {
+  border-top: none;
+  background: #FF4500;
+}
+
+.yellow_centre {
+  background: #FFD700;
+  border-right: none;
+}
+
+.white_right2 {
+   border-right: none;
+}
+
+.yellow_left {
+  border-left: none;
+  border-bottom: none;
+  background: #FFD700;
+}
+
+.white_bottom1 {
+  border-bottom: none;
+}
+
+.white_bottom2 {
+  border-bottom: none;
+  border-top: none;
+}
+
+.white_bottom3 {
+  border-bottom: none;
+  border-right: none;
+}
+
+.blue2 {
+  border-bottom: none;
+  border-right: none;
+}
+
+.blue1 {
+   border-right: none;
+   border-top: none;
+}
+
+.black {
+   background: #696969;
+}
+
+.blue1, .blue2 {
+  background: #0000CD;
+}

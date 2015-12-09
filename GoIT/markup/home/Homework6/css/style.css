@@ -46,7 +46,10 @@ header{
 .contact span{
     font-size: 18px;
     color: #61696d;
-    margin-left: 26px;
+    margin-left: 5px;
+    position: absolute;
+    left: 75px;
+    width: 290px;
 }
 
 .contact{
@@ -65,8 +68,9 @@ header{
     position: absolute;
 }
 
-.tell{
+span .tell{
     margin-left: 1px;
+    left: 140px;
 
 }
 
@@ -106,7 +110,7 @@ border-radius: 2px 2px 2px 2px;
 
 }
 
-.avtor{
+.author{
    float: left;
    width: 16px;
    height: 19px;
@@ -134,7 +138,7 @@ border-radius: 2px 2px 2px 2px;
 }
 
 
-input[type="name"]{
+input[type="name_login"]{
     height: 10px;
     width: 107px;
     padding-left: 7px;
@@ -142,7 +146,7 @@ input[type="name"]{
     padding-bottom: 2px;
 }
 
- input[value="вход"]{
+ input[type="submit_entrance"]{
     width: 29px;
     background: none;
     font-size: 8pt;
@@ -153,11 +157,10 @@ input[type="name"]{
     color: white;  
 }
 
-input[value="регистрация"]{
+input[type="submit_check"]{
     width: 64px;
     background: none;
     font-size: 8pt;
-    width: 73px;
     border-left-width: 0px;
     border-top-width: 0px;
     border-bottom-width: 0px;
@@ -168,7 +171,7 @@ input[value="регистрация"]{
 } 
 
 
-input[type="button"]{
+input[type="button_password"]{
     width: 110px;
     background: none;
     text-decoration:underline;
@@ -184,7 +187,7 @@ input[type="button"]{
 
 /* ------------------------------------------MENU------------------------------------------------------------------- */
 
-.zazor{
+.title_center{
      margin-bottom: 2px;
      width: 911px;
 }
@@ -310,12 +313,12 @@ menu li a{
      right: 228px;
 }
 
-.zero{
+.sum{
      color: #355a8c;
      margin-right: 30px;
 }
 
-.zero2{
+.sum_two{
     color: #355a8c;
 }
 
@@ -336,7 +339,7 @@ section{
   padding-bottom: 20000px;
   margin-bottom: -20000px;
   width: 207px;
-  color: #2a4263;
+  color: #2a4263;  /* Цвет обычной ссылки */
   font-size: 10pt;
 }
  
@@ -389,16 +392,16 @@ section{
   
 .avto li a {
   text-decoration: none;
-  color: #2a4263; Цвет обычной ссылки 
+  color: #2a4263; /* Цвет обычной ссылки  */
   }
 
  .avto li a:visited {
-   color: #2a4263; Цвет посещённой ссылки
+   color: #2a4263; /* Цвет посещённой ссылки */
 
   } 
 
   .avto li a:hover { 
-   color: #2a4263; Цвет ссылки при наведении на нее курсора мыши 
+   color: #2a4263; /* Цвет ссылки при наведении на нее курсора мыши  */
    text-decoration: underline;
    font-size: italic;
    font-size: 10pt;
@@ -442,11 +445,11 @@ section{
 /* ----------------------------------------------------------Zenter Blok--------------------------------------------------
  */
   
-  .zentr_menu{
+   .menu_centr {
     float: left;
     width: 510px;
     height: 643px;
-    background: linear-gradient(to top, #9da8b0, #e4e6e7); 
+    background: -webkit-linear-gradient(bottom, #9da8b0, #e4e6e7); 
   }
 
 
@@ -487,9 +490,23 @@ figcaption{
    font-size: 8pt;
 }
 
+.figure_one{
+  height: 195px;
+  width: 510px;
+}
+
+.figure_two{
+  height: 198px;
+  width: 510px;
+}
+
+.figure_three{
+  height: 204px;
+  width: 510px;
+}
 
 
-/* -------------------------------------------------- End Zentr Blok---------------------------------------------------- */
+/* -------------------------------------------------- End Centr Blok---------------------------------------------------- */
 
 
 /* ----------------------------------------------------- Left Blok------------------------------------------------------- */
@@ -551,7 +568,7 @@ figcaption{
     padding-left: -14px;
  
  }
-  input[type="checkbox"]{
+  input[name="brend"]{
     margin-top: 48px;
     margin-top: 7px;
  
@@ -603,15 +620,15 @@ footer li a{
   color: #bfc4c7;
   font-size: 10pt;
   font-weight: normal;
-  text-decoration: none; Добавляем подчеркивание
+  text-decoration: none; /* Добавляем подчеркивание */
 }
 
 footer li a:hover {
-   color: #00CED1; Цвет ссылки при наведении на нее курсора мыши  
-   text-decoration: none; Добавляем подчеркивание
+   color: #00CED1; /* Цвет ссылки при наведении на нее курсора мыши   */
+   text-decoration: none; /* Добавляем подчеркивание */
    font-size: 10pt;
    font-weight: normal;
-   text-decoration: none; Добавляем подчеркивание
+   text-decoration: none;/*  Добавляем подчеркивание */
 }
 
 
@@ -628,23 +645,23 @@ margin-left: 354px;
    width: 84px;
    height: 26px;
    color: white;
-   background: #225484; Цвет фона
-   border: 1px solid #225484; Параметры рамки
-   width: 84px; Ширина кнопки
-   height: 28px; Высота
+   background: #225484; /* Цвет фона */
+   border: 1px solid #225484; /* Параметры рамки */
+   width: 84px;/*  Ширина кнопки */
+   height: 28px; /*  #2a4263Высота */
    border-radius: 5px;
 
 }
 
 .pixel [type="submit"] {
-       margin-left: 22px;
-       border-radius: 50px 50px;
-      margin-top: 4px;
+    margin-left: 22px;
+    border-radius: 50px 50px;
+    margin-top: 4px;
     margin-left: 72px;
 }
 
  .partner {
- text-align: center; 
+    text-align: center; 
 } 
 
  .partner img{

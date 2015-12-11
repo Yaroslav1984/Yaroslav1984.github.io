@@ -15,16 +15,19 @@ body {
 }
  
 .wrapper{
-width: 960px;
-margin-left: 720px;
-margin-right: 720px;
+width: 320px;
+margin-left: 1040px;
+margin-right: 1040px;
+overflow: hidden;
+position: absolute;
+float: left;
 }
 
 /* <!-- -------------------------------------------------------Menu---------------------------------------------------------- --> */
 
 header{
 	background-image: url(../img/header.jpg);
-	height: 840px;
+	height: 515px;
 	width: 2394px;
  	overflow:hidden;
 	position: relative; 
@@ -34,15 +37,21 @@ header{
 
 
  .ping h1{
- 	position: absolute; 
+    text-align: center;
  	top: 69px;
     left: 720px; 
     color: #ffffff;
     font-weight: bold 700;
     font-size: 43px;
     font-stretch:extra-condensed; 
+    float: left;
 
 }
+
+.link{
+    float: left;
+}
+
 
 .ping span{
 	color: #533b5e;

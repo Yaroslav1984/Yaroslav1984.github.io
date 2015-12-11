@@ -38,11 +38,11 @@ header{
 
  .ping h1{
     text-align: center;
- 	top: 69px;
+ 	top: 48px;
     left: 720px; 
     color: #ffffff;
     font-weight: bold 700;
-    font-size: 43px;
+    font-size: 36px;
     font-stretch:extra-condensed; 
     float: left;
 
@@ -89,11 +89,11 @@ header{
 /* ------------------------------------------------серый фон lorem ipsum text------------------------------------------------------------------ */
 
 .slider{
-	background-image: url(../img/fon.png);
-	margin-top: 172px;
-	height: 350px;
-	font-family: 'Myriad Pro', sans-serif; 
-	/* position: relative; */
+/*  	background-image: url(../img/fon.png); */
+margin-top: 172px;
+height: 350px;
+font-family: 'Myriad Pro', sans-serif; 
+position: relative; 
 }
 
 .lorem_nav{
@@ -104,29 +104,22 @@ header{
 }
 
 .lorem_nav h2{
-	font-size: 60px;
+	font-size: 48px;
 	color: #ffffff;
 	font-weight: normal;
 	font-stretch:extra-condensed; 
 }
 
 .lorem_nav h3{
-	font-size: 32px;
+	font-size: 18px;
 	color: #edbfff;
 	font-weight: normal;
 	font-stretch:extra-condensed; 
 }
 
-.lorem_nav p{
-	font-size: 18px;
-	color: #edeced;
-	font-weight: 100; 
-
-}
-
 /* ----------------------------------------------------------iphone and point-------------------------------------------------------------------- */
 
-.iphone{
+/* .iphone{
   position: absolute;
   left: 1327px;
   top: 270px;
@@ -147,7 +140,7 @@ header{
  left: 1900px;
  top: 437px;
  position: absolute;
-}
+} */
 
 /* ---------------------------------------------карусель----------------------------------------------------------
  */
@@ -196,7 +189,7 @@ section {
 	overflow:hidden;
 	position: relative;
 	background-image: url(../img/fon_2.png);
-	height: 336px;
+	height: 600px;
 }
 
 /* ---------------------------------------------------sprite---------------------------------------------------------------------------------- */

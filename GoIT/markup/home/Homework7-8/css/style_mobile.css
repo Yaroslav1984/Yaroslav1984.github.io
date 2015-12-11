@@ -249,12 +249,12 @@ section {
 .music_about{
     float: left;
 	width: 227px;
-	height: 196px;
+	height: 150px;
 	padding-top: 76px;
 }
 
 .about{
-	font-size: 30px;
+	font-size: 24px;
 	color: #ffffff;
 	font-stretch:extra-condensed; 
     font-family: 'Myriad Pro', sans-serif; 

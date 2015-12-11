@@ -178,10 +178,7 @@ input[type="button_password"]{
     color: #b7b8b9;
     font-weight: 600;
     margin-left: 1px;
-    border-left-width: 0px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
+    border-width: 0px 0px 0px 0px;
     font-size: 8pt;
 }
 
@@ -386,7 +383,7 @@ section{
     padding-top: 2px;
     padding-bottom: 7px;
     list-style-type: circle;
-     font-size: 9pt;
+    font-size: 9pt;
  }
 
   
@@ -490,21 +487,21 @@ figcaption{
    font-size: 8pt;
 }
 
+.figure_one, .figure_two, .figure_three{
+  width: 510px;
+}
+
 .figure_one{
   height: 195px;
-  width: 510px;
 }
 
 .figure_two{
   height: 198px;
-  width: 510px;
 }
 
 .figure_three{
   height: 204px;
-  width: 510px;
 }
-
 
 /* -------------------------------------------------- End Centr Blok---------------------------------------------------- */
 
@@ -566,8 +563,8 @@ figcaption{
  
  nav li{
     padding-left: -14px;
- 
  }
+ 
   input[name="brend"]{
     margin-top: 48px;
     margin-top: 7px;
@@ -590,7 +587,7 @@ figcaption{
 
 .pin{
 
-      margin-top: 11px;
+    margin-top: 11px;
 }
 
 /* --------------------------------------------------------------End left blok--------------------------------------------
@@ -602,7 +599,7 @@ figcaption{
    width: 911px;
    height: 99px;
    background-color: #193658;
-  padding-top: 2px;
+   padding-top: 2px;
 }
 
 footer ul{
@@ -636,7 +633,7 @@ footer p{
  font-size: 11px;
  padding-top: 21px;;
  color: #524249;
-margin-left: 354px;
+ margin-left: 354px;
  font-weight:bold;
 }
 

@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+
+body { 
+    display: block;
+    position: relative;  
+    margin: auto;
+    width: 2394px; 
+	height: 3030px;
+    background: black;
+}
+
+.wrapper{
+	float: left;
+	overflow: hidden;
+	max-width: 480px;
+    width: 100%;
+    margin-left: 960px;
+    margin-right: 960px;
+}
+
+/* -------------------------------------------header------------------------------------------------------------ */
+
+header{
+	background: url(../img/header.jpg) no-repeat;
+	height: 545px;
+  	width: 100%;  
+   	overflow:hidden;  
+	position: relative; 
+ 	font-family: 'Myriad Pro', sans-serif; 
+ 	z-index: auto;
+ }
+
+ .ping h1{
+ 	top: 69px;
+    left: 720px; 
+    color: #ffffff;
+    font-weight: bold 700;
+    font-size: 48px;
+    font-stretch:extra-condensed; 
+    text-align: center;
+
+}
+
+.ping span{
+	color: #533b5e;
+
+}
+ 
+.menu {
+	margin: 0; /* Обнуляем значение отступов */
+	padding: 4px; /* Значение полей  */
+	width: 246px;
+    height: 220px;
+	text-align: center;
+	margin-left: 113px;
+	margin-right: 113px;
+
+    background: -webkit-linear-gradient(bottom, #483a4e, #483a4e);
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border: 1px solid #000000;
+    overflow: hidden;
+}
+
+.menu ul{
+/*     background: url(../img/fone_menu.png); */
+}
+
+.menu li{
+	list-style-type: none; /* Убираем маркеры */
+	margin-top: 8px;
+    margin-bottom: 8px
+    text-decoration: underline;
+}
+
+.menu li a{
+    text-transform: uppercase; /* все буквы большие */
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none; 
+    font-stretch:extra-condensed; 
+}
+
+.menu li:hover{
+	 text-decoration: underline;
+	 background: #2a222f; /* Цвет фона под ссылкой */ 
+     color: #ffe; /* Цвет ссылки */ 
+}
+	 
+.slider{
+	background-image: url(../img/fon.png);
+	margin-top: 172px;
+	height: 243px;
+	font-family: 'Myriad Pro', sans-serif; 
+/*  	position: relative;   */
+}
+
+.lorem_nav{
+    position: absolute;
+    top: 260px;
+}
+ 
+.lorem_nav h2{
+	font-size: 32px;
+	color: #ffffff;
+	font-weight: normal;
+	font-stretch:extra-condensed; 
+}
+
+.lorem_nav h3{
+	font-size: 16px;
+	color: #edbfff;
+	font-weight: normal;
+	font-stretch:extra-condensed; 
+}
+
+/* ----------------------------------------------------------iphone and point-------------------------------------------------------------------- */
+
+.iphone{
+  position: absolute;
+  margin-left: 280px;
+  top: 160px;
+}
+
+.iphone img{
+	    height: 300px;
+}
+
+.point_left{
+ position: absolute;
+ top: 273px;
+ left: 920px;
+}
+
+.point_right{
+ left: 1900px;
+ top: 437px;
+ position: absolute;
+}

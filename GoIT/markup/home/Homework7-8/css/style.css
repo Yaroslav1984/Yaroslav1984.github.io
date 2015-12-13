@@ -59,13 +59,13 @@ header{
     width: 100%;
 }
 
-.menu li{
+.menu_item{
 	display: inline; /* Отображать как строчный элемент */
 	text-align: center;
 	padding-right: 35px;
 } 
 
-.menu li a{
+.menu_link{
     text-transform: uppercase; /* все буквы большие */
     font-size: 24px;
     color: #ffffff;
@@ -73,7 +73,7 @@ header{
     font-stretch:extra-condensed; 
 }
 
-.menu li a:hover{
+.menu_link:hover{
 	 text-decoration: underline;
 	  
 }
@@ -142,11 +142,12 @@ header{
  position: absolute;
 }
 
-/* ---------------------------------------------карусель----------------------------------------------------------
+/* ---------------------------------------------карусель 1----------------------------------------------------------
  */
 
 .radio{
     bottom: 0;
+    float: left;
     left: 15px;
     overflow: hidden;
     margin-left: 690px;
@@ -230,7 +231,7 @@ section {
 
 .key_about{
 	float: left;
-	width: 23;
+	width: 23%;
 	height: 196px;
 	padding-top: 76px;
 	padding-right: 105px;
@@ -289,27 +290,27 @@ color:  #f00;
 /* ---------------------------------------------------------</article>------------------------------------------------------------------------------- */ 
 
 article {
-background-image: url(../img/fon_white.png); 
-overflow:hidden;
-position: relative;
-height: 603px;
-
+   background-image: url(../img/fon_white.png); 
+   overflow:hidden;
+   position: relative;
+   height: 603px;
+   width: 100%;
 }
 
 .logo{
-height: 121px; 
+   height: 121px; 
 }
 
 .starts img{
     margin-top: 97px;
     float: left;
+    width: 45%;
     height: 274px;
-    width: 419px;
 }
 
 .updates{
 	height: 302px;
-	width: 50%;
+	width: 44%;
  	float: left;
  	margin-top: 110px;
     margin-left: 40px; 
@@ -359,83 +360,80 @@ span.hear a{
 	font-weight: bold;
 }
 
-/**/
-   
+/* --------------------------------------------карусель 2------------------------------------------------------------
+ */
+
 .radio_one{
+    overflow: hidden;
 	float: left;
+	width: 11%;
 	margin-left: 180px;
 	margin-bottom: 50px;
-    width: 100%;
-    height: 20px;
-	overflow:hidden;
-}
-
-.radio li a{
-	text-align: center;
-	text-decoration: none;
-	display: block;
-}
-
-
-.radio_one ul{
-text-align: center; 
-list-style: none; /* сбрасываем стандартный маркер */
-width: 100px;
-height: 20px;
 }
 
 .radio_one li{
-	display: inline-block; 
-	padding-right: 10px;
-	list-style: none;
-	text-decoration: none;
-	display: inline; /*  Отображать как строчный элемент  */
-	text-decoration: none;
-} 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #3b3942;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    margin-right: 2px;
+    opacity: .75;
 
-.radio_one a:hover{
-background-image: url(../img/pin.png);
+    padding-top: 5px 5px 5px 5px;
 }
 
+.radio_one li .active{
+	background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 
-.logo{
-    width: 100%;
 } 
+
+.radio_one ul{
+	    height: 23px;
+}
 
 /* ---------------------------------------------------aside------------------------------------------------------------------- */
 
 aside {
-background-image: url(../img/grey_fon.png); 
-overflow:hidden;
-position: relative;
-height: 395px;
+   background-image: url(../img/grey_fon.png); 
+   overflow:hidden;
+   position: relative;
+   height: 395px;
 }
 
  .news{
-  width: 265px;
-  height: 180px;
-  float: left;
-  margin-top: 91px;
-  margin-right: 40px;
+   width: 265px;
+   height: 180px;
+   float: left;
+   margin-top: 91px;
+   margin-right: 40px;
 
 } 
 
 .news_one{
-  width: 32%;
-  height: 180px;
-  float: left;
-  margin-top: 91px;
-  margin-right: 40px;
+   width: 32%;
+   height: 180px;
+   float: left;
+   margin-top: 91px;
+   margin-right: 40px;
 }
 
 .news_one h1{
-  font-stretch: extra-condensed;
-  font-size: 48px;
-  font-family: 'Myriad Pro', sans-serif;
+   font-stretch: extra-condensed;
+   font-size: 48px;
+   font-family: 'Myriad Pro', sans-serif;
 }
 
 .news_one span{
-color: #b9b9b9;
+   color: #b9b9b9;
 }
 
 .news_one h3{
@@ -445,9 +443,9 @@ color: #b9b9b9;
 }
 
 .news h1{
-  font-stretch: extra-condensed;
-  font-size: 30px;
-  font-family: 'Myriad Pro', sans-serif;
+   font-stretch: extra-condensed;
+   font-size: 30px;
+   font-family: 'Myriad Pro', sans-serif;
 }
 
 /* --------------------------------------------footer----------------------------------------------------------------- */
@@ -459,54 +457,41 @@ footer{
 	background-image: url(../img/img_footer.png);
 }
 
-.menu_bootom{
-list-style-type: none;
-float: left;
-margin-top: 46px;
-font-family: 'Myriad Pro', sans-serif;
-font-stretch: extra-condensed;
-text-transform: uppercase; /* все буквы большие */
-
+.menu_footer{
+    list-style-type: none;
+    float: left;
+    margin-top: 46px;
+    font-family: 'Myriad Pro', sans-serif;
+    font-stretch: extra-condensed;
+    text-transform: uppercase; /* все буквы большие */
+    text-align: center;
 }
 
-
-
-.menu_bootom ul{
-text-align: center;
-
- }
-
- .menu_bootom li{
+ .menu_footer .menu_item{
  	display: inline-block; 
 	text-decoration: none;
 	margin-right: 39px;
-
-
 } 
 
-.menu_bootom a:active{
-color:#0000FF;
-
+.menu_footer .menu_link:active{
+    color:#0000FF;
 }
 
-.menu_bootom li a{
+.menu_footer .menu_link{
 	text-align: center;
 	text-decoration: none;
 	color: #dcdbde;
 	font-size: 20px;
 }
 
-li.as a{
-text-transform: none;
-font-weight: bold;
-color: white;	
+.menu_item_as .menu_link{
+    text-transform: none;
+    font-weight: bold;
+    color: white;
+    margin-left: 100px; 	
 }
 
-li.as{
-	    margin-left: 100px; 
-}
-
-.as span{
+.menu_link span{
 	color: #dcdbde;
 	font-weight: normal;
 } 
@@ -514,7 +499,6 @@ li.as{
 @media (max-width: 960px){
  .spite{
  	width: 26px;
-    
  }
 
 @media (max-width: 480px){

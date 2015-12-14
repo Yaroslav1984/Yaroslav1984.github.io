@@ -1,0 +1,71 @@
+--- GoIT/markup/home/Homework7-8/css/style.css
++++ GoIT/markup/home/Homework7-8/css/style.css
+@@ -12,13 +12,6 @@ body {
+ 	height: 2306px;
+     background: white;
+ }
+- 
+-.wrapper{
+-width: 960px;
+-margin-left: 720px;
+-margin-right: 720px;
+-float: left;
+-}
+ 
+ /* <!-- -------------------------------------------------------Menu---------------------------------------------------------- --> */
+ 
+@@ -32,17 +25,16 @@ header{
+  }
+ 
+ 
++.ping {
++	text-align: center;
++}
+ 
+- .ping h1{
+- 	position: absolute; 
+- 	top: 69px;
+-    left: 720px; 
++.ping h1{
++	display: inline;
+     color: #ffffff;
+     font-weight: bold 700;
+     font-size: 43px;
+     font-stretch:extra-condensed; 
+-    float: left;
+-
+ }
+ 
+ .ping span{
+@@ -55,7 +47,6 @@ header{
+ 	padding: 4px; /* Значение полей  */
+ 	padding-right: 0px;
+ 	margin-top: 75px;
+-	margin-left: 287px;
+     width: 100%;
+ }
+ 
+@@ -500,9 +491,18 @@ footer{
+  .spite{
+  	width: 26px;
+  }
++}
+ 
+-@media (max-width: 480px){
+- .spite{
+- 	width: 26px;
+-    
+- }
++
++@media screen and (max-width: 768px) and (min-width: 480px) {
++  ul.menu li{
++    display: block;
++  }
++
++  body {
++  	min-width: 480px;
++  	max-width: 768px;
++  	width: 100%;
++
++  }
++}

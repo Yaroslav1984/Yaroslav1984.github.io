@@ -931,6 +931,15 @@ footer{
     text-align: center;
     }
     
+    .menu_footer {
+    list-style-type: none;
+    margin-top: 46px;
+    font-family: 'Myriad Pro', sans-serif;
+    font-stretch: extra-condensed;
+    text-transform: uppercase;
+    text-align: center;
+    }
+    
      .menu_footer .menu_item{
 	text-decoration: none;
 	margin-right: 0px;

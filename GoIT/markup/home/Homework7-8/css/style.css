@@ -900,6 +900,8 @@ footer{
     	margin-left: 0px;
         margin-right: 0px;
         margin-top: 51px;
+        width: 480px;
+        height: 115px;
     /* 	float: left; */
     }
 
@@ -908,7 +910,10 @@ footer{
         margin-left: 0px;
         margin-right: 0px;    	/* float: left; */
     }
-
+    
+    .news_one h1 {
+       font-size: 24px;
+    }
     .news h1{
     	font-size: 24px;
     }
@@ -918,4 +923,15 @@ footer{
     	margin-top: 10px;
         width: 480px;
     }
+    
+     .menu_footer .menu_item{
+ 	text-align: center;
+	text-decoration: none;
+	margin-right: 0px;
+} 
+  .menu_item_as {
+  	text-align: center;
+  	margin-top: 45px;
+  }
+
 }  

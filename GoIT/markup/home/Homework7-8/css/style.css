@@ -492,20 +492,6 @@ footer{
 	font-weight: normal;
 } 
  
-  @media screen and (max-width: 960px) and (min-width: 768px) {
-	body {
- 	min-width: 768px;
- 	max-width: 960px;
- 	width: 100%;
- }
-
-.wrapper{
- 	width: 960;
- 	margin-right: 715px;
- 	margin-left: 715px;
- 	}
- }
-
 
 /* ------------------------------------------------ 320px----------------------------------------------------------------- */
 
@@ -976,4 +962,489 @@ footer {
 
  /* --------------------------------------- 768------------------------------------------------------------------ */
  
-@media screen and (max-width: 960px) and (min-width: 768px) {
+  @media screen and (max-width: 960px) and (min-width: 768px) {
+	body {
+ 	min-width: 768px;
+ 	max-width: 960px;
+ 	width: 100%;
+ }
+
+.wrapper{
+ 	width: 960;
+ 	margin-right: 715px;
+ 	margin-left: 715px;
+ 	}
+ 
+header{
+	background-image: url(../img/header.jpg);
+	height: 840px;
+	width: 100%;
+ 	overflow:hidden;
+	position: relative; 
+ 	font-family: 'Myriad Pro', sans-serif; 
+ }
+
+
+.ping{
+	margin-top: 66px;
+	text-align: center;
+/* 	float: left; */
+}
+
+ .ping h1{
+    color: #ffffff;
+    font-weight: bold 700;
+    font-size: 43px;
+    font-stretch:extra-condensed; 
+}
+
+.ping span{
+	color: #533b5e;
+}
+ 
+.menu {
+        margin-top: 38px;
+	margin: 0; /* Обнуляем значение отступов */
+	padding: 4px; /* Значение полей  */
+	padding-right: 0px;
+        width: 100%;
+        text-align: center;
+}
+
+.menu_item{
+	display: inline; /* Отображать как строчный элемент */
+	text-align: center;
+	padding-right: 35px;
+} 
+
+.menu_link{
+    text-transform: uppercase; /* все буквы большие */
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    font-stretch:extra-condensed; 
+    display: inline-block;
+}
+
+.menu_link:hover{
+	 text-decoration: underline;
+	  
+}
+
+/* ------------------------------------------------серый фон lorem ipsum text------------------------------------------------------------------ */
+
+.slider{
+	background-image: url(../img/fon.png);
+	margin-top: 255px;
+	height: 393px;
+	width: 100%;
+	font-family: 'Myriad Pro', sans-serif; 
+	/* position: relative; */
+}
+
+.lorem_nav{
+	width: 100%;
+    height: 233px;
+    margin-left: 0px;
+    padding-top: 83px;
+}
+
+.lorem_nav h2{
+	font-size: 60px;
+	color: #ffffff;
+	font-weight: normal;
+	font-stretch:extra-condensed; 
+}
+
+.lorem_nav h3{
+	font-size: 32px;
+	color: #edbfff;
+	font-weight: normal;
+	font-stretch:extra-condensed; 
+}
+
+.lorem_nav p{
+	font-size: 18px;
+	color: #edeced;
+	font-weight: 100; 
+
+}
+
+/* ----------------------------------------------------------iphone and point-------------------------------------------------------------------- */
+
+.iphone{
+  position: absolute;
+  left: 1327px;
+  top: 240px;
+}
+
+.iphone img{
+	width: 247px
+}
+
+.point_left{
+/*  position: absolute; */
+/*  margin-left: 391px; */
+/*  top: 430px; */
+
+}
+
+.point_right{
+/*  left: 1900px; */
+/*  top: 430px */;
+/*  position: absolute; */
+}
+
+/* ---------------------------------------------карусель 1----------------------------------------------------------
+ */
+
+.radio{
+    bottom: 0;
+/*     float: left;
+left: 15px; */
+    overflow: hidden;
+}
+
+.radio .radio_part{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #3b3942;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    margin-right: 1px;
+    margin-top: 2px;
+    opacity: .75;
+    padding-top: 5px 5px 5px 5px;
+    width: 11px;
+    height: 14px;
+}
+
+.radio .radio_part .active{
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+
+} 
+
+.radio_block {
+	    height: 23px;
+}
+
+
+/* ---------------------------------------------------------section-------------------------------------------------------------------------- */
+
+section {
+	overflow:hidden;
+	position: relative;
+	background-image: url(../img/fon_2.png);
+	height: 336px;
+	width: 100%;
+}
+
+/* ---------------------------------------------------sprite---------------------------------------------------------------------------------- */
+
+.sprite{
+   	overflow:hidden;
+	position: absolute;
+}
+
+.sprite .sprite_part{
+	float: left;
+	list-style: none;
+ 	margin-top: 80px;
+        margin-right: 300px; 
+}
+
+.sprite a{
+	height: 28px;
+	width: 28px;
+	display: block;
+	background: url(../img/sprite.png) 0 0 no-repeat;  
+}
+
+ .sprite .key{
+	background-position: 0px 0;
+}
+
+.sprite .spaek{
+	background-position: -34.5px 0;
+}
+
+.sprite .musik{
+	 background-position: -67px 0;
+}
+
+/* ----------------------------------------------------end sprite------------------------------------------------------ */
+
+.key_about{
+	display: inline-block;
+/* 	width: 23%; */
+	height: 196px;
+	padding-top: 76px;
+	padding-right: 105px;
+	margin-left: 56px;
+}
+
+.speak_about{
+	display: inline-block;
+ /* 	width: 23%;  */
+	height: 196px;
+	padding-top: 76px;
+	padding-right: 105px;
+	margin-left: 56px;
+
+}
+
+.music_about{
+        display: inline-block;
+/* 	 width: 23%;  */
+	height: 196px;
+	padding-top: 76px;
+	padding-right: 105px;
+	margin-left: 56px;
+}
+
+.key_about_part{
+	font-size: 30px;
+	color: #ffffff;
+	font-stretch:extra-condensed; 
+    font-family: 'Myriad Pro', sans-serif; 
+}
+
+section p{
+	font-size: 16px;
+	color: #e2e1e3;
+	margin-top: 16px;
+	width: 221px;
+	margin-bottom: 25px
+}
+
+.key_about_read{
+	float: right;
+}
+
+.key_about_read a{
+	color: white;
+	text-decoration: none;
+        font-stretch:extra-condensed; 
+        font-family: 'Myriad Pro', sans-serif; 
+}
+
+p:active{
+        color:  #f00;
+}
+
+/* ---------------------------------------------------------</article>------------------------------------------------------------------------------- */ 
+
+article {
+   background-image: url(../img/fon_white.png); 
+   overflow:hidden;
+   position: relative;
+   height: 603px;
+   width: 100%;
+}
+
+.logo{
+   height: 121px; 
+}
+
+.starts img{
+    margin-top: 97px;
+    float: left;
+    width: 45%;
+    height: 274px;
+}
+
+.updates{
+/* 	height: 302px;
+width: 44%;
+float: left;
+ 	margin-top: 110px;
+    margin-left: 40px;  */
+}
+
+.updates .search{
+	font-size: 30px;
+	font-family: 'Myriad Pro', sans-serif;
+	margin-bottom: 19px;
+	font-weight: normal;
+	font-stretch: extra-condensed;
+}
+
+.updates .site_media {
+	list-style-type: none;
+/* 	text-decoration: none; */
+}
+
+.updates .site{
+    margin-bottom: 30px
+}
+
+.updates img{
+	width: 49px;
+    height: 49px;
+    margin-right: 15px;
+}
+
+.nunc{
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+span.hear{
+	float: left;
+	margin-top: 32px;;
+}
+
+span.hear a{
+	float: left;;
+	margin-left: 180px;
+	font-family: 'Myriad Pro', sans-serif;
+	text-decoration: none;
+	color: black;
+	font-stretch: extra-condensed;
+	font-weight: bold;
+}
+
+/* --------------------------------------------карусель 2------------------------------------------------------------
+ */
+
+.radio_one{
+        overflow: hidden;
+	float: left;
+	width: 11%;
+	margin-left: 180px;
+	margin-bottom: 50px;
+}
+
+.radio_one .radio_bottom_part{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        line-height: 14px;
+        min-width: 14px;
+        background: rgba(0, 0, 0, 0.75);
+        color: #3b3942;
+        border-radius: 14px;
+        padding: 3px;
+        text-align: center;
+        margin-right: 2px;
+        opacity: .75;
+        padding-top: 5px 5px 5px 5px;
+}
+
+.radio_one .radio_bottom_part .active{
+	    background: #4E443C;
+        color: #fff;
+        opacity: 1;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+} 
+
+.radio_one .radio_bottom{
+	    height: 23px;
+}
+
+/* ---------------------------------------------------aside------------------------------------------------------------------- */
+
+aside {
+        background-image: url(../img/grey_fon.png); 
+        overflow:hidden;
+        position: relative;
+        height: 395px;
+}
+
+ .news{
+        width: 265px;
+        height: 180px;
+/*          float: left;  */
+        margin-top: 91px;
+        margin-right: 40px;
+} 
+
+.news_one{
+        width: 32%;
+/*         height: 180px; */
+ /*        float: left; */
+        margin-top: 91px;
+/*         margin-right: 40px; */
+}
+
+.news_one .name{
+        font-stretch: extra-condensed;
+        font-size: 48px;
+        font-family: 'Myriad Pro', sans-serif;
+}
+
+.news_one .big{
+        color: #b9b9b9;
+}
+
+.news_one .name_bottom{
+	    font-size: 16px;
+	    color: #c5c5c5;
+	    font-style: italic;
+}
+
+.news .name{
+        font-stretch: extra-condensed;
+        font-size: 30px;
+        font-family: 'Myriad Pro', sans-serif;
+}
+
+/* --------------------------------------------footer----------------------------------------------------------------- */
+
+footer{
+	position: relative;
+	overflow: hidden;
+	height: 197px;
+	background: url(../img/img_footer.png);
+}
+
+.menu_footer{
+        list-style-type: none;
+  /*      float: left;*/
+        margin-top: 46px;
+        font-family: 'Myriad Pro', sans-serif;
+    /*     font-stretch: extra-condensed; */
+        text-transform: uppercase; /* все буквы большие */
+        text-align: center;
+}
+
+ .menu_footer .menu_item{
+ 	display: inline-block; 
+	text-decoration: none;
+	margin-right: 39px;
+} 
+
+.menu_footer .menu_link:active{
+       color:#0000FF;
+}
+
+.menu_footer .menu_link{
+	text-align: center;
+	text-decoration: none;
+	color: #dcdbde;
+	font-size: 26px;
+}
+
+.menu_item_as .menu_link{
+        text-transform: none;
+        color: white; 	
+}
+
+.menu_link .end{
+	color: #dcdbde;
+	font-weight: normal;
+} 
+
+
+
+
+}

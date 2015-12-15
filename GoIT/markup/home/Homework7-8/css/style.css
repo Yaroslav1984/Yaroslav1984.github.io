@@ -924,8 +924,14 @@ footer{
         width: 480px;
     }
     
+    footer {
+    position: relative;
+    overflow: hidden;
+    height: 169px;
+    text-align: center;
+    }
+    
      .menu_footer .menu_item{
- 	text-align: center;
 	text-decoration: none;
 	margin-right: 0px;
 } 

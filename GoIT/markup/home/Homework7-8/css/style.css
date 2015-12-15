@@ -939,5 +939,12 @@ footer{
   	text-align: center;
   	margin-top: 45px;
   }
-
+.menu_item_as .menu_link {
+    margin-left: 0px;
 }  
+
+.menu_footer .menu_link {
+    color: #FFFFFF;
+    font-weight: bold;
+
+}

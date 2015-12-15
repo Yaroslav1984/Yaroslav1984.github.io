@@ -154,7 +154,7 @@ left: 15px; */
     overflow: hidden;
 }
 
-.radio li{
+.radio .radio_part{
     text-decoration: none;
     display: inline-block;
     font-size: 11px;
@@ -173,7 +173,7 @@ left: 15px; */
     height: 14px;
 }
 
-.radio li .active{
+.radio .radio_part .active{
 	background: #4E443C;
     color: #fff;
     opacity: 1;
@@ -181,7 +181,7 @@ left: 15px; */
 
 } 
 
-.radio ul{
+.radio .radio_block {
 	    height: 23px;
 }
 
@@ -203,11 +203,11 @@ section {
 	position: absolute;
 }
 
-.sprite li{
+.sprite .sprite_part{
 	float: left;
 	list-style: none;
  	margin-top: 80px;
-    margin-right: 300px; 
+        margin-right: 300px; 
 }
 
 .sprite a{
@@ -217,15 +217,15 @@ section {
 	background: url(../img/sprite.png) 0 0 no-repeat;  
 }
 
- .sprite .key{
+ .sprite .sprite_part_key{
 	background-position: 0px 0;
 }
 
-.sprite .spaek{
+.sprite .sprite_part_spaek{
 	background-position: -34.5px 0;
 }
 
-.sprite .musik{
+.sprite .sprite_part_musik{
 	 background-position: -67px 0;
 }
 
@@ -252,7 +252,7 @@ section {
 }
 
 .music_about{
-    display: inline-block;
+        display: inline-block;
 /* 	 width: 23%;  */
 	height: 196px;
 	padding-top: 76px;
@@ -260,11 +260,11 @@ section {
 	margin-left: 56px;
 }
 
-.about{
+.key_about_part{
 	font-size: 30px;
 	color: #ffffff;
 	font-stretch:extra-condensed; 
-    font-family: 'Myriad Pro', sans-serif; 
+        font-family: 'Myriad Pro', sans-serif; 
 }
 
 section p{
@@ -275,21 +275,19 @@ section p{
 	margin-bottom: 25px
 }
 
-.read{
+.key_about_read{
 	float: right;
 }
 
-.read a{
+.key_about_read a{
 	color: white;
 	text-decoration: none;
-    font-stretch:extra-condensed; 
-    font-family: 'Myriad Pro', sans-serif; 
-
+        font-stretch:extra-condensed; 
+        font-family: 'Myriad Pro', sans-serif; 
 }
 
 p:active{
-color:  #f00;
-	  
+        color:  #f00;
 }
 
 /* ---------------------------------------------------------</article>------------------------------------------------------------------------------- */ 
@@ -321,7 +319,7 @@ float: left;
     margin-left: 40px;  */
 }
 
-.updates h1{
+.updates .search{
 	font-size: 30px;
 	font-family: 'Myriad Pro', sans-serif;
 	margin-bottom: 19px;
@@ -329,12 +327,12 @@ float: left;
 	font-stretch: extra-condensed;
 }
 
-.updates li {
+.updates .media_site {
 	list-style-type: none;
 /* 	text-decoration: none; */
 }
 
-.updates ul{
+.updates .site{
     margin-bottom: 30px
 }
 
@@ -369,88 +367,85 @@ span.hear a{
  */
 
 .radio_one{
-    overflow: hidden;
+        overflow: hidden;
 	float: left;
 	width: 11%;
 	margin-left: 180px;
 	margin-bottom: 50px;
 }
 
-.radio_one li{
-    text-decoration: none;
-    display: inline-block;
-    font-size: 11px;
-    line-height: 14px;
-    min-width: 14px;
-    background: rgba(0, 0, 0, 0.75);
-    color: #3b3942;
-    border-radius: 14px;
-    padding: 3px;
-    text-align: center;
-    margin-right: 2px;
-    opacity: .75;
-
-    padding-top: 5px 5px 5px 5px;
+.radio_one .radio_bottom_part{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        line-height: 14px;
+        min-width: 14px;
+        background: rgba(0, 0, 0, 0.75);
+        color: #3b3942;
+        border-radius: 14px;
+        padding: 3px;
+        text-align: center;
+        margin-right: 2px;
+        opacity: .75;
+        padding-top: 5px 5px 5px 5px;
 }
 
-.radio_one li .active{
+.radio_one .radio_bottom_part .active{
 	background: #4E443C;
-    color: #fff;
-    opacity: 1;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
-
+        color: #fff;
+        opacity: 1;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 } 
 
-.radio_one ul{
-	    height: 23px;
+.radio_one .radio_bottom{
+	height: 23px;
 }
 
 /* ---------------------------------------------------aside------------------------------------------------------------------- */
 
 aside {
-   background-image: url(../img/grey_fon.png); 
-   overflow:hidden;
-   position: relative;
-   height: 395px;
+        background-image: url(../img/grey_fon.png); 
+        overflow:hidden;
+        position: relative;
+        height: 395px;
 }
 
  .news{
-   width: 265px;
-   height: 180px;
-/*     float: left;  */
-   margin-top: 91px;
-   margin-right: 40px;
-
+        width: 265px;
+        height: 180px;
+/*          float: left;  */
+        margin-top: 91px;
+        margin-right: 40px;
 } 
 
 .news_one{
-   width: 32%;
-/*    height: 180px; */
- /*   float: left; */
-   margin-top: 91px;
-/*    margin-right: 40px; */
+        width: 32%;
+/*         height: 180px; */
+ /*        float: left; */
+        margin-top: 91px;
+/*         margin-right: 40px; */
 }
 
-.news_one h1{
-   font-stretch: extra-condensed;
-   font-size: 48px;
-   font-family: 'Myriad Pro', sans-serif;
+.news_one .name{
+        font-stretch: extra-condensed;
+        font-size: 48px;
+        font-family: 'Myriad Pro', sans-serif;
 }
 
-.news_one span{
-   color: #b9b9b9;
+.news_one .big{
+        color: #b9b9b9;
 }
 
-.news_one h3{
+.news_one .name_bottom{
 	font-size: 16px;
 	color: #c5c5c5;
 	font-style: italic;
 }
 
-.news h1{
-   font-stretch: extra-condensed;
-   font-size: 30px;
-   font-family: 'Myriad Pro', sans-serif;
+.news .name{
+        font-stretch: extra-condensed;
+        font-size: 30px;
+        font-family: 'Myriad Pro', sans-serif;
 }
 
 /* --------------------------------------------footer----------------------------------------------------------------- */
@@ -463,13 +458,13 @@ footer{
 }
 
 .menu_footer{
-    list-style-type: none;
-  /*  float: left;*/
-    margin-top: 46px;
-    font-family: 'Myriad Pro', sans-serif;
-    font-stretch: extra-condensed;
-    text-transform: uppercase; /* все буквы большие */
-    text-align: center;
+        list-style-type: none;
+  /*      float: left;*/
+        margin-top: 46px;
+        font-family: 'Myriad Pro', sans-serif;
+        font-stretch: extra-condensed;
+        text-transform: uppercase; /* все буквы большие */
+        text-align: center;
 }
 
  .menu_footer .menu_item{
@@ -479,7 +474,7 @@ footer{
 } 
 
 .menu_footer .menu_link:active{
-    color:#0000FF;
+       color:#0000FF;
 }
 
 .menu_footer .menu_link{
@@ -490,13 +485,13 @@ footer{
 }
 
 .menu_item_as .menu_link{
-    text-transform: none;
-    font-weight: bold;
-    color: white;
-    margin-left: 100px; 	
+        text-transform: none;
+        font-weight: bold;
+        color: white;
+        margin-left: 100px; 	
 }
 
-.menu_link span{
+.menu_link .end{
 	color: #dcdbde;
 	font-weight: normal;
 } 
@@ -506,12 +501,12 @@ footer{
  	min-width: 768px;
  	max-width: 960px;
  	width: 100%;
- 	}
+ }
 
- 	.wrapper{
- 		width: 960;
- 		margin-right: 715px;
- 		margin-left: 715px;
+.wrapper{
+ 	width: 960;
+ 	margin-right: 715px;
+ 	margin-left: 715px;
  	}
  }
 
@@ -520,153 +515,145 @@ footer{
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
 
-     header{
-     	height: 514px;
-     }
+header{
+        height: 514px;
+  }
 
-     .hide-xs {
-  	   display: none;
+.hide-xs {
+  	 display: none;
   }
       
-     .lorem_nav{
+.lorem_nav{
      	height: 66px;
      	padding-top: 0px;
-     }
+  }
 
-     .lorem_nav h2{
+.lorem_nav .first{
        font-size: 36px;
        text-align: center;
   }
      
-      .lorem_nav h3{
+.lorem_nav .second{
        font-size: 18px;
        text-align: center;
   }
-     
     
-     .lorem_nav p{
-  		display: none;
+.lorem_nav .third{
+        display: none;
   }
 
-     section{
+section{
      	height: 599px;
      	padding-top: 66px;
      	background: #745181;
      	padding-left: 72px;
   }
 
-     .slider{
+.slider{
         background-image: none;
         margin-top: 126px;
         height: 67px;
         position: relative;
-     }
+  }
 
-      .point_left{
-   	    float: left;
+.point_left{
+   	float: left;
         margin-top: 18px;
-   }
+ }
    
-   .point_right {
+.point_right {
        float: right;
        margin-top: 18px;	
-   }
+}
 
-     .radio{
+.radio{
      	text-align: center;
      	margin-top: 82px;
-     }
+}
 
-     .iphone{
-     	 display: none;
-     }
+.iphone{
+       display: none;
+}
 
-     .sprite{
+.sprite{
      	height: 484px;
-     }
+}
 
-     .about {
-         font-size:24px;
-     }
+.about {
+        font-size:24px;
+}
 
-     .key_about, .speak_about, .music_about {
+.key_about, .speak_about, .music_about {
         height: 134px;
         padding-top: 22px;
         margin-left: 56px;
-     }
+}
 
-      section p {
+section .turpis {
         margin-top: 7px;
-    }
+}
 
-    .key, .spaek, .musik{
+.key, .spaek, .musik{
     	position: absolute;
-    }
+}
      
-     .key{
-      top: 22px;
-  }
+.key{
+        top: 22px;
+}
 
-     .spaek{
-       top: 175px;
+.spaek{
+        top: 175px;
+}
+  
+.musik{
+        top: 333px;
+}
 
-     }
-     
-      .musik{
-      top: 333px;
-      }
+.starts{
+        padding-left: 81px;
+}
 
-    .starts{
-      padding-left: 81px;
-    }
-
-    .starts img {
+.starts img {
       display: inline-block; 
       margin-top: 97px;
       width: 80%;
       height: 269px;
       text-align: center;
-
-
- }
-
-   .updates {
-   	  float: left;
-      height: 302px;
-      width: 100%;
-      margin-top: 57px;
-      margin-left: 40px;
-
 }
 
-    .hear{
-      margin-top: 28px;
-    }
-
-    span.hear a {
-      margin-left: 162px;
-
+.updates {
+       float: left;
+       height: 302px;
+       width: 100%;
+       margin-top: 57px;
+       margin-left: 40px;
 }
 
-   article{
-    height: 1209px;
+ .hear{
+       margin-top: 28px;
+}
+
+span.hear a {
+       margin-left: 162px;
+}
+
+article{
+       height: 1209px;
 }
         
-    .logo{
-    	text-align: center;
-    }
-
-    .logo li {
-  	display: inline-block;
-  	text-align: center;
-  	height: 60px;
-    width: 280px;
-    padding-top: 57px;
+.logo{
+       text-align: center;
 }
 
+.logo .partner_part {
+       display: inline-block;
+       text-align: center;
+       height: 60px;
+       width: 280px;
+       padding-top: 57px;
+}
 
-   
-   .radio_one{
+.radio_one{
    	width: 34%;
    	text-align: center;
    	position: absolute;
@@ -674,17 +661,17 @@ footer{
    	margin-left: 159px;
 }
 
-   aside{
+aside{
    	display: none;
 }
 
- .menu_footer .hide-s {
+.menu_footer .hide-s {
 	display: none;
 } 
   
-  .menu_item_as {
+.menu_item_as {
   	text-align: center;
-  }
+}
 
 }
 
@@ -694,207 +681,203 @@ footer{
 /* -------------------------------------------------------start 480-------------------------------------------------------- */
 
 @media screen and (max-width: 768px) and (min-width: 480px) {
-  ul.menu li{
+ul.menu li{
         display: block;
         margin-top: 8px;
         text-align:center;
         padding-right: 0px;
-  }
-  
+}
 
-  header{
-  	height: 540px;
-  }
+header{
+        height: 540px;
+}
 
-  .menu{
+.menu{
   	width: 239px;
-    text-align: center;
-    background: -webkit-linear-gradient(bottom, #483a4e, #483a4e);
-    -webkit-border-radius: 8px 8px 8px 8px;
-    border: 1px solid #000000;
-    overflow: hidden;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
-    opacity: .99;
-  }
+        text-align: center;
+        background: -webkit-linear-gradient(bottom, #483a4e, #483a4e);
+        -webkit-border-radius: 8px 8px 8px 8px;
+        border: 1px solid #000000;
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        opacity: .99;
+}
 
-  ul.menu {
+ul.menu {
   	margin-top: 21px;
   	opacity: 0.9; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
+}
 
-  }
-
-  body {
+body {
   	min-width: 480px;
   	max-width: 768px;
   	width: 100%;
-  }
+}
 
-  .slider{
-     position: absolute;
-     margin-top: 0px;
-     top: 202px;
-     height: 247px;
-  } 
+.slider{
+        position: absolute;
+        margin-top: 0px;
+        top: 202px;
+        height: 247px;
+} 
 
-  .lorem_nav{
+.lorem_nav{
   	padding-top: 0px;
   	width: 400px;
-    height: 80px;
-    margin-left: 138px;
-    margin-top: 75px;
-  }
-
-   .lorem_nav h2 {
-     font-size: 36px;
-     width: 300px;
+        height: 80px;
+        margin-left: 138px;
+        margin-top: 75px;
 }
 
-   .lorem_nav h3 {
-     font-size: 18px;
-     width: 300px;
+.lorem_nav .first {
+        font-size: 36px;
+        width: 300px;
 }
 
-   .lorem_nav p {
-     display: none;
-    }
+.lorem_nav .second {
+       font-size: 18px;
+       width: 300px;
+}
 
-    .iphone{
-     left: 400px;
-     position: absolute;
-     top: 0px;
-    }
+.lorem_nav .third {
+       display: none;
+}
+
+.iphone{
+       left: 400px;
+       position: absolute;
+       top: 0px;
+}
  
-   .iphone img{
-   	height: 295px;
-     width: 168px;
-   }
+.iphone img{
+       height: 295px;
+       width: 168px;
+}
 
-   .point_left{
+.point_left{
    	float: left;
    	margin-top: 103px;
-   }
+}
    
-   .point_right {
-    float: right;
-    margin-top: 103px; 	
- }
+.point_right {
+        float: right;
+        margin-top: 103px; 	
+}
 
-   .radio{
+.radio{
    	text-align: center;
    	margin-top: 110px;
-   }
-        section{
+}
+        
+section{
      	height: 599px;
      	padding-top: 66px;
      	background: #745181;
       	padding-left: 195px; 
-  }
+}
 
-  .sprite{
+.sprite{
      	height: 484px;
+}
 
-     }
-
-     ul.sprite{
+ul.sprite{
         width: 420px;
-     }
+}
 
-     .about {
-         font-size:24px;
-     }
+.about {
+        font-size:24px;
+}
 
-     .key_about, .speak_about, .music_about {
+.key_about, .speak_about, .music_about {
         height: 134px;
         padding-top: 22px;
         margin-left: 56px;
-     }
+}
 
-      section p {
+section .turpis {
         margin-top: 7px;
-    }
+}
 
-    .key, .spaek, .musik{
+.key, .spaek, .musik{
     	position: absolute;
-    }
+}
      
-     .key{
-      top: 22px;
-  }
+.key{
+       top: 22px;
+}
 
-     .spaek{
+.spaek{
        top: 175px;       
        left: 2px;
-
-     }
+}
      
-      .musik{
-      top: 333px;
-      }
+.musik{
+       top: 333px;
+}
 
-    .starts{
-      padding-left: 195px;
-      float: left;
-    }
+.starts{
+       padding-left: 195px;
+       float: left;
+}
 
-    .starts img {
-      display: inline-block; 
-      margin-top: 68px;
-      width: 75%;
-      height: 269px;
-      text-align: center;
- }
+.starts img {
+       display: inline-block; 
+       margin-top: 68px;
+       width: 75%;
+       height: 269px;
+       text-align: center;
+}
 
-    article{
-    	height: 1018px;
-    }
+article{
+       height: 1018px;
+}
 
-     .logo img{
-    	width: 100px;
-    }
+.logo img{
+       width: 100px;
+}
 
-    .updates{
+.updates{
     	float: left;
     	width: 100%;
     	margin-left: 245px;
-    }
+}
 
-    .updates h1 {
-    font-size: 21px;
+.updates .search {
+        font-size: 21px;
 }
        
-     span.hear{
+span.hear{
        	margin-top: 0px;
        	overflow: hidden;
-       }
+}
        
-     span.hear a {
-         margin-left: 138px;
-       }
+span.hear a {
+        margin-left: 138px;
+}
        
-    .radio_one{
-    width: 100%;
-    text-align: center;
-    float: left;
-    overflow: hidden;
-    margin-left: 0px;
-    }
+.radio_one{
+       width: 100%;
+       text-align: center;
+       float: left;
+       overflow: hidden;
+       margin-left: 0px;
+}
 
-    .logo li{
+.logo .partner_part{
     	float: left;
     	height: 60px;
         width: 280px;
-    }
+}
     
-    aside{
+ aside{
     	height: 662px;
     	padding-left: 120px;
         left: auto;
 }
-    }
 
-    .news{
+.news{
     	margin: 0 auto;
     	margin-top: 80px;
     	margin-left: 0px;
@@ -903,42 +886,45 @@ footer{
         width: 480px;
         height: 115px;
     /* 	float: left; */
-    }
+}
 
-    .news_one{
+.news_one{
     	width: 480px;
         margin-left: 0px;
         margin-right: 0px;    	/* float: left; */
-    }
+}
     
-    .news_one h1 {
+.news_one .name {
        font-size: 24px;
-    }
-    .news h1{
+}
+
+.news .name{
     	font-size: 24px;
-    }
+}
     
-    .news p{
+.news .news_one_text{
     	font-size: 16px;
     	margin-top: 10px;
         width: 480px;
-    }
+}
     
-    footer {
-    position: relative;
-    overflow: hidden;
-    height: 169px;
-    text-align: center;
-    }
+footer {
+        position: relative;
+        overflow: hidden;
+        height: 169px;
+        text-align: center;
+}
     
-     .menu_footer .menu_item{
+.menu_footer .menu_item{
 	text-decoration: none;
 	margin-right: 0px;
-} 
-  .menu_item_as {
+}
+
+.menu_item_as {
   	text-align: center;
   	margin-top: 45px;
-  }
+}
+
 .menu_item_as .menu_link {
     margin-left: 0px;
 }  

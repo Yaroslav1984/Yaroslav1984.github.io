@@ -864,11 +864,15 @@ footer{
     font-size: 21px;
 }
        
-       span.hear{
+     span.hear{
        	margin-top: 0px;
        	overflow: hidden;
        }
-    
+       
+     span.hear a {
+         margin-left: 138px;
+       }
+       
     .radio_one{
     width: 100%;
     text-align: center;

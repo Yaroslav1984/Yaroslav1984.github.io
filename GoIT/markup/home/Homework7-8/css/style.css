@@ -52,12 +52,12 @@ header{
 }
  
 .menu {
-    margin-top: 38px;
+        margin-top: 38px;
 	margin: 0; /* Обнуляем значение отступов */
 	padding: 4px; /* Значение полей  */
 	padding-right: 0px;
-    width: 100%;
-    text-align: center;
+        width: 100%;
+        text-align: center;
 }
 
 .menu_item{
@@ -464,7 +464,7 @@ footer{
 
 .menu_footer{
     list-style-type: none;
-    float: left;
+  /*  float: left;*/
     margin-top: 46px;
     font-family: 'Myriad Pro', sans-serif;
     font-stretch: extra-condensed;
@@ -928,15 +928,6 @@ footer{
     position: relative;
     overflow: hidden;
     height: 169px;
-    text-align: center;
-    }
-    
-    .menu_footer {
-    list-style-type: none;
-    margin-top: 46px;
-    font-family: 'Myriad Pro', sans-serif;
-    font-stretch: extra-condensed;
-    text-transform: uppercase;
     text-align: center;
     }
     

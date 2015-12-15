@@ -67,7 +67,6 @@ header{
 } 
 
 .menu_link{
-
     text-transform: uppercase; /* все буквы большие */
     font-size: 24px;
     color: #ffffff;
@@ -217,15 +216,15 @@ section {
 	background: url(../img/sprite.png) 0 0 no-repeat;  
 }
 
- .sprite .sprite_part_key{
+ .sprite .key{
 	background-position: 0px 0;
 }
 
-.sprite .sprite_part_spaek{
+.sprite .spaek{
 	background-position: -34.5px 0;
 }
 
-.sprite .sprite_part_musik{
+.sprite .musik{
 	 background-position: -67px 0;
 }
 
@@ -263,7 +262,7 @@ section {
 	font-size: 30px;
 	color: #ffffff;
 	font-stretch:extra-condensed; 
-        font-family: 'Myriad Pro', sans-serif; 
+    font-family: 'Myriad Pro', sans-serif; 
 }
 
 section p{
@@ -326,7 +325,7 @@ float: left;
 	font-stretch: extra-condensed;
 }
 
-.updates .media_site {
+.updates .site_media {
 	list-style-type: none;
 /* 	text-decoration: none; */
 }
@@ -390,14 +389,14 @@ span.hear a{
 }
 
 .radio_one .radio_bottom_part .active{
-	background: #4E443C;
+	    background: #4E443C;
         color: #fff;
         opacity: 1;
         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 } 
 
 .radio_one .radio_bottom{
-	height: 23px;
+	    height: 23px;
 }
 
 /* ---------------------------------------------------aside------------------------------------------------------------------- */
@@ -436,9 +435,9 @@ aside {
 }
 
 .news_one .name_bottom{
-	font-size: 16px;
-	color: #c5c5c5;
-	font-style: italic;
+	    font-size: 16px;
+	    color: #c5c5c5;
+	    font-style: italic;
 }
 
 .news .name{
@@ -452,8 +451,8 @@ aside {
 footer{
 	position: relative;
 	overflow: hidden;
-	height: 113px;
-	background-image: url(../img/img_footer.png);
+	height: 197px;
+	background: url(../img/img_footer.png);
 }
 
 .menu_footer{
@@ -461,7 +460,7 @@ footer{
   /*      float: left;*/
         margin-top: 46px;
         font-family: 'Myriad Pro', sans-serif;
-        font-stretch: extra-condensed;
+    /*     font-stretch: extra-condensed; */
         text-transform: uppercase; /* все буквы большие */
         text-align: center;
 }
@@ -480,14 +479,12 @@ footer{
 	text-align: center;
 	text-decoration: none;
 	color: #dcdbde;
-	font-size: 19px;
+	font-size: 26px;
 }
 
 .menu_item_as .menu_link{
         text-transform: none;
-        font-weight: bold;
-        color: white;
-        margin-left: 100px; 	
+        color: white; 	
 }
 
 .menu_link .end{
@@ -641,16 +638,32 @@ article{
 }
         
 .logo{
+	   float: left;
        text-align: center;
+       height: 420px;
+       width: 255px;
+       margin-left: 50px
 }
 
 .logo .partner_part {
        display: inline-block;
        text-align: center;
-       height: 60px;
-       width: 280px;
        padding-top: 57px;
+       width: 83px;
+       height: 77px;
 }
+
+.logo img{
+      width: 72px;
+      height: 68px;
+}
+
+.article .partner_part{
+	    list-style-type: none;
+	    width: 80px;
+        height: 80px;
+}
+
 
 .radio_one{
    	width: 34%;
@@ -833,10 +846,6 @@ article{
        height: 1018px;
 }
 
-.logo img{
-       width: 100px;
-}
-
 .updates{
     	float: left;
     	width: 100%;
@@ -845,6 +854,10 @@ article{
 
 .updates .search {
         font-size: 21px;
+        font-family: 'Myriad Pro', sans-serif;
+        margin-bottom: 19px;
+        font-weight: normal;
+        font-stretch: extra-condensed;
 }
        
 span.hear{
@@ -863,11 +876,27 @@ span.hear a {
        overflow: hidden;
        margin-left: 0px;
 }
+.logo{
 
-.logo .partner_part{
-    	float: left;
-    	height: 60px;
-        width: 280px;
+       text-align: center;
+       height: 372px;
+       margin-left: 110px;
+       width: 500px;
+       float: left;
+}
+
+.logo .partner_part {
+       display: inline-block;
+       text-align: center;
+       padding-top: 57px;
+       padding-left: 55px;
+       width: 83px;
+       height: 77px;
+}
+
+.logo img{
+      width: 72px;
+      height: 68px;
 }
     
  aside{
@@ -915,22 +944,36 @@ footer {
 }
     
 .menu_footer .menu_item{
-	text-decoration: none;
-	margin-right: 0px;
+	    text-decoration: none;
+	    margin-right: 0px;
 }
 
 .menu_item_as {
-  	text-align: center;
-  	margin-top: 45px;
+  	    text-align: center;
+  	    margin-top: 45px;
 }
 
 .menu_item_as .menu_link {
-    margin-left: 0px;
+        margin-left: 0px;
 }  
 
 .menu_footer .menu_link {
-    color: #FFFFFF;
-    font-weight: bold;
+        color: #FFFFFF;
+        font-weight: normal;
+        font-stretch: none;
+        font-size: 23px;
+         list-style-type: none;
 }
-}
+
+.menu_link .end{
+	color: #dcdbde;
+	font-weight: normal;
+	font-size: 22px;
+} 
  
+
+}
+
+ /* --------------------------------------- 768------------------------------------------------------------------ */
+ 
+@media screen and (max-width: 960px) and (min-width: 768px) {

@@ -36,7 +36,7 @@ header{
 
 .ping{
 	margin-top: 66px;
-	text-align: center;
+ 	text-align: center; 
 /* 	float: left; */
 }
 
@@ -52,12 +52,12 @@ header{
 }
  
 .menu {
-        margin-top: 38px;
+    margin-top: 38px;
 	margin: 0; /* Обнуляем значение отступов */
 	padding: 4px; /* Значение полей  */
 	padding-right: 0px;
-        width: 100%;
-        text-align: center;
+    width: 100%;
+/*     text-align: center; */
 }
 
 .menu_item{
@@ -83,7 +83,7 @@ header{
 
 .slider{
 	background-image: url(../img/fon.png);
-	margin-top: 255px;
+/* 	margin-top: 255px; */
 	height: 393px;
 	width: 100%;
 	font-family: 'Myriad Pro', sans-serif; 
@@ -497,118 +497,129 @@ footer{
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
 
+body {
+ 	min-width: 320px;
+ 	max-width: 480px;
+ 	width: 100%;
+ }
+
+.wrapper{
+ 	width: 320px;
+ 	margin: 0 auto; 
+}
+
+
 header{
-        height: 514px;
+    height: 514px;
   }
 
 .hide-xs {
-  	 display: none;
+  	display: none;
   }
       
 .lorem_nav{
-     	height: 66px;
-     	padding-top: 0px;
+    height: 66px;
+    padding-top: 0px;
   }
 
 .lorem_nav .first{
-       font-size: 36px;
-       text-align: center;
+    font-size: 36px;
+    text-align: center;
   }
      
 .lorem_nav .second{
-       font-size: 18px;
-       text-align: center;
+    font-size: 18px;
+    text-align: center;
   }
     
 .lorem_nav .third{
-        display: none;
+    display: none;
   }
 
 section{
-     	height: 599px;
-     	padding-top: 66px;
-     	background: #745181;
-     	padding-left: 72px;
+    height: 599px;
+    padding-top: 66px;
+    background: #745181;
   }
 
 .slider{
-        background-image: none;
-        margin-top: 126px;
-        height: 67px;
-        position: relative;
+    background-image: none;
+    margin-top: 126px;
+    height: 67px;
+    position: relative;
   }
 
 .point_left{
    	float: left;
-        margin-top: 18px;
+    margin-top: 18px;
  }
    
 .point_right {
-       float: right;
-       margin-top: 18px;	
+    float: right;
+    margin-top: 18px;	
 }
 
 .radio{
-     	text-align: center;
-     	margin-top: 82px;
+    text-align: center;
+    margin-top: 82px;
 }
 
 .iphone{
-       display: none;
+    display: none;
 }
 
 .sprite{
-     	height: 484px;
+    height: 484px;
 }
 
 .about {
-        font-size:24px;
+    font-size:24px;
 }
 
 .key_about, .speak_about, .music_about {
-        height: 134px;
-        padding-top: 22px;
-        margin-left: 56px;
+    height: 134px;
+    padding-top: 22px;
+    margin-left: 56px;
 }
 
 section .turpis {
-        margin-top: 7px;
+    margin-top: 7px;
 }
 
 .key, .spaek, .musik{
-    	position: absolute;
+    position: absolute;
 }
      
 .key{
-        top: 22px;
+    top: 22px;
 }
 
 .spaek{
-        top: 175px;
+    top: 175px;
 }
   
 .musik{
-        top: 333px;
+    top: 333px;
 }
 
 .starts{
-        padding-left: 81px;
+    padding-left: 81px;
 }
 
 .starts img {
-      display: inline-block; 
-      margin-top: 97px;
-      width: 80%;
-      height: 269px;
-      text-align: center;
+    display: inline-block; 
+    margin-top: 97px;
+    width: 80%;
+    height: 269px;
+    text-align: center;
 }
 
 .updates {
-       float: left;
-       height: 302px;
-       width: 100%;
-       margin-top: 57px;
-       margin-left: 40px;
+    float: left;
+    height: 302px;
+    width: 100%;
+    margin-top: 57px;
+    margin-left: 40px;
 }
 
  .hear{
@@ -637,6 +648,7 @@ article{
        padding-top: 57px;
        width: 83px;
        height: 77px;
+       padding-left: 42px;
 }
 
 .logo img{
@@ -663,6 +675,15 @@ aside{
    	display: none;
 }
 
+.menu {
+    margin-top: 38px;
+	margin: 0; /* Обнуляем значение отступов */
+	padding: 4px; /* Значение полей  */
+	padding-right: 0px;
+    width: 100%;
+    text-align: center; 
+}
+
 .menu_footer .hide-s {
 	display: none;
 } 
@@ -687,7 +708,7 @@ body {
  }
 
 .wrapper{
- 	width: 768px;
+ 	width: 480px;
  	margin: 0 auto; 
 }
 
@@ -721,24 +742,19 @@ ul.menu {
   	opacity: 0.9; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
 }
 
-body {
-  	min-width: 480px;
-  	max-width: 768px;
-  	width: 100%;
-}
 
 .slider{
         position: absolute;
         margin-top: 0px;
         top: 202px;
         height: 247px;
+        width: 100%;
 } 
 
 .lorem_nav{
   	padding-top: 0px;
   	width: 400px;
         height: 80px;
-        margin-left: 138px;
         margin-top: 75px;
 }
 
@@ -757,7 +773,7 @@ body {
 }
 
 .iphone{
-       left: 400px;
+       left: 270px;;
        position: absolute;
        top: 0px;
 }
@@ -786,7 +802,7 @@ section{
      	height: 599px;
      	padding-top: 66px;
      	background: #745181;
-      	padding-left: 195px; 
+      	padding-left: 50px;
 }
 
 .sprite{
@@ -829,7 +845,7 @@ section .turpis {
 }
 
 .starts{
-       padding-left: 195px;
+        padding-left: 50px; 
        float: left;
 }
 
@@ -848,7 +864,7 @@ article{
 .updates{
     	float: left;
     	width: 100%;
-    	margin-left: 245px;
+    	margin-left: 50px;
 }
 
 .updates .search {
@@ -879,7 +895,7 @@ span.hear a {
 
        text-align: center;
        height: 372px;
-       margin-left: 110px;
+       margin-left: 50px;
        width: 500px;
        float: left;
 }
@@ -900,8 +916,6 @@ span.hear a {
     
  aside{
     	height: 662px;
-    	padding-left: 120px;
-        left: auto;
 }
 
 .news{
@@ -984,7 +998,7 @@ footer {
  }
 
 .wrapper{
- 	width: 960px;
+ 	width: 768px;
  	margin: 0 auto; 
  	}
  
@@ -997,19 +1011,45 @@ header{
  	font-family: 'Myriad Pro', sans-serif; 
  }
 
+ .ping{
+    margin-top: 66px;
+/*      float: left;  */
+}
 
+.menu {
+    margin-top: 38px;
+	margin: 0; /* Обнуляем значение отступов */
+	padding: 4px; /* Значение полей */
+	padding-right: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu_item{
+	display: inline; /* Отображать как строчный элемент */
+	text-align: center;
+	padding-right: 50px;
+} 
+
+.menu_link{
+    text-transform: uppercase; /* все буквы большие */
+    font-size: 23px;
+    color: #ffffff;
+    text-decoration: none;
+    font-stretch:extra-condensed; 
+    display: inline-block;
+}
+
+.menu_link:hover{
+	 text-decoration: underline;
+	  
+}
 .article {
     background-image: url(../img/fon_white.png);
     overflow: hidden;
     position: relative;
     height: 603px;
     width: 100%;
-
-
-/* .ping{
-	margin-top: 66px;
-	text-align: center;
-float: left;
 }
 
  .ping h1{
@@ -1023,80 +1063,53 @@ float: left;
 	color: #533b5e;
 }
  
-.menu {
-        margin-top: 38px;
-	margin: 0; Обнуляем значение отступов
-	padding: 4px; Значение полей
-	padding-right: 0px;
-        width: 100%;
-        text-align: center;
-}
 
-.menu_item{
-	display: inline; Отображать как строчный элемент
-	text-align: center;
-	padding-right: 35px;
-} 
 
-.menu_link{
-    text-transform: uppercase; все буквы большие
-    font-size: 24px;
-    color: #ffffff;
-    text-decoration: none;
-    font-stretch:extra-condensed; 
-    display: inline-block;
-}
-
-.menu_link:hover{
-	 text-decoration: underline;
-	  
-}
-
-------------------------------------------------серый фон lorem ipsum text------------------------------------------------------------------
+/* ------------------------------------------------серый фон lorem ipsum text------------------------------------------------------------------ */
 
 .slider{
 	background-image: url(../img/fon.png);
-	margin-top: 255px;
+	margin-top: 53px;
 	height: 393px;
 	width: 100%;
 	font-family: 'Myriad Pro', sans-serif; 
-	position: relative;
+/* 	position: relative; */
 }
 
 .lorem_nav{
-	width: 100%;
+	width: 46%;
     height: 233px;
-    margin-left: 0px;
     padding-top: 83px;
+    margin-left: 30px;
 }
 
 .lorem_nav h2{
-	font-size: 60px;
+	font-size: 48px;
 	color: #ffffff;
 	font-weight: normal;
 	font-stretch:extra-condensed; 
 }
 
 .lorem_nav h3{
-	font-size: 32px;
+	font-size: 24px;
 	color: #edbfff;
 	font-weight: normal;
 	font-stretch:extra-condensed; 
 }
 
 .lorem_nav p{
-	font-size: 18px;
+	font-size: 16px;
 	color: #edeced;
 	font-weight: 100; 
 
 }
 
-----------------------------------------------------------iphone and point--------------------------------------------------------------------
+/* ----------------------------------------------------------iphone and point-------------------------------------------------------------------- */
 
 .iphone{
-  position: absolute;
-  left: 1327px;
-  top: 240px;
+    position: absolute;
+    left: 550px;
+    top: 190px;
 }
 
 .iphone img{
@@ -1104,25 +1117,26 @@ float: left;
 }
 
 .point_left{
-position: absolute;
-margin-left: 391px;
-top: 430px;
-
+    float: left;
+    margin-top: 160px;
 }
 
 .point_right{
-left: 1900px;
-top: 430px;
-position: absolute;
+margin-top: 160px;
+float: right;
 }
 
----------------------------------------------карусель 1----------------------------------------------------------
-
+/* ---------------------------------------------карусель 1----------------------------------------------------------
+ */
 .radio{
     bottom: 0;
-float: left;
-left: 15px;
+    float: right;
+    left: 15px;
     overflow: hidden;
+	height: 23px;
+	margin-top: 40px;
+	margin-right: 120px;
+}
 }
 
 .radio .radio_part{
@@ -1144,6 +1158,7 @@ left: 15px;
     height: 14px;
 }
 
+
 .radio .radio_part .active{
     background: #4E443C;
     color: #fff;
@@ -1152,23 +1167,18 @@ left: 15px;
 
 } 
 
-.radio_block {
-	    height: 23px;
-}
-
-
----------------------------------------------------------section--------------------------------------------------------------------------
+/* ---------------------------------------------------------section-------------------------------------------------------------------------- */
 
 section {
 	overflow:hidden;
 	position: relative;
 	background-image: url(../img/fon_2.png);
-	height: 336px;
+	height: 338px;
 	width: 100%;
 }
 
----------------------------------------------------sprite----------------------------------------------------------------------------------
-
+/* ---------------------------------------------------sprite----------------------------------------------------------------------------------
+ */
 .sprite{
    	overflow:hidden;
 	position: absolute;
@@ -1178,7 +1188,7 @@ section {
 	float: left;
 	list-style: none;
  	margin-top: 80px;
-        margin-right: 300px; 
+    margin-right: 300px; 
 }
 
 .sprite a{
@@ -1200,7 +1210,7 @@ section {
 	 background-position: -67px 0;
 }
 
-----------------------------------------------------end sprite------------------------------------------------------
+/* ----------------------------------------------------end sprite------------------------------------------------------ */
 
 .key_about{
 	display: inline-block;
@@ -1260,8 +1270,8 @@ p:active{
         color:  #f00;
 }
 
----------------------------------------------------------</article>------------------------------------------------------------------------------- 
-
+/* ---------------------------------------------------------</article>------------------------------------------------------------------------------- 
+ */
 article {
    background-image: url(../img/fon_white.png); 
    overflow:hidden;
@@ -1333,7 +1343,7 @@ span.hear a{
 	font-weight: bold;
 }
 
---------------------------------------------карусель 2------------------------------------------------------------
+/* --------------------------------------------карусель 2------------------------------------------------------------ */
 
 .radio_one{
         overflow: hidden;
@@ -1370,8 +1380,8 @@ span.hear a{
 	    height: 23px;
 }
 
----------------------------------------------------aside-------------------------------------------------------------------
-
+/* ---------------------------------------------------aside-------------------------------------------------------------------
+ */
 aside {
         background-image: url(../img/grey_fon.png); 
         overflow:hidden;
@@ -1417,8 +1427,8 @@ margin-right: 40px;
         font-family: 'Myriad Pro', sans-serif;
 }
 
---------------------------------------------footer-----------------------------------------------------------------
-
+-/* -------------------------------------------footer-----------------------------------------------------------------
+ */
 footer{
 	position: relative;
 	overflow: hidden;
@@ -1464,6 +1474,4 @@ footer{
 } 
 
 
-
- */
 }

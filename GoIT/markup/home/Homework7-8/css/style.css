@@ -679,6 +679,19 @@ aside{
 /* -------------------------------------------------------start 480-------------------------------------------------------- */
 
 @media screen and (max-width: 768px) and (min-width: 480px) {
+
+body {
+ 	min-width: 480px;
+ 	max-width: 768px;
+ 	width: 100%;
+ }
+
+.wrapper{
+ 	width: 768px;
+ 	margin: 0 auto; 
+}
+
+
 ul.menu li{
         display: block;
         margin-top: 8px;
@@ -967,28 +980,36 @@ footer {
  	min-width: 768px;
  	max-width: 960px;
  	width: 100%;
+ 	text-align: center;
  }
 
 .wrapper{
- 	width: 960;
- 	margin-right: 715px;
- 	margin-left: 715px;
+ 	width: 960px;
+ 	margin: 0 auto; 
  	}
  
 header{
 	background-image: url(../img/header.jpg);
-	height: 840px;
-	width: 100%;
+	height: 798px;
+	width: 100%;	
  	overflow:hidden;
 	position: relative; 
  	font-family: 'Myriad Pro', sans-serif; 
  }
 
 
-.ping{
+.article {
+    background-image: url(../img/fon_white.png);
+    overflow: hidden;
+    position: relative;
+    height: 603px;
+    width: 100%;
+
+
+/* .ping{
 	margin-top: 66px;
 	text-align: center;
-/* 	float: left; */
+float: left;
 }
 
  .ping h1{
@@ -1004,21 +1025,21 @@ header{
  
 .menu {
         margin-top: 38px;
-	margin: 0; /* Обнуляем значение отступов */
-	padding: 4px; /* Значение полей  */
+	margin: 0; Обнуляем значение отступов
+	padding: 4px; Значение полей
 	padding-right: 0px;
         width: 100%;
         text-align: center;
 }
 
 .menu_item{
-	display: inline; /* Отображать как строчный элемент */
+	display: inline; Отображать как строчный элемент
 	text-align: center;
 	padding-right: 35px;
 } 
 
 .menu_link{
-    text-transform: uppercase; /* все буквы большие */
+    text-transform: uppercase; все буквы большие
     font-size: 24px;
     color: #ffffff;
     text-decoration: none;
@@ -1031,7 +1052,7 @@ header{
 	  
 }
 
-/* ------------------------------------------------серый фон lorem ipsum text------------------------------------------------------------------ */
+------------------------------------------------серый фон lorem ipsum text------------------------------------------------------------------
 
 .slider{
 	background-image: url(../img/fon.png);
@@ -1039,7 +1060,7 @@ header{
 	height: 393px;
 	width: 100%;
 	font-family: 'Myriad Pro', sans-serif; 
-	/* position: relative; */
+	position: relative;
 }
 
 .lorem_nav{
@@ -1070,7 +1091,7 @@ header{
 
 }
 
-/* ----------------------------------------------------------iphone and point-------------------------------------------------------------------- */
+----------------------------------------------------------iphone and point--------------------------------------------------------------------
 
 .iphone{
   position: absolute;
@@ -1083,25 +1104,24 @@ header{
 }
 
 .point_left{
-/*  position: absolute; */
-/*  margin-left: 391px; */
-/*  top: 430px; */
+position: absolute;
+margin-left: 391px;
+top: 430px;
 
 }
 
 .point_right{
-/*  left: 1900px; */
-/*  top: 430px */;
-/*  position: absolute; */
+left: 1900px;
+top: 430px;
+position: absolute;
 }
 
-/* ---------------------------------------------карусель 1----------------------------------------------------------
- */
+---------------------------------------------карусель 1----------------------------------------------------------
 
 .radio{
     bottom: 0;
-/*     float: left;
-left: 15px; */
+float: left;
+left: 15px;
     overflow: hidden;
 }
 
@@ -1137,7 +1157,7 @@ left: 15px; */
 }
 
 
-/* ---------------------------------------------------------section-------------------------------------------------------------------------- */
+---------------------------------------------------------section--------------------------------------------------------------------------
 
 section {
 	overflow:hidden;
@@ -1147,7 +1167,7 @@ section {
 	width: 100%;
 }
 
-/* ---------------------------------------------------sprite---------------------------------------------------------------------------------- */
+---------------------------------------------------sprite----------------------------------------------------------------------------------
 
 .sprite{
    	overflow:hidden;
@@ -1180,11 +1200,11 @@ section {
 	 background-position: -67px 0;
 }
 
-/* ----------------------------------------------------end sprite------------------------------------------------------ */
+----------------------------------------------------end sprite------------------------------------------------------
 
 .key_about{
 	display: inline-block;
-/* 	width: 23%; */
+width: 23%;
 	height: 196px;
 	padding-top: 76px;
 	padding-right: 105px;
@@ -1193,7 +1213,7 @@ section {
 
 .speak_about{
 	display: inline-block;
- /* 	width: 23%;  */
+ width: 23%;
 	height: 196px;
 	padding-top: 76px;
 	padding-right: 105px;
@@ -1203,7 +1223,7 @@ section {
 
 .music_about{
         display: inline-block;
-/* 	 width: 23%;  */
+width: 23%;
 	height: 196px;
 	padding-top: 76px;
 	padding-right: 105px;
@@ -1240,7 +1260,7 @@ p:active{
         color:  #f00;
 }
 
-/* ---------------------------------------------------------</article>------------------------------------------------------------------------------- */ 
+---------------------------------------------------------</article>------------------------------------------------------------------------------- 
 
 article {
    background-image: url(../img/fon_white.png); 
@@ -1262,11 +1282,11 @@ article {
 }
 
 .updates{
-/* 	height: 302px;
+height: 302px;
 width: 44%;
 float: left;
  	margin-top: 110px;
-    margin-left: 40px;  */
+    margin-left: 40px;
 }
 
 .updates .search{
@@ -1279,7 +1299,7 @@ float: left;
 
 .updates .site_media {
 	list-style-type: none;
-/* 	text-decoration: none; */
+text-decoration: none;
 }
 
 .updates .site{
@@ -1313,8 +1333,7 @@ span.hear a{
 	font-weight: bold;
 }
 
-/* --------------------------------------------карусель 2------------------------------------------------------------
- */
+--------------------------------------------карусель 2------------------------------------------------------------
 
 .radio_one{
         overflow: hidden;
@@ -1351,7 +1370,7 @@ span.hear a{
 	    height: 23px;
 }
 
-/* ---------------------------------------------------aside------------------------------------------------------------------- */
+---------------------------------------------------aside-------------------------------------------------------------------
 
 aside {
         background-image: url(../img/grey_fon.png); 
@@ -1363,17 +1382,17 @@ aside {
  .news{
         width: 265px;
         height: 180px;
-/*          float: left;  */
+float: left;
         margin-top: 91px;
         margin-right: 40px;
 } 
 
 .news_one{
         width: 32%;
-/*         height: 180px; */
- /*        float: left; */
+height: 180px;
+ float: left;
         margin-top: 91px;
-/*         margin-right: 40px; */
+margin-right: 40px;
 }
 
 .news_one .name{
@@ -1398,7 +1417,7 @@ aside {
         font-family: 'Myriad Pro', sans-serif;
 }
 
-/* --------------------------------------------footer----------------------------------------------------------------- */
+--------------------------------------------footer-----------------------------------------------------------------
 
 footer{
 	position: relative;
@@ -1409,11 +1428,11 @@ footer{
 
 .menu_footer{
         list-style-type: none;
-  /*      float: left;*/
+  float: left;
         margin-top: 46px;
         font-family: 'Myriad Pro', sans-serif;
-    /*     font-stretch: extra-condensed; */
-        text-transform: uppercase; /* все буквы большие */
+    font-stretch: extra-condensed;
+        text-transform: uppercase; все буквы большие
         text-align: center;
 }
 
@@ -1446,5 +1465,5 @@ footer{
 
 
 
-
+ */
 }

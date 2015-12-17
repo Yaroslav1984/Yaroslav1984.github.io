@@ -1,43 +1,42 @@
 *{
-	margin: 0;
-	padding: 0;	
+  margin: 0;
+  padding: 0; 
 }
-
 
 body { 
     display: block;
     position: relative;  
     margin: auto;
-	width: 100%;
-	height: 2306px;
+  width: 100%;
+  height: 2306px;
     background: white;
 }
   
 /*   .wrapper{
   min-width: 768px;
- 	max-width: 960px;
- 	width: 100%;
- 	margin-left: 715px;
- 	margin-right: 715px;
- 	text-align: center;
+  max-width: 960px;
+  width: 100%;
+  margin-left: 715px;
+  margin-right: 715px;
+  text-align: center;
 }
  */
 /* <!-- -------------------------------------------------------Menu---------------------------------------------------------- --> */
 
 header{
-	background-image: url(../img/header.jpg);
-	height: 840px;
-	width: 100%;
- 	overflow:hidden;
-	position: relative; 
- 	font-family: 'Myriad Pro', sans-serif; 
+  background-image: url(../img/header.jpg);
+  height: 840px;
+  width: 100%;
+  overflow:hidden;
+  position: relative; 
+  font-family: 'Myriad Pro', sans-serif; 
  }
 
 
 .ping{
-	margin-top: 66px;
- 	text-align: center; 
-/* 	float: left; */
+  margin-top: 66px;
+  text-align: center;
+/*  float: left; */
 }
 
  .ping h1{
@@ -48,22 +47,22 @@ header{
 }
 
 .ping span{
-	color: #533b5e;
+  color: #533b5e;
 }
  
 .menu {
-    margin-top: 38px;
-	margin: 0; /* Обнуляем значение отступов */
-	padding: 4px; /* Значение полей  */
-	padding-right: 0px;
-    width: 100%;
-/*     text-align: center; */
+        margin-top: 38px;
+  margin: 0; /* Обнуляем значение отступов */
+  padding: 4px; /* Значение полей  */
+  padding-right: 0px;
+        width: 100%;
+        text-align: center;
 }
 
 .menu_item{
-	display: inline; /* Отображать как строчный элемент */
-	text-align: center;
-	padding-right: 35px;
+  display: inline; /* Отображать как строчный элемент */
+  text-align: center;
+  padding-right: 35px;
 } 
 
 .menu_link{
@@ -75,46 +74,46 @@ header{
 }
 
 .menu_link:hover{
-	 text-decoration: underline;
-	  
+   text-decoration: underline;
+    
 }
 
 /* ------------------------------------------------серый фон lorem ipsum text------------------------------------------------------------------ */
 
 .slider{
-	background-image: url(../img/fon.png);
-/* 	margin-top: 255px; */
-	height: 393px;
-	width: 100%;
-	font-family: 'Myriad Pro', sans-serif; 
-	/* position: relative; */
+  background-image: url(../img/fon.png);
+  margin-top: 255px;
+  height: 393px;
+  width: 100%;
+  font-family: 'Myriad Pro', sans-serif; 
+  /* position: relative; */
 }
 
 .lorem_nav{
-	width: 100%;
+  width: 100%;
     height: 233px;
     margin-left: 0px;
     padding-top: 83px;
 }
 
 .lorem_nav h2{
-	font-size: 60px;
-	color: #ffffff;
-	font-weight: normal;
-	font-stretch:extra-condensed; 
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: normal;
+  font-stretch:extra-condensed; 
 }
 
 .lorem_nav h3{
-	font-size: 32px;
-	color: #edbfff;
-	font-weight: normal;
-	font-stretch:extra-condensed; 
+  font-size: 32px;
+  color: #edbfff;
+  font-weight: normal;
+  font-stretch:extra-condensed; 
 }
 
 .lorem_nav p{
-	font-size: 18px;
-	color: #edeced;
-	font-weight: 100; 
+  font-size: 18px;
+  color: #edeced;
+  font-weight: 100; 
 
 }
 
@@ -127,7 +126,7 @@ header{
 }
 
 .iphone img{
-	width: 247px
+  width: 247px
 }
 
 .point_left{
@@ -181,105 +180,105 @@ left: 15px; */
 } 
 
 .radio_block {
-	    height: 23px;
+      height: 23px;
 }
 
 
 /* ---------------------------------------------------------section-------------------------------------------------------------------------- */
 
 section {
-	overflow:hidden;
-	position: relative;
-	background-image: url(../img/fon_2.png);
-	height: 336px;
-	width: 100%;
+  overflow:hidden;
+  position: relative;
+  background-image: url(../img/fon_2.png);
+  height: 336px;
+  width: 100%;
 }
 
 /* ---------------------------------------------------sprite---------------------------------------------------------------------------------- */
 
 .sprite{
-   	overflow:hidden;
-	position: absolute;
+    overflow:hidden;
+  position: absolute;
 }
 
 .sprite .sprite_part{
-	float: left;
-	list-style: none;
- 	margin-top: 80px;
+  float: left;
+  list-style: none;
+  margin-top: 80px;
         margin-right: 300px; 
 }
 
 .sprite a{
-	height: 28px;
-	width: 28px;
-	display: block;
-	background: url(../img/sprite.png) 0 0 no-repeat;  
+  height: 28px;
+  width: 28px;
+  display: block;
+  background: url(../img/sprite.png) 0 0 no-repeat;  
 }
 
  .sprite .key{
-	background-position: 0px 0;
+  background-position: 0px 0;
 }
 
 .sprite .spaek{
-	background-position: -34.5px 0;
+  background-position: -34.5px 0;
 }
 
 .sprite .musik{
-	 background-position: -67px 0;
+   background-position: -67px 0;
 }
 
 /* ----------------------------------------------------end sprite------------------------------------------------------ */
 
 .key_about{
-	display: inline-block;
-/* 	width: 23%; */
-	height: 196px;
-	padding-top: 76px;
-	padding-right: 105px;
-	margin-left: 56px;
+  display: inline-block;
+/*  width: 23%; */
+  height: 196px;
+  padding-top: 76px;
+  padding-right: 105px;
+  margin-left: 56px;
 }
 
 .speak_about{
-	display: inline-block;
- /* 	width: 23%;  */
-	height: 196px;
-	padding-top: 76px;
-	padding-right: 105px;
-	margin-left: 56px;
+  display: inline-block;
+ /*   width: 23%;  */
+  height: 196px;
+  padding-top: 76px;
+  padding-right: 105px;
+  margin-left: 56px;
 
 }
 
 .music_about{
         display: inline-block;
-/* 	 width: 23%;  */
-	height: 196px;
-	padding-top: 76px;
-	padding-right: 105px;
-	margin-left: 56px;
+/*   width: 23%;  */
+  height: 196px;
+  padding-top: 76px;
+  padding-right: 105px;
+  margin-left: 56px;
 }
 
 .key_about_part{
-	font-size: 30px;
-	color: #ffffff;
-	font-stretch:extra-condensed; 
+  font-size: 30px;
+  color: #ffffff;
+  font-stretch:extra-condensed; 
     font-family: 'Myriad Pro', sans-serif; 
 }
 
 section p{
-	font-size: 16px;
-	color: #e2e1e3;
-	margin-top: 16px;
-	width: 221px;
-	margin-bottom: 25px
+  font-size: 16px;
+  color: #e2e1e3;
+  margin-top: 16px;
+  width: 221px;
+  margin-bottom: 25px
 }
 
 .key_about_read{
-	float: right;
+  float: right;
 }
 
 .key_about_read a{
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
         font-stretch:extra-condensed; 
         font-family: 'Myriad Pro', sans-serif; 
 }
@@ -310,24 +309,24 @@ article {
 }
 
 .updates{
-/* 	height: 302px;
+/*  height: 302px;
 width: 44%;
 float: left;
- 	margin-top: 110px;
+  margin-top: 110px;
     margin-left: 40px;  */
 }
 
 .updates .search{
-	font-size: 30px;
-	font-family: 'Myriad Pro', sans-serif;
-	margin-bottom: 19px;
-	font-weight: normal;
-	font-stretch: extra-condensed;
+  font-size: 30px;
+  font-family: 'Myriad Pro', sans-serif;
+  margin-bottom: 19px;
+  font-weight: normal;
+  font-stretch: extra-condensed;
 }
 
 .updates .site_media {
-	list-style-type: none;
-/* 	text-decoration: none; */
+  list-style-type: none;
+/*  text-decoration: none; */
 }
 
 .updates .site{
@@ -335,30 +334,30 @@ float: left;
 }
 
 .updates img{
-	width: 49px;
+  width: 49px;
     height: 49px;
     margin-right: 15px;
 }
 
 .nunc{
-	font-size: 16px;
-	font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 
 }
 
 span.hear{
-	float: left;
-	margin-top: 32px;;
+  float: left;
+  margin-top: 32px;;
 }
 
 span.hear a{
-	float: left;;
-	margin-left: 180px;
-	font-family: 'Myriad Pro', sans-serif;
-	text-decoration: none;
-	color: black;
-	font-stretch: extra-condensed;
-	font-weight: bold;
+  float: left;;
+  margin-left: 180px;
+  font-family: 'Myriad Pro', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-stretch: extra-condensed;
+  font-weight: bold;
 }
 
 /* --------------------------------------------карусель 2------------------------------------------------------------
@@ -366,10 +365,10 @@ span.hear a{
 
 .radio_one{
         overflow: hidden;
-	float: left;
-	width: 11%;
-	margin-left: 180px;
-	margin-bottom: 50px;
+  float: left;
+  width: 11%;
+  margin-left: 180px;
+  margin-bottom: 50px;
 }
 
 .radio_one .radio_bottom_part{
@@ -389,14 +388,14 @@ span.hear a{
 }
 
 .radio_one .radio_bottom_part .active{
-	    background: #4E443C;
+      background: #4E443C;
         color: #fff;
         opacity: 1;
         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 } 
 
 .radio_one .radio_bottom{
-	    height: 23px;
+      height: 23px;
 }
 
 /* ---------------------------------------------------aside------------------------------------------------------------------- */
@@ -435,9 +434,9 @@ aside {
 }
 
 .news_one .name_bottom{
-	    font-size: 16px;
-	    color: #c5c5c5;
-	    font-style: italic;
+      font-size: 16px;
+      color: #c5c5c5;
+      font-style: italic;
 }
 
 .news .name{
@@ -449,10 +448,10 @@ aside {
 /* --------------------------------------------footer----------------------------------------------------------------- */
 
 footer{
-	position: relative;
-	overflow: hidden;
-	height: 197px;
-	background: url(../img/img_footer.png);
+  position: relative;
+  overflow: hidden;
+  height: 197px;
+  background: url(../img/img_footer.png);
 }
 
 .menu_footer{
@@ -466,9 +465,9 @@ footer{
 }
 
  .menu_footer .menu_item{
- 	display: inline-block; 
-	text-decoration: none;
-	margin-right: 39px;
+  display: inline-block; 
+  text-decoration: none;
+  margin-right: 39px;
 } 
 
 .menu_footer .menu_link:active{
@@ -476,150 +475,153 @@ footer{
 }
 
 .menu_footer .menu_link{
-	text-align: center;
-	text-decoration: none;
-	color: #dcdbde;
-	font-size: 26px;
+  text-align: center;
+  text-decoration: none;
+  color: #dcdbde;
+  font-size: 26px;
 }
 
 .menu_item_as .menu_link{
         text-transform: none;
-        color: white; 	
+        color: white;   
 }
 
 .menu_link .end{
-	color: #dcdbde;
-	font-weight: normal;
+  color: #dcdbde;
+  font-weight: normal;
 } 
  
 
 /* ------------------------------------------------ 320px----------------------------------------------------------------- */
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
-
 body {
- 	min-width: 320px;
- 	max-width: 480px;
- 	width: 100%;
+  min-width: 320px;
+  max-width: 480px;
+  width: 100%;
  }
-
+ 
+ 
 .wrapper{
- 	width: 320px;
- 	margin: 0 auto; 
+  width: 320px;
+  margin: 0 auto; 
 }
 
-
 header{
-    height: 514px;
+        height: 514px;
   }
 
 .hide-xs {
-  	display: none;
+     display: none;
   }
       
 .lorem_nav{
-    height: 66px;
-    padding-top: 0px;
+      height: 66px;
+      padding-top: 0px;
   }
 
 .lorem_nav .first{
-    font-size: 36px;
-    text-align: center;
+       font-size: 36px;
+       text-align: center;
   }
      
 .lorem_nav .second{
-    font-size: 18px;
-    text-align: center;
+       font-size: 18px;
+       text-align: center;
   }
     
 .lorem_nav .third{
-    display: none;
+        display: none;
   }
 
 section{
-    height: 599px;
-    padding-top: 66px;
-    background: #745181;
+      height: 599px;
+      padding-top: 66px;
+      background: #745181;
   }
 
 .slider{
-    background-image: none;
-    margin-top: 126px;
-    height: 67px;
-    position: relative;
+        background-image: none;
+        margin-top: 126px;
+        height: 67px;
+        position: relative;
   }
 
 .point_left{
-   	float: left;
-    margin-top: 18px;
+    float: left;
+        margin-top: 18px;
  }
    
 .point_right {
-    float: right;
-    margin-top: 18px;	
+       float: right;
+       margin-top: 18px;  
 }
 
 .radio{
-    text-align: center;
-    margin-top: 82px;
+      text-align: center;
+      margin-top: 82px;
 }
 
 .iphone{
-    display: none;
+       display: none;
 }
 
 .sprite{
-    height: 484px;
+      height: 484px;
 }
 
 .about {
-    font-size:24px;
+        font-size:24px;
 }
 
 .key_about, .speak_about, .music_about {
-    height: 134px;
-    padding-top: 22px;
-    margin-left: 56px;
+        height: 134px;
+        padding-top: 22px;
+        margin-left: 56px;
 }
 
 section .turpis {
-    margin-top: 7px;
+        margin-top: 7px;
 }
 
 .key, .spaek, .musik{
-    position: absolute;
+      position: absolute;
 }
      
 .key{
-    top: 22px;
+        top: 22px;
 }
 
 .spaek{
-    top: 175px;
+        top: 175px;
 }
   
 .musik{
-    top: 333px;
+        top: 333px;
 }
 
 .starts{
-    padding-left: 81px;
-}
-
-.starts img {
-    display: inline-block; 
-    margin-top: 97px;
+    display: inline-block;
+    margin-top: 65px;
     width: 80%;
     height: 269px;
     text-align: center;
 }
 
+.starts img {
+      display: inline-block; 
+      margin-top: 0px;
+      width: 80%;
+      height: 269px;
+      text-align: center;
+}
+
 .updates {
-    float: left;
-    height: 302px;
-    width: 100%;
-    margin-top: 57px;
-    margin-left: 40px;
+       float: left;
+       height: 302px;
+       width: 100%;
+       margin-top: 57px;
+       margin-left: 40px;
 }
 
  .hear{
@@ -635,7 +637,7 @@ article{
 }
         
 .logo{
-	   float: left;
+     float: left;
        text-align: center;
        height: 420px;
        width: 255px;
@@ -657,41 +659,33 @@ article{
 }
 
 .article .partner_part{
-	    list-style-type: none;
-	    width: 80px;
+      list-style-type: none;
+      width: 80px;
         height: 80px;
 }
 
 
 .radio_one{
-   	width: 34%;
-   	text-align: center;
-   	position: absolute;
-   	top: 365px;
-   	margin-left: 159px;
+    width: 34%;
+    text-align: center;
+    position: absolute;
+    top: 365px;
+    margin-left: 67px;
 }
 
 aside{
-   	display: none;
-}
-
-.menu {
-    margin-top: 38px;
-	margin: 0; /* Обнуляем значение отступов */
-	padding: 4px; /* Значение полей  */
-	padding-right: 0px;
-    width: 100%;
-    text-align: center; 
+    display: none;
 }
 
 .menu_footer .hide-s {
-	display: none;
+  display: none;
 } 
   
 .menu_item_as {
-  	text-align: center;
+    text-align: center;
 }
 
+}
 
 /* -------------------------------------------------end 320-------------------------------------------------------------
  */
@@ -701,14 +695,14 @@ aside{
 @media screen and (max-width: 768px) and (min-width: 480px) {
 
 body {
- 	min-width: 480px;
- 	max-width: 768px;
- 	width: 100%;
+  min-width: 480px;
+  max-width: 768px;
+  width: 100%;
  }
 
 .wrapper{
- 	width: 480px;
- 	margin: 0 auto; 
+  width: 480px;
+  margin: 0 auto; 
 }
 
 
@@ -724,7 +718,7 @@ header{
 }
 
 .menu{
-  	width: 239px;
+    width: 239px;
         text-align: center;
         background: -webkit-linear-gradient(bottom, #483a4e, #483a4e);
         -webkit-border-radius: 8px 8px 8px 8px;
@@ -737,10 +731,9 @@ header{
 }
 
 ul.menu {
-  	margin-top: 21px;
-  	opacity: 0.9; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
+    margin-top: 21px;
+    opacity: 0.9; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
 }
-
 
 .slider{
         position: absolute;
@@ -751,8 +744,8 @@ ul.menu {
 } 
 
 .lorem_nav{
-  	padding-top: 0px;
-  	width: 400px;
+    padding-top: 0px;
+    width: 400px;
         height: 80px;
         margin-top: 75px;
 }
@@ -772,7 +765,7 @@ ul.menu {
 }
 
 .iphone{
-       left: 270px;;
+       left: 270px;
        position: absolute;
        top: 0px;
 }
@@ -783,33 +776,38 @@ ul.menu {
 }
 
 .point_left{
-   	float: left;
-   	margin-top: 103px;
+    float: left;
+    margin-top: 103px;
 }
    
 .point_right {
         float: right;
-        margin-top: 103px; 	
+        margin-top: 103px;  
 }
 
 .radio{
-   	text-align: center;
-   	margin-top: 110px;
+    text-align: center;
+    margin-top: 110px;
 }
         
 section{
-     	height: 599px;
-     	padding-top: 66px;
-     	background: #745181;
-      	padding-left: 50px;
+      height: 599px;
+      padding-top: 66px;
+      background: #745181;
+        padding-left: 50px; 
 }
 
 .sprite{
-     	height: 484px;
+      height: 484px;
 }
 
-ul.sprite{
-        width: 420px;
+.starts img {
+    display: inline-block;
+    margin-top: 97px;
+    width: 80%;
+    height: 269px;
+    text-align: center;
+    width: 420px;
 }
 
 .about {
@@ -827,7 +825,7 @@ section .turpis {
 }
 
 .key, .spaek, .musik{
-    	position: absolute;
+      position: absolute;
 }
      
 .key{
@@ -844,7 +842,7 @@ section .turpis {
 }
 
 .starts{
-        padding-left: 50px; 
+       padding-left: 50px;
        float: left;
 }
 
@@ -861,9 +859,9 @@ article{
 }
 
 .updates{
-    	float: left;
-    	width: 100%;
-    	margin-left: 50px;
+      float: left;
+      width: 100%;
+      margin-left: 50px;
 }
 
 .updates .search {
@@ -875,8 +873,8 @@ article{
 }
        
 span.hear{
-       	margin-top: 0px;
-       	overflow: hidden;
+        margin-top: 0px;
+        overflow: hidden;
 }
        
 span.hear a {
@@ -890,11 +888,10 @@ span.hear a {
        overflow: hidden;
        margin-left: 0px;
 }
-.logo{
 
+.logo{
        text-align: center;
        height: 372px;
-       margin-left: 50px;
        width: 500px;
        float: left;
 }
@@ -914,24 +911,25 @@ span.hear a {
 }
     
  aside{
-    	height: 662px;
+      height: 662px;
+/*      padding-left: 120px;*/
 }
 
 .news{
-    	margin: 0 auto;
-    	margin-top: 80px;
-    	margin-left: 0px;
+      margin: 0 auto;
+      margin-top: 80px;
+      margin-left: 0px;
         margin-right: 0px;
         margin-top: 51px;
         width: 480px;
         height: 115px;
-    /* 	float: left; */
+    /*  float: left; */
 }
 
 .news_one{
-    	width: 480px;
+      width: 480px;
         margin-left: 0px;
-        margin-right: 0px;    	/* float: left; */
+        margin-right: 0px;      /* float: left; */
 }
     
 .news_one .name {
@@ -939,12 +937,12 @@ span.hear a {
 }
 
 .news .name{
-    	font-size: 24px;
+      font-size: 24px;
 }
     
 .news .news_one_text{
-    	font-size: 16px;
-    	margin-top: 10px;
+      font-size: 16px;
+      margin-top: 10px;
         width: 480px;
 }
     
@@ -956,13 +954,13 @@ footer {
 }
     
 .menu_footer .menu_item{
-	    text-decoration: none;
-	    margin-right: 0px;
+      text-decoration: none;
+      margin-right: 0px;
 }
 
 .menu_item_as {
-  	    text-align: center;
-  	    margin-top: 45px;
+        text-align: center;
+        margin-top: 45px;
 }
 
 .menu_item_as .menu_link {
@@ -978,55 +976,67 @@ footer {
 }
 
 .menu_link .end{
-	color: #dcdbde;
-	font-weight: normal;
-	font-size: 22px;
+  color: #dcdbde;
+  font-weight: normal;
+  font-size: 22px;
 } 
  
+
 }
 
  /* --------------------------------------- 768------------------------------------------------------------------ */
  
   @media screen and (max-width: 960px) and (min-width: 768px) {
-	body {
- 	min-width: 768px;
- 	max-width: 960px;
- 	width: 100%;
- 	text-align: center;
+  body {
+  min-width: 768px;
+  max-width: 960px;
+  width: 100%;
  }
 
 .wrapper{
- 	width: 768px;
- 	margin: 0 auto; 
- 	}
+  width: 960px;
+  }
  
 header{
-	background-image: url(../img/header.jpg);
-	height: 798px;
-	width: 100%;	
- 	overflow:hidden;
-	position: relative; 
- 	font-family: 'Myriad Pro', sans-serif; 
+  background-image: url(../img/header.jpg);
+  height: 798px;
+  width: 100%;
+  overflow:hidden;
+  position: relative; 
+  font-family: 'Myriad Pro', sans-serif; 
  }
 
- .ping{
-    margin-top: 66px;
-/*      float: left;  */
+
+.ping{
+  margin-top: 66px;
+/*  text-align: center;*/
+/*  float: left; */
 }
 
+ .ping h1{
+    color: #ffffff;
+    font-weight: bold 700;
+    font-size: 43px;
+    font-stretch:extra-condensed; 
+}
+
+.ping span{
+  color: #533b5e;
+}
+ 
 .menu {
-    margin-top: 38px;
-	margin: 0; /* Обнуляем значение отступов */
-	padding: 4px; /* Значение полей */
-	padding-right: 0px;
-    width: 100%;
-    text-align: center;
+        margin-top: 38px;
+  margin: 0; /* Обнуляем значение отступов */
+  padding: 4px; /* Значение полей  */
+  padding-right: 0px;
+        width: 100%;
+        text-align: center;
 }
 
 .menu_item{
-	display: inline; /* Отображать как строчный элемент */
-	text-align: center;
-	padding-right: 50px;
+  display: inline; /* Отображать как строчный элемент */
+  text-align: center;
+  padding-right: 50px;
 } 
 
 .menu_link{
@@ -1039,79 +1049,59 @@ header{
 }
 
 .menu_link:hover{
-	 text-decoration: underline;
-	  
+   text-decoration: underline;
+    
 }
-.article {
-    background-image: url(../img/fon_white.png);
-    overflow: hidden;
-    position: relative;
-    height: 603px;
-    width: 100%;
-}
-
- .ping h1{
-    color: #ffffff;
-    font-weight: bold 700;
-    font-size: 43px;
-    font-stretch:extra-condensed; 
-}
-
-.ping span{
-	color: #533b5e;
-}
- 
-
 
 /* ------------------------------------------------серый фон lorem ipsum text------------------------------------------------------------------ */
 
 .slider{
-	background-image: url(../img/fon.png);
-	margin-top: 53px;
-	height: 393px;
-	width: 100%;
-	font-family: 'Myriad Pro', sans-serif; 
-/* 	position: relative; */
+  background-image: url(../img/fon.png);
+  margin-top: 53px;
+  height: 393px;
+  width: 100%;
+  font-family: 'Myriad Pro', sans-serif; 
+  /* position: relative; */
 }
 
 .lorem_nav{
-	width: 46%;
-    height: 233px;
-    padding-top: 83px;
-    margin-left: 30px;
+  width: 46%;
+        height: 233px;
+        margin-left: 30px;
+        padding-top: 83px;
 }
 
 .lorem_nav h2{
-	font-size: 48px;
-	color: #ffffff;
-	font-weight: normal;
-	font-stretch:extra-condensed; 
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: normal;
+  font-stretch:extra-condensed; 
 }
 
 .lorem_nav h3{
-	font-size: 24px;
-	color: #edbfff;
-	font-weight: normal;
-	font-stretch:extra-condensed; 
+  font-size: 24px;
+  color: #edbfff;
+  font-weight: normal;
+  font-stretch:extra-condensed; 
 }
 
 .lorem_nav p{
-	font-size: 16px;
-	color: #edeced;
-	font-weight: 100; 
+  font-size: 16px;
+  color: #edeced;
+  font-weight: 100; 
 
 }
 
 /* ----------------------------------------------------------iphone and point-------------------------------------------------------------------- */
 
 .iphone{
-    position: absolute;
-    left: 550px;
-    top: 190px;
+  position: absolute;
+  left: 550px;
+  top: 190px;
 }
 
 .iphone img{
-	width: 247px
+  width: 247px
 }
 
 .point_left{
@@ -1120,21 +1110,18 @@ header{
 }
 
 .point_right{
-margin-top: 160px;
-float: right;
+    margin-top: 160px;
+    float: right;
 }
 
 /* ---------------------------------------------карусель 1----------------------------------------------------------
  */
+
 .radio{
     bottom: 0;
-    float: right;
-    left: 15px;
+/*     float: left;
+left: 15px; */
     overflow: hidden;
-	height: 23px;
-	margin-top: 40px;
-	margin-right: 120px;
-}
 }
 
 .radio .radio_part{
@@ -1156,7 +1143,6 @@ float: right;
     height: 14px;
 }
 
-
 .radio .radio_part .active{
     background: #4E443C;
     color: #fff;
@@ -1165,101 +1151,106 @@ float: right;
 
 } 
 
+.radio_block {
+      height: 23px;
+}
+
+
 /* ---------------------------------------------------------section-------------------------------------------------------------------------- */
 
 section {
-	overflow:hidden;
-	position: relative;
-	background-image: url(../img/fon_2.png);
-	height: 338px;
-	width: 100%;
+  overflow:hidden;
+  position: relative;
+  background-image: url(../img/fon_2.png);
+  height: 336px;
+  width: 100%;
 }
 
-/* ---------------------------------------------------sprite----------------------------------------------------------------------------------
- */
+/* ---------------------------------------------------sprite---------------------------------------------------------------------------------- */
+
 .sprite{
-   	overflow:hidden;
-	position: absolute;
+    overflow:hidden;
+  position: absolute;
 }
 
 .sprite .sprite_part{
-	float: left;
-	list-style: none;
- 	margin-top: 80px;
-    margin-right: 300px; 
+  float: left;
+  list-style: none;
+  margin-top: 80px;
+        margin-right: 300px; 
 }
 
 .sprite a{
-	height: 28px;
-	width: 28px;
-	display: block;
-	background: url(../img/sprite.png) 0 0 no-repeat;  
+  height: 28px;
+  width: 28px;
+  display: block;
+  background: url(../img/sprite.png) 0 0 no-repeat;  
 }
 
  .sprite .key{
-	background-position: 0px 0;
+  background-position: 0px 0;
 }
 
 .sprite .spaek{
-	background-position: -34.5px 0;
+  background-position: -34.5px 0;
 }
 
 .sprite .musik{
-	 background-position: -67px 0;
+   background-position: -67px 0;
 }
 
 /* ----------------------------------------------------end sprite------------------------------------------------------ */
 
 .key_about{
-	display: inline-block;
-width: 23%;
-	height: 196px;
-	padding-top: 76px;
-	padding-right: 105px;
-	margin-left: 56px;
+  display: inline-block;
+/*  width: 23%; */
+  height: 196px;
+  padding-top: 76px;
+  padding-right: 105px;
+  margin-left: 56px;
 }
 
 .speak_about{
-	display: inline-block;
- width: 23%;
-	height: 196px;
-	padding-top: 76px;
-	padding-right: 105px;
-	margin-left: 56px;
+  display: inline-block;
+ /*   width: 23%;  */
+  height: 196px;
+  padding-top: 76px;
+  padding-right: 105px;
+  margin-left: 56px;
 
 }
 
 .music_about{
         display: inline-block;
-width: 23%;
-	height: 196px;
-	padding-top: 76px;
-	padding-right: 105px;
-	margin-left: 56px;
+/*   width: 23%;  */
+  height: 196px;
+  padding-top: 76px;
+  padding-right: 105px;
+  margin-left: 56px;
 }
 
 .key_about_part{
-	font-size: 30px;
-	color: #ffffff;
-	font-stretch:extra-condensed; 
+  font-size: 30px;
+  color: #ffffff;
+  font-stretch:extra-condensed; 
     font-family: 'Myriad Pro', sans-serif; 
 }
 
 section p{
-	font-size: 16px;
-	color: #e2e1e3;
-	margin-top: 16px;
-	width: 221px;
-	margin-bottom: 25px
+  font-size: 16px;
+  color: #e2e1e3;
+  margin-top: 16px;
+  width: 221px;
+  margin-bottom: 25px
 }
 
 .key_about_read{
-	float: right;
+  float: right;
 }
 
 .key_about_read a{
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
         font-stretch:extra-condensed; 
         font-family: 'Myriad Pro', sans-serif; 
 }
@@ -1268,8 +1259,8 @@ p:active{
         color:  #f00;
 }
 
-/* ---------------------------------------------------------</article>------------------------------------------------------------------------------- 
- */
+/* ---------------------------------------------------------</article>------------------------------------------------------------------------------- */ 
+
 article {
    background-image: url(../img/fon_white.png); 
    overflow:hidden;
@@ -1290,24 +1281,24 @@ article {
 }
 
 .updates{
-height: 302px;
+/*  height: 302px;
 width: 44%;
 float: left;
- 	margin-top: 110px;
-    margin-left: 40px;
+  margin-top: 110px;
+    margin-left: 40px;  */
 }
 
 .updates .search{
-	font-size: 30px;
-	font-family: 'Myriad Pro', sans-serif;
-	margin-bottom: 19px;
-	font-weight: normal;
-	font-stretch: extra-condensed;
+  font-size: 30px;
+  font-family: 'Myriad Pro', sans-serif;
+  margin-bottom: 19px;
+  font-weight: normal;
+  font-stretch: extra-condensed;
 }
 
 .updates .site_media {
-	list-style-type: none;
-text-decoration: none;
+  list-style-type: none;
+/*  text-decoration: none; */
 }
 
 .updates .site{
@@ -1315,40 +1306,41 @@ text-decoration: none;
 }
 
 .updates img{
-	width: 49px;
+  width: 49px;
     height: 49px;
     margin-right: 15px;
 }
 
 .nunc{
-	font-size: 16px;
-	font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 
 }
 
 span.hear{
-	float: left;
-	margin-top: 32px;;
+  float: left;
+  margin-top: 32px;;
 }
 
 span.hear a{
-	float: left;;
-	margin-left: 180px;
-	font-family: 'Myriad Pro', sans-serif;
-	text-decoration: none;
-	color: black;
-	font-stretch: extra-condensed;
-	font-weight: bold;
+  float: left;;
+  margin-left: 180px;
+  font-family: 'Myriad Pro', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-stretch: extra-condensed;
+  font-weight: bold;
 }
 
-/* --------------------------------------------карусель 2------------------------------------------------------------ */
+/* --------------------------------------------карусель 2------------------------------------------------------------
+ */
 
 .radio_one{
         overflow: hidden;
-	float: left;
-	width: 11%;
-	margin-left: 180px;
-	margin-bottom: 50px;
+  float: left;
+  width: 11%;
+  margin-left: 180px;
+  margin-bottom: 50px;
 }
 
 .radio_one .radio_bottom_part{
@@ -1368,18 +1360,18 @@ span.hear a{
 }
 
 .radio_one .radio_bottom_part .active{
-	    background: #4E443C;
+      background: #4E443C;
         color: #fff;
         opacity: 1;
         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 } 
 
 .radio_one .radio_bottom{
-	    height: 23px;
+      height: 23px;
 }
 
-/* ---------------------------------------------------aside-------------------------------------------------------------------
- */
+/* ---------------------------------------------------aside------------------------------------------------------------------- */
+
 aside {
         background-image: url(../img/grey_fon.png); 
         overflow:hidden;
@@ -1390,17 +1382,17 @@ aside {
  .news{
         width: 265px;
         height: 180px;
-float: left;
+/*          float: left;  */
         margin-top: 91px;
         margin-right: 40px;
 } 
 
 .news_one{
         width: 32%;
-height: 180px;
- float: left;
+/*         height: 180px; */
+ /*        float: left; */
         margin-top: 91px;
-margin-right: 40px;
+/*         margin-right: 40px; */
 }
 
 .news_one .name{
@@ -1414,9 +1406,9 @@ margin-right: 40px;
 }
 
 .news_one .name_bottom{
-	    font-size: 16px;
-	    color: #c5c5c5;
-	    font-style: italic;
+      font-size: 16px;
+      color: #c5c5c5;
+      font-style: italic;
 }
 
 .news .name{
@@ -1425,29 +1417,29 @@ margin-right: 40px;
         font-family: 'Myriad Pro', sans-serif;
 }
 
--/* -------------------------------------------footer-----------------------------------------------------------------
- */
+/* --------------------------------------------footer----------------------------------------------------------------- */
+
 footer{
-	position: relative;
-	overflow: hidden;
-	height: 197px;
-	background: url(../img/img_footer.png);
+  position: relative;
+  overflow: hidden;
+  height: 197px;
+  background: url(../img/img_footer.png);
 }
 
 .menu_footer{
         list-style-type: none;
-  float: left;
+  /*      float: left;*/
         margin-top: 46px;
         font-family: 'Myriad Pro', sans-serif;
-    font-stretch: extra-condensed;
-        text-transform: uppercase; все буквы большие
+    /*     font-stretch: extra-condensed; */
+        text-transform: uppercase; /* все буквы большие */
         text-align: center;
 }
 
  .menu_footer .menu_item{
- 	display: inline-block; 
-	text-decoration: none;
-	margin-right: 39px;
+  display: inline-block; 
+  text-decoration: none;
+  margin-right: 39px;
 } 
 
 .menu_footer .menu_link:active{
@@ -1455,21 +1447,23 @@ footer{
 }
 
 .menu_footer .menu_link{
-	text-align: center;
-	text-decoration: none;
-	color: #dcdbde;
-	font-size: 26px;
+  text-align: center;
+  text-decoration: none;
+  color: #dcdbde;
+  font-size: 26px;
 }
 
 .menu_item_as .menu_link{
         text-transform: none;
-        color: white; 	
+        color: white;   
 }
 
 .menu_link .end{
-	color: #dcdbde;
-	font-weight: normal;
+  color: #dcdbde;
+  font-weight: normal;
 } 
+
+
 
 
 }

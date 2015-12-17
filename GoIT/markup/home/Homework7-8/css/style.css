@@ -1010,9 +1010,7 @@ header{
 
 .ping{
   margin-top: 66px;
-  width: 420px;
-/*  text-align: center;*/
-/*  float: left; */
+  width: 230px;
 }
 
  .ping h1{
@@ -1020,6 +1018,7 @@ header{
     font-weight: bold 700;
     font-size: 43px;
     font-stretch:extra-condensed; 
+        margin-bottom: 38p
 }
 
 .ping span{

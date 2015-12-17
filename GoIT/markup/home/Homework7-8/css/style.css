@@ -994,7 +994,8 @@ footer {
  }
 
 .wrapper{
-  width: 960px;
+  width: 768px;
+  margin: 0 auto;
   }
  
 header{
@@ -1009,6 +1010,7 @@ header{
 
 .ping{
   margin-top: 66px;
+  width: 420px;
 /*  text-align: center;*/
 /*  float: left; */
 }

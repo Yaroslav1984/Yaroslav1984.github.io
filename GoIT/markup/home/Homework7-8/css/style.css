@@ -11,85 +11,77 @@ body {
   height: 2306px;
     background: white;
 }
-  
-/*   .wrapper{
-  min-width: 768px;
-  max-width: 960px;
-  width: 100%;
-  margin-left: 715px;
-  margin-right: 715px;
-  text-align: center;
-}
- */
+
+
 /* <!-- -------------------------------------------------------Menu---------------------------------------------------------- --> */
 
-header{
+/* header{
   background-image: url(../img/header.jpg);
   height: 840px;
   width: 100%;
   overflow:hidden;
   position: relative; 
   font-family: 'Myriad Pro', sans-serif; 
- }
+ } */
 
 
-.ping{
+/* .ping{
   margin-top: 66px;
   text-align: center;
-/*  float: left; */
-}
+float: left;
+} */
 
- .ping h1{
-    color: #ffffff;
-    font-weight: bold 700;
-    font-size: 43px;
-    font-stretch:extra-condensed; 
+/*  .ping h1{
+   color: #ffffff;
+   font-weight: bold 700;
+   font-size: 43px;
+   font-stretch:extra-condensed; 
 }
 
 .ping span{
-  color: #533b5e;
-}
+ color: #533b5e;
+} */
  
-.menu {
+/* .menu {
         margin-top: 38px;
-  margin: 0; /* Обнуляем значение отступов */
-  padding: 4px; /* Значение полей  */
+  margin: 0; Обнуляем значение отступов
+  padding: 4px; Значение полей
   padding-right: 0px;
         width: 100%;
         text-align: center;
-}
+} */
 
-.menu_item{
-  display: inline; /* Отображать как строчный элемент */
+/* .menu_item{
+  display: inline; Отображать как строчный элемент
   text-align: center;
   padding-right: 35px;
 } 
-
-.menu_link{
-    text-transform: uppercase; /* все буквы большие */
+ */
+/* .menu_link{
+    text-transform: uppercase; все буквы большие
     font-size: 24px;
     color: #ffffff;
     text-decoration: none;
     font-stretch:extra-condensed; 
 }
-
-.menu_link:hover{
+ */
+/* .menu_link:hover{
    text-decoration: underline;
     
-}
+} */
 
 /* ------------------------------------------------серый фон lorem ipsum text------------------------------------------------------------------ */
 
-.slider{
+/* .slider{
   background-image: url(../img/fon.png);
   margin-top: 255px;
   height: 393px;
   width: 100%;
-  font-family: 'Myriad Pro', sans-serif; 
+  font-family: 'Myriad Pro', sans-serif;  */
   /* position: relative; */
 }
 
-.lorem_nav{
+/* .lorem_nav{
   width: 100%;
     height: 233px;
     margin-left: 0px;
@@ -115,40 +107,40 @@ header{
   color: #edeced;
   font-weight: 100; 
 
-}
+} */
 
 /* ----------------------------------------------------------iphone and point-------------------------------------------------------------------- */
 
-.iphone{
+/* .iphone{
   position: absolute;
   left: 1327px;
   top: 240px;
-}
+} */
 
-.iphone img{
+/* .iphone img{
   width: 247px
 }
-
-.point_left{
+ */
+/* .point_left{ */
 /*  position: absolute; */
 /*  margin-left: 391px; */
 /*  top: 430px; */
 
-}
+/* }
 
 .point_right{
-/*  left: 1900px; */
-/*  top: 430px */;
-/*  position: absolute; */
+left: 1900px;
+top: 430px;
+position: absolute;
 }
-
+ */
 /* ---------------------------------------------карусель 1----------------------------------------------------------
  */
 
-.radio{
+/* .radio{
     bottom: 0;
-/*     float: left;
-left: 15px; */
+float: left;
+left: 15px;
     overflow: hidden;
 }
 
@@ -181,22 +173,22 @@ left: 15px; */
 
 .radio_block {
       height: 23px;
-}
+} */
 
 
 /* ---------------------------------------------------------section-------------------------------------------------------------------------- */
 
-section {
-  overflow:hidden;
-  position: relative;
-  background-image: url(../img/fon_2.png);
-  height: 336px;
-  width: 100%;
+ section {
+/*   overflow:hidden;
+position: relative;  */
+/*    background-image: url(../img/fon_2.png);
+height: 336px; */
+/* width: 100%;   */
 }
 
 /* ---------------------------------------------------sprite---------------------------------------------------------------------------------- */
 
-.sprite{
+/* .sprite{
     overflow:hidden;
   position: absolute;
 }
@@ -226,13 +218,13 @@ section {
 .sprite .musik{
    background-position: -67px 0;
 }
-
+ */
 /* ----------------------------------------------------end sprite------------------------------------------------------ */
 
-.key_about{
+/*.key_about{
   display: inline-block;
 /*  width: 23%; */
-  height: 196px;
+/*  height: 196px;
   padding-top: 76px;
   padding-right: 105px;
   margin-left: 56px;
@@ -241,23 +233,23 @@ section {
 .speak_about{
   display: inline-block;
  /*   width: 23%;  */
-  height: 196px;
-  padding-top: 76px;
-  padding-right: 105px;
-  margin-left: 56px;
+/*   height: 196px;
+padding-top: 76px;
+padding-right: 105px;
+margin-left: 56px;
 
 }
 
 .music_about{
-        display: inline-block;
-/*   width: 23%;  */
-  height: 196px;
-  padding-top: 76px;
-  padding-right: 105px;
-  margin-left: 56px;
-}
+      display: inline-block;
+width: 23%;
+height: 196px;
+padding-top: 76px;
+padding-right: 105px;
+margin-left: 56px;
+} */
 
-.key_about_part{
+/* .key_about_part{
   font-size: 30px;
   color: #ffffff;
   font-stretch:extra-condensed; 
@@ -285,38 +277,38 @@ section p{
 
 p:active{
         color:  #f00;
-}
+} */
 
 /* ---------------------------------------------------------</article>------------------------------------------------------------------------------- */ 
 
-article {
+/* article {
    background-image: url(../img/fon_white.png); 
    overflow:hidden;
    position: relative;
    height: 603px;
    width: 100%;
-}
+} */
 
-.logo{
+/* .logo{
    height: 121px; 
-}
+} */
 
-.starts img{
+/* .starts img{
     margin-top: 97px;
     float: left;
     width: 45%;
     height: 274px;
 }
-
-.updates{
+ */
+/* .updates{ */
 /*  height: 302px;
 width: 44%;
 float: left;
   margin-top: 110px;
     margin-left: 40px;  */
-}
+/* } */
 
-.updates .search{
+/* .updates .search{
   font-size: 30px;
   font-family: 'Myriad Pro', sans-serif;
   margin-bottom: 19px;
@@ -326,7 +318,7 @@ float: left;
 
 .updates .site_media {
   list-style-type: none;
-/*  text-decoration: none; */
+text-decoration: none;
 }
 
 .updates .site{
@@ -358,12 +350,12 @@ span.hear a{
   color: black;
   font-stretch: extra-condensed;
   font-weight: bold;
-}
+} */
 
 /* --------------------------------------------карусель 2------------------------------------------------------------
  */
 
-.radio_one{
+/* .radio_one{
         overflow: hidden;
   float: left;
   width: 11%;
@@ -398,56 +390,56 @@ span.hear a{
       height: 23px;
 }
 
-/* ---------------------------------------------------aside------------------------------------------------------------------- */
+------------------------------------------aside-------------------------------------------------------
 
-aside {
+/* aside {
         background-image: url(../img/grey_fon.png); 
         overflow:hidden;
         position: relative;
         height: 395px;
-}
+} */
 
- .news{
-        width: 265px;
-        height: 180px;
-/*          float: left;  */
-        margin-top: 91px;
-        margin-right: 40px;
-} 
-
-.news_one{
-        width: 32%;
-/*         height: 180px; */
- /*        float: left; */
-        margin-top: 91px;
-/*         margin-right: 40px; */
-}
+/*  .news{
+       width: 265px;
+       height: 180px;
+float: left;
+       margin-top: 91px;
+       margin-right: 40px;
+}  */
+ 
+/* .news_one{ */
+/*         width: 32%;
+height: 180px;
+ float: left; */
+/*         margin-top: 91px; */
+/* margin-right: 40px; */
+/* } 
 
 .news_one .name{
         font-stretch: extra-condensed;
         font-size: 48px;
         font-family: 'Myriad Pro', sans-serif;
-}
-
+} */
+/* 
 .news_one .big{
         color: #b9b9b9;
-}
+} */
 
-.news_one .name_bottom{
+/* .news_one .name_bottom{
       font-size: 16px;
       color: #c5c5c5;
       font-style: italic;
-}
+} */
 
-.news .name{
+/* .news .name{
         font-stretch: extra-condensed;
         font-size: 30px;
         font-family: 'Myriad Pro', sans-serif;
-}
+} */
 
 /* --------------------------------------------footer----------------------------------------------------------------- */
 
-footer{
+/* footer{
   position: relative;
   overflow: hidden;
   height: 197px;
@@ -456,18 +448,18 @@ footer{
 
 .menu_footer{
         list-style-type: none;
-  /*      float: left;*/
+  float: left;
         margin-top: 46px;
         font-family: 'Myriad Pro', sans-serif;
-    /*     font-stretch: extra-condensed; */
-        text-transform: uppercase; /* все буквы большие */
+    font-stretch: extra-condensed;
+        text-transform: uppercase; все буквы большие
         text-align: center;
 }
 
  .menu_footer .menu_item{
   display: inline-block; 
   text-decoration: none;
-  margin-right: 39px;
+margin-right: 39px;
 } 
 
 .menu_footer .menu_link:active{
@@ -489,7 +481,7 @@ footer{
 .menu_link .end{
   color: #dcdbde;
   font-weight: normal;
-} 
+}  */
  
 
 /* ------------------------------------------------ 320px----------------------------------------------------------------- */
@@ -511,9 +503,56 @@ header{
         height: 514px;
   }
 
+header {
+    background-image: url(../img/header.jpg);
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Myriad Pro', sans-serif;
+  }
+
 .hide-xs {
      display: none;
   }
+
+  .ping{
+  margin-top: 66px;
+  text-align: center;
+}
+ar
+ .ping h1{
+    color: #ffffff;
+    font-weight: bold 700;
+    font-size: 43px;
+    font-stretch:extra-condensed; 
+}
+
+.ping span{
+  color: #533b5e;
+}
+
+.menu {
+    margin-top: 38px;
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей  */
+    padding-right: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu_link{
+    text-transform: uppercase; /* все буквы большие */
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    font-stretch:extra-condensed; 
+}
+
+.menu_link:hover{
+   text-decoration: underline;
+    
+}
+
       
 .lorem_nav{
       height: 66px;
@@ -534,11 +573,48 @@ header{
         display: none;
   }
 
-section{
+
+
+   section{
+     overflow: hidden;
+      position: relative;
       height: 599px;
       padding-top: 66px;
       background: #745181;
+      width: 100%;  
   }
+
+  .sprite{
+    height: 484px;
+    overflow:hidden;
+    position: absolute;
+}
+
+.sprite .sprite_part{
+  float: left;
+  list-style: none;
+  margin-top: 80px;
+        margin-right: 300px; 
+}
+
+.sprite a{
+  height: 28px;
+  width: 28px;
+  display: block;
+  background: url(../img/sprite.png) 0 0 no-repeat;  
+}
+
+ .sprite .key{
+  background-position: 0px 0;
+}
+
+.sprite .spaek{
+  background-position: -34.5px 0;
+}
+
+.sprite .musik{
+   background-position: -67px 0;
+}
 
 .slider{
         background-image: none;
@@ -546,6 +622,27 @@ section{
         height: 67px;
         position: relative;
   }
+
+.lorem_nav h2{
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: normal;
+  font-stretch:extra-condensed; 
+}
+
+.lorem_nav h3{
+  font-size: 32px;
+  color: #edbfff;
+  font-weight: normal;
+  font-stretch:extra-condensed; 
+}
+
+.lorem_nav p{
+  font-size: 18px;
+  color: #edeced;
+  font-weight: 100; 
+
+}
 
 .point_left{
     float: left;
@@ -558,16 +655,45 @@ section{
 }
 
 .radio{
-      text-align: center;
-      margin-top: 82px;
+    bottom: 0;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 82px;
+}
+
+.radio .radio_part{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #3b3942;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    margin-right: 1px;
+    margin-top: 2px;
+    opacity: .75;
+    padding-top: 5px 5px 5px 5px;
+    width: 11px;
+    height: 14px;
+}
+
+.radio .radio_part .active{
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+
+} 
+
+.radio_block {
+      height: 23px;
 }
 
 .iphone{
        display: none;
-}
-
-.sprite{
-      height: 484px;
 }
 
 .about {
@@ -579,6 +705,15 @@ section{
         padding-top: 22px;
         margin-left: 56px;
 }
+
+
+.key_about_part{
+  font-size: 24px;
+  color: #ffffff;
+  font-stretch:extra-condensed; 
+  font-family: 'Myriad Pro', sans-serif; 
+}
+
 
 section .turpis {
         margin-top: 7px;
@@ -628,12 +763,61 @@ section .turpis {
        margin-top: 28px;
 }
 
+.updates .search{
+  font-size: 30px;
+  font-family: 'Myriad Pro', sans-serif;
+  margin-bottom: 19px;
+  font-weight: normal;
+  font-stretch: extra-condensed;
+}
+
+.updates .site_media {
+  list-style-type: none;
+/*  text-decoration: none; */
+}
+
+.updates .site{
+    margin-bottom: 30px
+}
+
+.updates img{
+  width: 49px;
+    height: 49px;
+    margin-right: 15px;
+}
+
+.nunc{
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+span.hear{
+  float: left;
+  margin-top: 32px;;
+}
+
+span.hear a{
+  float: left;;
+  margin-left: 180px;
+  font-family: 'Myriad Pro', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-stretch: extra-condensed;
+  font-weight: bold;
+}
+
 span.hear a {
        margin-left: 162px;
 }
 
-article{
-       height: 1209px;
+
+article {
+   background-image: url(../img/fon_white.png); 
+   overflow:hidden;
+   position: relative;
+   height: 1209px;
+   width: 100%;
 }
         
 .logo{
@@ -664,6 +848,36 @@ article{
         height: 80px;
 }
 
+.key_about_part{
+  font-size: 30px;
+  color: #ffffff;
+  font-stretch:extra-condensed; 
+    font-family: 'Myriad Pro', sans-serif; 
+}
+
+section p{
+  font-size: 16px;
+  color: #e2e1e3;
+  margin-top: 16px;
+  width: 221px;
+  margin-bottom: 25px
+}
+
+.key_about_read{
+  float: right;
+}
+
+.key_about_read a{
+  color: white;
+  text-decoration: none;
+        font-stretch:extra-condensed; 
+        font-family: 'Myriad Pro', sans-serif; 
+}
+
+p:active{
+        color:  #f00;
+}
+
 
 .radio_one{
     width: 34%;
@@ -672,10 +886,74 @@ article{
     top: 365px;
     margin-left: 67px;
 }
-
-aside{
-    display: none;
+ 
+.radio_one .radio_bottom_part{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        line-height: 14px;
+        min-width: 14px;
+        background: rgba(0, 0, 0, 0.75);
+        color: #3b3942;
+        border-radius: 14px;
+        padding: 3px;
+        text-align: center;
+        margin-right: 2px;
+        opacity: .75;
+        padding-top: 5px 5px 5px 5px;
 }
+
+.radio_one .radio_bottom_part .active{
+      background: #4E443C;
+        color: #fff;
+        opacity: 1;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+} 
+
+.radio_one .radio_bottom{
+      height: 23px;
+}
+
+
+aside {
+        background-image: url(../img/grey_fon.png); 
+        overflow:hidden;
+        position: relative;
+        display: none;
+        height: 395px;
+}
+
+footer{
+  position: relative;
+  overflow: hidden;
+  height: 197px;
+  background: url(../img/img_footer.png);
+}
+
+
+ .menu_footer{
+       margin-top: 38px;
+       padding: 4px; /* Значение полей */
+       width: 100%;
+       text-align: center;
+       float: left;
+        font-family: 'Myriad Pro', sans-serif;
+        font-stretch: extra-condensed;
+        text-transform: uppercase; /* все буквы большие */
+        text-align: center;
+}
+
+ .menu_footer .menu_link{
+   text-transform: uppercase; /* все буквы большие */
+   font-size: 20px;
+   color: #ffffff;
+   padding-right: 20px;
+   text-align: center;
+   text-decoration: none;
+   font-stretch:extra-condensed; 
+   display: inline-block;
+   float: left;
+ }
 
 .menu_footer .hide-s {
   display: none;
@@ -685,10 +963,33 @@ aside{
     text-align: center;
 }
 
+.news_one .name{
+        font-stretch: extra-condensed;
+        font-size: 48px;
+        font-family: 'Myriad Pro', sans-serif;
+}
+
+.news_one .big{
+        color: #b9b9b9;
+}
+
+.news_one .name_bottom{
+      font-size: 16px;
+      color: #c5c5c5;
+      font-style: italic;
+}
+
+.news .name{
+        font-stretch: extra-condensed;
+        font-size: 30px;
+        font-family: 'Myriad Pro', sans-serif;
+}
+
+
 }
 
 /* -------------------------------------------------end 320-------------------------------------------------------------
- */
+ 
 
 /* -------------------------------------------------------start 480-------------------------------------------------------- */
 
@@ -717,6 +1018,16 @@ header{
         height: 540px;
 }
 
+header {
+    background-image: url(../img/header.jpg);
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Myriad Pro', sans-serif;
+  }
+
+
+
 .menu{
     width: 239px;
         text-align: center;
@@ -730,18 +1041,78 @@ header{
         opacity: .99;
 }
 
+.menu_link{
+    text-transform: uppercase; /* все буквы большие */
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    font-stretch:extra-condensed; 
+}
+
+
 ul.menu {
     margin-top: 21px;
     opacity: 0.9; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
 }
 
+.menu_link:hover{
+   text-decoration: underline;
+    
+}
+
+.ping{
+  margin-top: 66px;
+  text-align: center;
+}
+ 
+ .ping h1{
+    color: #ffffff;
+    font-weight: bold 700;
+    font-size: 43px;
+    font-stretch:extra-condensed; 
+}
+
+.ping span{
+  color: #533b5e;
+}
+ 
 .slider{
+     background-image: url(../img/fon.png);
+       font-family: 'Myriad Pro', sans-serif; 
         position: absolute;
         margin-top: 0px;
         top: 202px;
         height: 247px;
         width: 100%;
 } 
+
+.lorem_nav{
+  width: 100%;
+    height: 233px;
+    margin-left: 0px;
+    padding-top: 83px;
+}
+
+.lorem_nav h2{
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: normal;
+  font-stretch:extra-condensed; 
+}
+
+.lorem_nav h3{
+  font-size: 32px;
+  color: #edbfff;
+  font-weight: normal;
+  font-stretch:extra-condensed; 
+}
+
+.lorem_nav p{
+  font-size: 18px;
+  color: #edeced;
+  font-weight: 100; 
+
+}
 
 .lorem_nav{
     padding-top: 0px;
@@ -786,19 +1157,113 @@ ul.menu {
 }
 
 .radio{
+    bottom: 0;
+    overflow: hidden;
     text-align: center;
     margin-top: 110px;
 }
+
+.radio .radio_part{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #3b3942;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    margin-right: 1px;
+    margin-top: 2px;
+    opacity: .75;
+    padding-top: 5px 5px 5px 5px;
+    width: 11px;
+    height: 14px;
+}
+
+.radio .radio_part .active{
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+
+} 
+
+.radio_block {
+      height: 23px;
+}
         
-section{
-      height: 599px;
-      padding-top: 66px;
-      background: #745181;
-        padding-left: 50px; 
+  section {
+    height: 599px;
+    padding-top: 66px;
+    background: #745181;
+    padding-left: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
 
 .sprite{
-      height: 484px;
+    height: 484px;
+    overflow:hidden;
+    position: absolute;
+}
+
+.sprite .sprite_part{
+  float: left;
+  list-style: none;
+  margin-top: 80px;
+        margin-right: 300px; 
+}
+
+.sprite a{
+  height: 28px;
+  width: 28px;
+  display: block;
+  background: url(../img/sprite.png) 0 0 no-repeat;  
+}
+
+ .sprite .key{
+  background-position: 0px 0;
+}
+
+.sprite .spaek{
+  background-position: -34.5px 0;
+}
+
+.sprite .musik{
+   background-position: -67px 0;
+}
+
+.key_about_part{
+  font-size: 30px;
+  color: #ffffff;
+  font-stretch:extra-condensed; 
+    font-family: 'Myriad Pro', sans-serif; 
+}
+
+section p{
+  font-size: 16px;
+  color: #e2e1e3;
+  margin-top: 16px;
+  width: 221px;
+  margin-bottom: 25px
+}
+
+.key_about_read{
+  float: right;
+}
+
+.key_about_read a{
+  color: white;
+  text-decoration: none;
+        font-stretch:extra-condensed; 
+        font-family: 'Myriad Pro', sans-serif; 
+}
+
+p:active{
+        color:  #f00;
 }
 
 .starts img {
@@ -815,10 +1280,25 @@ section{
 }
 
 .key_about, .speak_about, .music_about {
+        width: 57%;
         height: 134px;
         padding-top: 22px;
         margin-left: 56px;
 }
+
+section p{
+  font-size: 16px;
+  color: #e2e1e3;
+  }
+
+
+.key_about_part{
+    font-size: 24px;
+    color: #ffffff;
+    font-stretch:extra-condensed; 
+    font-family: 'Myriad Pro', sans-serif; 
+}
+
 
 section .turpis {
         margin-top: 7px;
@@ -854,14 +1334,20 @@ section .turpis {
        text-align: center;
 }
 
-article{
-       height: 1018px;
-}
+
+article {
+     background-image: url(../img/fon_white.png); 
+     overflow:hidden;
+     position: relative;
+     height: 1018px;
+     width: 100%;
+ }
 
 .updates{
       float: left;
       width: 100%;
       margin-left: 50px;
+      margin-top: 50px;
 }
 
 .updates .search {
@@ -872,21 +1358,64 @@ article{
         font-stretch: extra-condensed;
 }
        
-span.hear{
-        margin-top: 0px;
-        overflow: hidden;
+.updates .site_media {
+  list-style-type: none;
+/*  text-decoration: none; */
 }
-       
-span.hear a {
-        margin-left: 138px;
+
+.updates .site{
+    margin-bottom: 30px
 }
-       
-.radio_one{
-       width: 100%;
-       text-align: center;
-       float: left;
-       overflow: hidden;
-       margin-left: 0px;
+
+.updates img{
+  width: 49px;
+    height: 49px;
+    margin-right: 15px;
+}
+
+.nunc{
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+
+span.hear a{
+  float: left;;
+  margin-left: 138px;
+  font-family: 'Myriad Pro', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-stretch: extra-condensed;
+  font-weight: bold;
+}
+
+
+.radio_one .radio_bottom_part{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        line-height: 14px;
+        min-width: 14px;
+        background: rgba(0, 0, 0, 0.75);
+        color: #3b3942;
+        border-radius: 14px;
+        padding: 3px;
+        text-align: center;
+        margin-right: 2px;
+        opacity: .75;
+        padding-top: 5px 5px 5px 5px;
+}
+
+.radio_one .radio_bottom_part .active{
+      background: #4E443C;
+        color: #fff;
+        opacity: 1;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+} 
+
+.radio_one .radio_bottom{
+      height: 23px;
 }
 
 .logo{
@@ -910,10 +1439,14 @@ span.hear a {
       height: 68px;
 }
     
- aside{
-      height: 662px;
-/*      padding-left: 120px;*/
+
+aside {
+        background-image: url(../img/grey_fon.png); 
+        overflow:hidden;
+        position: relative;
+        height: 662px;
 }
+
 
 .news{
       margin: 0 auto;
@@ -927,7 +1460,8 @@ span.hear a {
 }
 
 .news_one{
-      width: 480px;
+        width: 480px;
+        margin-top: 91px;
         margin-left: 0px;
         margin-right: 0px;      /* float: left; */
 }
@@ -945,42 +1479,88 @@ span.hear a {
       margin-top: 10px;
         width: 480px;
 }
+
+
+.news_one .name{
+        font-stretch: extra-condensed;
+        font-size: 48px;
+        font-family: 'Myriad Pro', sans-serif;
+}
+
+.news_one .big{
+        color: #b9b9b9;
+}
+
+.news_one .name_bottom{
+      font-size: 16px;
+      color: #c5c5c5;
+      font-style: italic;
+}
+
+.news .name{
+        font-stretch: extra-condensed;
+        font-size: 30px;
+        font-family: 'Myriad Pro', sans-serif;
+}
     
+
 footer {
         position: relative;
         overflow: hidden;
         height: 169px;
         text-align: center;
+        background: url(../img/img_footer.png);
 }
     
-.menu_footer .menu_item{
-      text-decoration: none;
-      margin-right: 0px;
-}
 
-.menu_item_as {
+ .menu_footer{
+       margin-top: 38px;
+       padding: 4px; /* Значение полей */
+       width: 100%;
+       text-align: center;
+       float: left;
+        font-family: 'Myriad Pro', sans-serif;
+        font-stretch: extra-condensed;
+        text-transform: uppercase; /* все буквы большие */
         text-align: center;
-        margin-top: 45px;
 }
 
-.menu_item_as .menu_link {
-        margin-left: 0px;
-}  
+ .menu_footer .menu_link{
+   text-transform: uppercase; /* все буквы большие */
+   font-size: 20px;
+   color: #ffffff;
+   text-decoration: none;
+   font-stretch:extra-condensed; 
+   display: inline-block;
+   float: left;
+ }
 
-.menu_footer .menu_link {
-        color: #FFFFFF;
-        font-weight: normal;
-        font-stretch: none;
-        font-size: 23px;
-         list-style-type: none;
+
+ .menu_footer .menu_item{
+ display: inline; /* Отображать как строчный элемент */
+ text-align: center;
+ padding-right: 20px;
+ float: left;
+} 
+
+.menu_footer .menu_link:active{
+       color:#0000FF;
+}
+  
+
+.menu_item_as .menu_link{
+        text-transform: none;
+        color: white;  
+        font-size: 12px;
+        margin-top: 43px;
+        padding-right: 40px;
+        margin-left: 170px; 
 }
 
 .menu_link .end{
   color: #dcdbde;
   font-weight: normal;
-  font-size: 22px;
-} 
- 
+}  
 
 }
 
@@ -1157,10 +1737,7 @@ header{
 
 .radio_block {
       height: 23px;
-
-
 }
-
 
 /* ---------------------------------------------------------section-------------------------------------------------------------------------- */
 
@@ -1168,7 +1745,7 @@ section {
   overflow:hidden;
   position: relative;
   background-image: url(../img/fon_2.png);
-  height: 336px;
+  height: 341px;
   width: 100%;
 }
 
@@ -1182,8 +1759,8 @@ section {
 .sprite .sprite_part{
   float: left;
   list-style: none;
-  margin-top: 80px;
-        margin-right: 300px; 
+  margin-top: 78px;
+  margin-right: 225px; 
 }
 
 .sprite a{
@@ -1207,46 +1784,28 @@ section {
 
 /* ----------------------------------------------------end sprite------------------------------------------------------ */
 
-.key_about{
-  display: inline-block;
-/*  width: 23%; */
-  height: 196px;
-  padding-top: 76px;
-  padding-right: 105px;
-  margin-left: 56px;
-}
-
-.speak_about{
-  display: inline-block;
- /*   width: 23%;  */
-  height: 196px;
-  padding-top: 76px;
-  padding-right: 105px;
-  margin-left: 56px;
-
-}
-
-.music_about{
-        display: inline-block;
-/*   width: 23%;  */
-  height: 196px;
-  padding-top: 76px;
-  padding-right: 105px;
-  margin-left: 56px;
-}
-
 .key_about_part{
-  font-size: 30px;
+  font-size: 24px;
   color: #ffffff;
   font-stretch:extra-condensed; 
-    font-family: 'Myriad Pro', sans-serif; 
+  font-family: 'Myriad Pro', sans-serif; 
+}
+
+
+.key_about, .speak_about, .music_about {
+  display: inline-block;
+  width: 22%;  
+  height: 196px;
+  padding-top: 76px;
+  padding-right: 43px;
+  margin-left: 40px;
 }
 
 section p{
   font-size: 16px;
   color: #e2e1e3;
   margin-top: 16px;
-  width: 221px;
+  width: 165px;
   margin-bottom: 25px
 }
 
@@ -1257,8 +1816,8 @@ section p{
 .key_about_read a{
   color: white;
   text-decoration: none;
-        font-stretch:extra-condensed; 
-        font-family: 'Myriad Pro', sans-serif; 
+  font-stretch:extra-condensed; 
+  font-family: 'Myriad Pro', sans-serif; 
 }
 
 p:active{
@@ -1271,27 +1830,51 @@ article {
    background-image: url(../img/fon_white.png); 
    overflow:hidden;
    position: relative;
-   height: 603px;
+   height: 606px;
    width: 100%;
 }
 
+
 .logo{
-   height: 121px; 
+     float: left;
+       height: 82px;
+       width: 100%;
+       margin-left: 15px;
 }
+
+.logo .partner_part {
+       display: inline-block;
+       text-align: center;
+       padding-top: 57px;
+       width: 83px;
+       height: 77px;
+       padding-left: 42px;
+}
+
+.logo img{
+      width: 72px;
+      height: 68px;
+}
+
+.article .partner_part{
+      list-style-type: none;
+      width: 80px;
+      height: 80px;
+    }
 
 .starts img{
     margin-top: 97px;
     float: left;
+    height: 270px;
     width: 45%;
-    height: 274px;
 }
 
 .updates{
-/*  height: 302px;
-width: 44%;
-float: left;
-  margin-top: 110px;
-    margin-left: 40px;  */
+  height: 302px;
+  width: 44%;
+  float: left;
+  margin-top: 131px;
+  margin-left: 61px; 
 }
 
 .updates .search{
@@ -1308,11 +1891,11 @@ float: left;
 }
 
 .updates .site{
-    margin-bottom: 30px
+   margin-bottom: 25px
 }
 
 .updates img{
-  width: 49px;
+    width: 49px;
     height: 49px;
     margin-right: 15px;
 }
@@ -1325,7 +1908,7 @@ float: left;
 
 span.hear{
   float: left;
-  margin-top: 32px;;
+  margin-top: 5px;
 }
 
 span.hear a{
@@ -1342,13 +1925,14 @@ span.hear a{
  */
 
 .radio_one{
-        overflow: hidden;
-  float: left;
-  width: 11%;
-  margin-left: 180px;
-  margin-bottom: 50px;
+  overflow: hidden;
+  display: inline-block;
+  width: 13%;
+  top: 393px;
+  left: 150px;
+  position: absolute;
 }
-
+ 
 .radio_one .radio_bottom_part{
         text-decoration: none;
         display: inline-block;
@@ -1363,7 +1947,7 @@ span.hear a{
         margin-right: 2px;
         opacity: .75;
         padding-top: 5px 5px 5px 5px;
-}
+} 
 
 .radio_one .radio_bottom_part .active{
       background: #4E443C;
@@ -1386,24 +1970,31 @@ aside {
 }
 
  .news{
-        width: 265px;
+        width: 25%;
         height: 180px;
-/*          float: left;  */
+        float: left;  
         margin-top: 91px;
-        margin-right: 40px;
+        margin-right: 65px;
 } 
 
+.news .name{
+        font-stretch: extra-condensed;
+        font-size: 24px;
+        font-family: 'Myriad Pro', sans-serif;
+}
+
+
 .news_one{
-        width: 32%;
-/*         height: 180px; */
- /*        float: left; */
+        width: 25%;
+        height: 180px; 
+        float: left; 
         margin-top: 91px;
-/*         margin-right: 40px; */
+        margin-right: 60px; 
 }
 
 .news_one .name{
         font-stretch: extra-condensed;
-        font-size: 48px;
+        font-size: 24px;
         font-family: 'Myriad Pro', sans-serif;
 }
 
@@ -1417,10 +2008,10 @@ aside {
       font-style: italic;
 }
 
-.news .name{
-        font-stretch: extra-condensed;
-        font-size: 30px;
-        font-family: 'Myriad Pro', sans-serif;
+.news_one_text{
+      font-size: 16px;
+      margin-top: 10px;
+      width: 100%;
 }
 
 /* --------------------------------------------footer----------------------------------------------------------------- */
@@ -1428,46 +2019,75 @@ aside {
 footer{
   position: relative;
   overflow: hidden;
-  height: 197px;
+/*   height: 197px; */
   background: url(../img/img_footer.png);
 }
 
-.menu_footer{
-        list-style-type: none;
-  /*      float: left;*/
-        margin-top: 46px;
+ .menu_footer{
+       margin-top: 38px;
+       padding: 4px; /* Значение полей */
+       width: 100%;
+       text-align: center;
+       float: left;
         font-family: 'Myriad Pro', sans-serif;
-    /*     font-stretch: extra-condensed; */
+        font-stretch: extra-condensed;
         text-transform: uppercase; /* все буквы большие */
         text-align: center;
 }
 
+ .menu_footer .menu_link{
+   text-transform: uppercase; /* все буквы большие */
+   font-size: 20px;
+   color: #ffffff;
+   padding-right: 20px;
+   text-decoration: none;
+   font-stretch:extra-condensed; 
+   display: inline-block;
+   float: left;
+ }
+
+
  .menu_footer .menu_item{
-  display: inline-block; 
-  text-decoration: none;
-  margin-right: 39px;
+ display: inline; /* Отображать как строчный элемент */
+ text-align: center;
+ padding-right: 20px;
+ float: left;
 } 
 
 .menu_footer .menu_link:active{
        color:#0000FF;
 }
-
-.menu_footer .menu_link{
-  text-align: center;
-  text-decoration: none;
-  color: #dcdbde;
-  font-size: 26px;
-}
+  
 
 .menu_item_as .menu_link{
         text-transform: none;
-        color: white;   
+        color: white;  
+        font-size: 12px;
+        margin-top: 43px; 
 }
 
 .menu_link .end{
   color: #dcdbde;
   font-weight: normal;
-} 
+}  
+
+}
+
+
+/* -----------------------------------------960------------------------------------------------------------------------ */
+
+ 
+  @media screen and (max-width: 1200px) and (min-width: 960px) {
+  body {
+  min-width: 960px;
+  max-width: 1020px;
+  width: 100%;
+ }
+
+.wrapper{
+  width: 960px;
+  margin: 0 auto;
+  }
 
 
 

@@ -1,1 +1,1 @@
-alert('this is script.js file')	
+alert('this is script.js file') 

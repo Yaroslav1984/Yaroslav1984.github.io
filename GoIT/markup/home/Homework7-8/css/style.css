@@ -1149,7 +1149,6 @@ header{
   padding: 4px; /* Значение полей  */
   padding-right: 0px;
         width: 100%;
-        text-align: center;
 }
 
 .menu_item{
@@ -1176,7 +1175,7 @@ header{
 
 .slider{
   background-image: url(../img/fon.png);
-  margin-top: 53px;
+  margin-top: 242px;
   height: 393px;
   width: 100%;
   font-family: 'Myriad Pro', sans-serif; 
@@ -1216,7 +1215,7 @@ header{
 .iphone{
   position: absolute;
   left: 526px;
-  top: 190px;
+  top: 380px;
 }
 
 .iphone img{
@@ -1615,7 +1614,7 @@ footer{
 /* -----------------------------------------960------------------------------------------------------------------------ */
 
  
-  @media screen and (max-width: 1200px) and (min-width: 960px) {
+  @media screen and (max-width: 2400px) and (min-width: 960px) {
   body {
   min-width: 960px;
   max-width: 1020px;
@@ -1636,13 +1635,13 @@ header{
   overflow:hidden;
   position: relative; 
   font-family: 'Myriad Pro', sans-serif; 
- } */
+ } 
 
 
  .ping{
   margin-top: 66px;
   text-align: center;
-float: left;
+  float: left;
 } 
 
   .ping h1{
@@ -1657,22 +1656,28 @@ float: left;
 } 
  
  .menu {
-        margin-top: 38px;
-  margin: 0; Обнуляем значение отступов
-  padding: 4px; Значение полей
-  padding-right: 0px;
-        width: 100%;
-        text-align: center;
+    margin-top: 80px;
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    padding-right: 0px;
+    width: 71%;
+    text-align: center;
+    float: left;
 } 
 
+ul.menu{
+
+  margin-top: 80px
+}
+
  .menu_item{
-  display: inline; Отображать как строчный элемент
+  display: inline; /* Отображать как строчный элемен */т
   text-align: center;
   padding-right: 35px;
 } 
  
  .menu_link{
-    text-transform: uppercase; все буквы большие
+    text-transform: uppercase; /* все буквы большие */
     font-size: 24px;
     color: #ffffff;
     text-decoration: none;
@@ -1696,7 +1701,7 @@ float: left;
 }
 
  .lorem_nav{
-  width: 100%;
+  width: 51%;
     height: 233px;
     margin-left: 0px;
     padding-top: 83px;
@@ -1727,8 +1732,8 @@ float: left;
 
  .iphone{
   position: absolute;
-  left: 1327px;
-  top: 240px;
+  left: 650px;
+  top: 0px;
 } 
 
  .iphone img{
@@ -1737,14 +1742,16 @@ float: left;
  
  .point_left{ 
   position: absolute; 
-  margin-left: 391px; 
-  top: 430px; 
+  left: 5px;
+  top: 160px;
  }
 
 .point_right{
-left: 1900px;
-top: 430px;
+  right: 100px;
+  top: 160px;
+top: 160px;
 position: absolute;
+
 }
  
 /* ---------------------------------------------карусель 1----------------------------------------------------------
@@ -1752,9 +1759,11 @@ position: absolute;
 
  .radio{
     bottom: 0;
-float: left;
-left: 15px;
+    float: left;
+    left: 15px;
     overflow: hidden;
+      margin-top: 190px;
+    margin-left: 750px;
 }
 
 .radio .radio_part{
@@ -1809,9 +1818,10 @@ height: 336px;
 .sprite .sprite_part{
   float: left;
   list-style: none;
-  margin-top: 80px;
-        margin-right: 300px; 
+  margin-top: 78px;
+  margin-right: 263px; 
 }
+
 
 .sprite a{
   height: 28px;
@@ -1834,33 +1844,14 @@ height: 336px;
  
 /* ----------------------------------------------------end sprite------------------------------------------------------ */
 
-.key_about{
+.key_about, .speak_about, .music_about {
   display: inline-block;
-width: 23%; */
- height: 196px;
+  width: 22%;  
+  height: 196px;
   padding-top: 76px;
-  padding-right: 105px;
-  margin-left: 56px;
+  padding-right: 43px;
+  margin-left: 40px;
 }
-
-.speak_about{
-  display: inline-block;
-    width: 23%;  
-   height: 196px;
-padding-top: 76px;
-padding-right: 105px;
-margin-left: 56px;
-
-}
-
-.music_about{
-      display: inline-block;
-width: 23%;
-height: 196px;
-padding-top: 76px;
-padding-right: 105px;
-margin-left: 56px;
-} 
 
  .key_about_part{
   font-size: 30px;
@@ -1902,26 +1893,50 @@ p:active{
    width: 100%;
 } 
 
- .logo{
-   height: 121px; 
-} 
+.logo{
+      float: left;
+       height: 82px;
+       width: 100%;
+       margin-left: 15px;
+       text-align: center;
+}
 
- .starts img{
+.logo .partner_part {
+       display: inline-block;
+       text-align: center;
+       padding-top: 57px;
+       width: 83px;
+       height: 77px;
+       padding-left: 42px;
+}
+
+.logo img{
+      width: 72px;
+      height: 68px;
+}
+
+.article .partner_part{
+      list-style-type: none;
+      width: 80px;
+      height: 80px;
+    }
+
+.starts img{
     margin-top: 97px;
     float: left;
+    height: 270px;
     width: 45%;
-    height: 274px;
 }
- 
-.updates{ 
+
+.updates{
   height: 302px;
   width: 44%;
   float: left;
-  margin-top: 110px;
-  margin-left: 40px;  
-} 
+  margin-top: 131px;
+  margin-left: 61px; 
+}
 
- .updates .search{
+.updates .search{
   font-size: 30px;
   font-family: 'Myriad Pro', sans-serif;
   margin-bottom: 19px;
@@ -1931,15 +1946,15 @@ p:active{
 
 .updates .site_media {
   list-style-type: none;
-text-decoration: none;
+/*  text-decoration: none; */
 }
 
 .updates .site{
-    margin-bottom: 30px
+   margin-bottom: 25px
 }
 
 .updates img{
-  width: 49px;
+    width: 49px;
     height: 49px;
     margin-right: 15px;
 }
@@ -1952,7 +1967,7 @@ text-decoration: none;
 
 span.hear{
   float: left;
-  margin-top: 32px;;
+  margin-top: 5px;
 }
 
 span.hear a{
@@ -1963,34 +1978,36 @@ span.hear a{
   color: black;
   font-stretch: extra-condensed;
   font-weight: bold;
-} 
+}
+
 
 /* --------------------------------------------карусель 2------------------------------------------------------------
  */
 
- .radio_one{
-        overflow: hidden;
-  float: left;
-  width: 11%;
-  margin-left: 180px;
-  margin-bottom: 50px;
-}
-
-.radio_one .radio_bottom_part{
-  text-decoration: none;
+.radio_one{
+  overflow: hidden;
   display: inline-block;
-  font-size: 11px;
-  line-height: 14px;
-  min-width: 14px;
-  background: rgba(0, 0, 0, 0.75);
-  color: #3b3942;
-  border-radius: 14px;
-  padding: 3px;
-  text-align: center;
-  margin-right: 2px;
-  opacity: .75;
-  padding-top: 5px 5px 5px 5px;
+  width: 13%;
+  top: 393px;
+  left: 150px;
+  position: absolute;
 }
+ 
+.radio_one .radio_bottom_part{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        line-height: 14px;
+        min-width: 14px;
+        background: rgba(0, 0, 0, 0.75);
+        color: #3b3942;
+        border-radius: 14px;
+        padding: 3px;
+        text-align: center;
+        margin-right: 2px;
+        opacity: .75;
+        padding-top: 5px 5px 5px 5px;
+} 
 
 .radio_one .radio_bottom_part .active{
       background: #4E443C;
@@ -2002,6 +2019,7 @@ span.hear a{
 .radio_one .radio_bottom{
       height: 23px;
 }
+
 
 /* ------------------------------------------aside------------------------------------------------------- */
 
@@ -2052,43 +2070,56 @@ span.hear a{
 
 /* --------------------------------------------footer----------------------------------------------------------------- */
 
- footer{
+
+footer{
   position: relative;
   overflow: hidden;
-  height: 197px;
+   height: 112px; 
   background: url(../img/img_footer.png);
-}
-
-.menu_footer{
-  list-style-type: none;
-  float: left;
-  margin-top: 46px;
-  font-family: 'Myriad Pro', sans-serif;
-  font-stretch: extra-condensed;
-  text-transform: uppercase; все буквы большие
   text-align: center;
 }
 
+ .menu_footer{
+       margin-top: 38px;
+       padding: 4px; /* Значение полей */
+       width: 100%;
+       text-align: center;
+       float: left;
+        font-family: 'Myriad Pro', sans-serif;
+        font-stretch: extra-condensed;
+        text-transform: uppercase; /* все буквы большие */
+        text-align: center;
+}
+
+ .menu_footer .menu_link{
+   text-transform: uppercase; /* все буквы большие */
+   font-size: 20px;
+   color: #ffffff;
+   padding-right: 20px;
+   text-decoration: none;
+   font-stretch:extra-condensed; 
+   display: inline-block;
+   float: left;
+ }
+
+
  .menu_footer .menu_item{
-  display: inline-block; 
-  text-decoration: none;
-  margin-right: 39px;
+ display: inline; /* Отображать как строчный элемент */
+ text-align: center;
+ padding-right: 20px;
+ float: left;
 } 
 
 .menu_footer .menu_link:active{
-  color:#0000FF;
+       color:#0000FF;
 }
-
-.menu_footer .menu_link{
-  text-align: center;
-  text-decoration: none;
-  color: #dcdbde;
-  font-size: 26px;
-}
+  
 
 .menu_item_as .menu_link{
-  text-transform: none;
-  color: white;   
+        text-transform: none;
+        color: white;  
+        font-size: 12px;
+            margin-top: 5px;
 }
 
 .menu_link .end{

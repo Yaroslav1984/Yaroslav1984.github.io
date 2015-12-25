@@ -57,7 +57,7 @@ header {
   margin-top: 66px;
   text-align: center;
 }
-ar
+
  .ping h1{
     color: #ffffff;
     font-weight: bold 700;
@@ -76,6 +76,7 @@ ar
     padding-right: 0px;
     width: 100%;
     text-align: center;
+    list-style-type: none;
 }
 
 .menu_link{
@@ -197,6 +198,7 @@ ar
     overflow: hidden;
     text-align: center;
     margin-top: 82px;
+    height: 23px;
 }
 
 .radio .radio_part{
@@ -226,9 +228,6 @@ ar
 
 } 
 
-.radio_block {
-      height: 23px;
-}
 
 .iphone{
        display: none;
@@ -624,8 +623,9 @@ ul.menu {
         width: 100%;
 } 
 
+
 .lorem_nav{
-  width: 100%;
+    width: 100%;
     height: 233px;
     margin-left: 0px;
     padding-top: 83px;
@@ -655,8 +655,8 @@ ul.menu {
 .lorem_nav{
     padding-top: 0px;
     width: 400px;
-        height: 80px;
-        margin-top: 75px;
+    height: 80px;
+    margin-top: 75px;
 }
 
 .lorem_nav .first {
@@ -676,6 +676,7 @@ ul.menu {
 .iphone{
        left: 270px;
        position: absolute;
+       float: left;
        top: 0px;
 }
  
@@ -683,6 +684,7 @@ ul.menu {
        height: 295px;
        width: 168px;
 }
+
 
 .point_left{
     float: left;

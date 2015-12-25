@@ -930,6 +930,9 @@ span.hear a{
   font-weight: bold;
 }
 
+.radio_one {
+  text-align: center;
+}
 
 .radio_one .radio_bottom_part{
         text-decoration: none;

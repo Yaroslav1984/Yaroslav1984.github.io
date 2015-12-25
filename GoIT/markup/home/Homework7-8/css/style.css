@@ -498,6 +498,7 @@ footer{
   
 .menu_item_as {
     text-align: center;
+    list-style-type: none;
 }
 
 .news_one .name{
@@ -1091,6 +1092,10 @@ footer {
 }
   
 
+.menu_item_as {
+        list-style-type: none;
+} 
+
 .menu_item_as .menu_link{
         text-transform: none;
         color: white;  
@@ -1600,6 +1605,9 @@ footer{
        color:#0000FF;
 }
   
+.menu_item_as{
+list-style-type: none;
+}
 
 .menu_item_as .menu_link{
         text-transform: none;
@@ -2119,6 +2127,10 @@ footer{
        color:#0000FF;
 }
   
+
+.menu_item_as{
+list-style-type: none;
+}
 
 .menu_item_as .menu_link{
         text-transform: none;

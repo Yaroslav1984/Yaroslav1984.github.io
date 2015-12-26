@@ -616,12 +616,12 @@ ul.menu {
  
 .slider{
      background-image: url(../img/fon.png);
-       font-family: 'Myriad Pro', sans-serif; 
-        position: absolute;
-        margin-top: 0px;
-        top: 202px;
-        height: 247px;
-        width: 100%;
+     font-family: 'Myriad Pro', sans-serif; 
+     position: absolute;
+     margin-top: 0px;
+     top: 202px;
+     height: 247px;
+     width: 100%;
 } 
 
 
@@ -630,6 +630,7 @@ ul.menu {
     height: 233px;
     margin-left: 0px;
     padding-top: 83px;
+    float: left;
 }
 
 .lorem_nav h2{
@@ -655,7 +656,7 @@ ul.menu {
 
 .lorem_nav{
     padding-top: 0px;
-    width: 400px;
+    width: 200px;
     height: 80px;
     margin-top: 75px;
 }
@@ -676,9 +677,10 @@ ul.menu {
 
 .iphone{
        left: 270px;
-       position: absolute;
-       float: left;
+   /*     position: absolute; */
+       float: right;
        top: 0px;
+       height:  260px;
 }
  
 .iphone img{
@@ -701,7 +703,7 @@ ul.menu {
     bottom: 0;
     overflow: hidden;
     text-align: center;
-    margin-top: 110px;
+    margin-top: 270px;
 }
 
 .radio .radio_part{
@@ -1185,7 +1187,7 @@ header{
 
 .slider{
   background-image: url(../img/fon.png);
-  margin-top: 242px;
+  margin-top: 82px;
   height: 393px;
   width: 100%;
   font-family: 'Myriad Pro', sans-serif; 
@@ -1194,9 +1196,10 @@ header{
 
 .lorem_nav{
   width: 46%;
-        height: 233px;
-        margin-left: 30px;
-        padding-top: 83px;
+  height: 233px;
+  margin-left: 30px;
+  padding-top: 83px;
+  float: left;
 }
 
 .lorem_nav h2{
@@ -1223,9 +1226,9 @@ header{
 /* ----------------------------------------------------------iphone and point-------------------------------------------------------------------- */
 
 .iphone{
-  position: absolute;
   left: 526px;
   top: 380px;
+  float: right;
 }
 
 .iphone img{
@@ -1248,6 +1251,7 @@ header{
 .radio{
     bottom: 0;
     float: right;
+    margin-top: 100px;
 }
 
 .radio .radio_part{

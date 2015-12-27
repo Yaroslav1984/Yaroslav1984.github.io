@@ -7,8 +7,8 @@ body {
     display: block;
     position: relative;  
     margin: auto;
-  width: 100%;
-  height: 2306px;
+    width: 100%;
+    height: 2306px;
     background: white;
 }
 
@@ -345,7 +345,7 @@ span.hear a{
 }
 
 span.hear a {
-       margin-left: 162px;
+  margin-left: 162px;
 }
 
 
@@ -358,7 +358,7 @@ article {
 }
         
 .logo{
-     float: left;
+       float: left;
        text-align: center;
        height: 420px;
        width: 255px;
@@ -375,13 +375,13 @@ article {
 }
 
 .logo img{
-      width: 72px;
-      height: 68px;
+       width: 72px;
+       height: 68px;
 }
 
 .article .partner_part{
-      list-style-type: none;
-      width: 80px;
+        list-style-type: none;
+        width: 80px;
         height: 80px;
 }
 
@@ -1634,7 +1634,7 @@ list-style-type: none;
   @media screen and (max-width: 2400px) and (min-width: 960px) {
   body {
   min-width: 960px;
-  max-width: 1020px;
+  max-width: 2400px;
   width: 100%;
  }
 
@@ -1683,8 +1683,8 @@ header{
 } 
 
 ul.menu{
-
-  margin-top: 80px
+  margin-top: 71px;
+  padding-left: 92px;
 }
 
  .menu_item{
@@ -1718,10 +1718,11 @@ ul.menu{
 }
 
  .lorem_nav{
-  width: 51%;
+    width: 51%;
     height: 233px;
     margin-left: 0px;
     padding-top: 83px;
+    float: left;
 }
 
 .lorem_nav h2{
@@ -1748,39 +1749,35 @@ ul.menu{
 /* ----------------------------------------------------------iphone and point-------------------------------------------------------------------- */
 
  .iphone{
-  position: absolute;
   left: 650px;
   top: 0px;
+  float: right;
 } 
 
  .iphone img{
   width: 247px
 }
  
- .point_left{ 
-  position: absolute; 
-  left: 5px;
-  top: 160px;
- }
+.point_left{
+    float: left;
+    margin-top: 160px;
+}
 
 .point_right{
-  right: 100px;
-  top: 160px;
-top: 160px;
-position: absolute;
-
+    margin-top: 160px;
+    float: right;
 }
  
 /* ---------------------------------------------карусель 1----------------------------------------------------------
  */
 
  .radio{
-    bottom: 0;
-    float: left;
-    left: 15px;
+    float: right;
     overflow: hidden;
-      margin-top: 190px;
-    margin-left: 750px;
+    margin-top: 450px;
+    position: relative;
+    left: 200px;
+
 }
 
 .radio .radio_part{
@@ -1818,17 +1815,17 @@ position: absolute;
 /* ---------------------------------------------------------section-------------------------------------------------------------------------- */
 
  section {
-   overflow:hidden;
-position: relative;  
-    background-image: url(../img/fon_2.png);
-height: 336px; 
- width: 100%;   
+  overflow:hidden;
+  position: relative;  
+  background-image: url(../img/fon_2.png);
+  height: 336px; 
+  width: 100%;   
 }
 
 /* ---------------------------------------------------sprite---------------------------------------------------------------------------------- */
 
  .sprite{
-    overflow:hidden;
+  overflow:hidden;
   position: absolute;
 }
 
@@ -1836,7 +1833,7 @@ height: 336px;
   float: left;
   list-style: none;
   margin-top: 78px;
-  margin-right: 263px; 
+  margin-right: 268px; 
 }
 
 
@@ -1874,7 +1871,7 @@ height: 336px;
   font-size: 30px;
   color: #ffffff;
   font-stretch:extra-condensed; 
-    font-family: 'Myriad Pro', sans-serif; 
+  font-family: 'Myriad Pro', sans-serif; 
 }
 
 section p{
@@ -1945,11 +1942,50 @@ p:active{
     width: 45%;
 }
 
+/* --------------------------------------------карусель 2------------------------------------------------------------
+ */
+
+.radio_one{
+  display: inline-block;
+  width: 13%;
+  top: 393px;
+  left: 500px;
+  position: absolute;
+}
+ 
+.radio_one .radio_bottom_part{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        line-height: 14px;
+        min-width: 14px;
+        background: rgba(0, 0, 0, 0.75);
+        color: #3b3942;
+        border-radius: 14px;
+        padding: 3px;
+/*         text-align: center; */
+        margin-right: 2px;
+        opacity: .75;
+        padding-top: 5px 5px 5px 5px;
+} 
+
+.radio_one .radio_bottom_part .active{
+      background: #4E443C;
+        color: #fff;
+        opacity: 1;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+} 
+
+.radio_one .radio_bottom{
+      height: 23px;
+}
+
+
 .updates{
   height: 302px;
   width: 44%;
   float: left;
-  margin-top: 131px;
+  margin-top: 111px;
   margin-left: 61px; 
 }
 
@@ -1995,46 +2031,6 @@ span.hear a{
   color: black;
   font-stretch: extra-condensed;
   font-weight: bold;
-}
-
-
-/* --------------------------------------------карусель 2------------------------------------------------------------
- */
-
-.radio_one{
-  overflow: hidden;
-  display: inline-block;
-  width: 13%;
-  top: 393px;
-  left: 150px;
-  position: absolute;
-}
- 
-.radio_one .radio_bottom_part{
-        text-decoration: none;
-        display: inline-block;
-        font-size: 11px;
-        line-height: 14px;
-        min-width: 14px;
-        background: rgba(0, 0, 0, 0.75);
-        color: #3b3942;
-        border-radius: 14px;
-        padding: 3px;
-        text-align: center;
-        margin-right: 2px;
-        opacity: .75;
-        padding-top: 5px 5px 5px 5px;
-} 
-
-.radio_one .radio_bottom_part .active{
-      background: #4E443C;
-        color: #fff;
-        opacity: 1;
-        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
-} 
-
-.radio_one .radio_bottom{
-      height: 23px;
 }
 
 
@@ -2140,7 +2136,8 @@ list-style-type: none;
         text-transform: none;
         color: white;  
         font-size: 12px;
-            margin-top: 5px;
+        margin-top: 5px;
+        margin-left: 250px;
 }
 
 .menu_link .end{

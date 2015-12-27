@@ -567,9 +567,9 @@ header {
 
 
 .menu{
-    width: 239px;
+        width: 239px;
         text-align: center;
-        background: -webkit-linear-gradient(bottom, #483a4e, #483a4e);
+        background-image: -webkit-linear-gradient(bottom, #483a4e, #483a4e);
         -webkit-border-radius: 8px 8px 8px 8px;
         border: 1px solid #000000;
         overflow: hidden;
@@ -1780,6 +1780,7 @@ ul.menu{
 
 }
 
+
 .radio .radio_part{
     text-decoration: none;
     display: inline-block;
@@ -1921,7 +1922,7 @@ p:active{
        padding-top: 57px;
        width: 83px;
        height: 77px;
-       padding-left: 42px;
+       padding-left: 68px;
 }
 
 .logo img{

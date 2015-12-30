@@ -474,10 +474,10 @@ footer{
        width: 100%;
        text-align: center;
        float: left;
-        font-family: 'Myriad Pro', sans-serif;
-        font-stretch: extra-condensed;
-        text-transform: uppercase; /* все буквы большие */
-        text-align: center;
+       font-family: 'Myriad Pro', sans-serif;
+       font-stretch: extra-condensed;
+       text-transform: uppercase; /* все буквы большие */
+       text-align: center;
 }
 
  .menu_footer .menu_link{
@@ -1085,7 +1085,7 @@ footer {
  .menu_footer .menu_item{
  display: inline; /* Отображать как строчный элемент */
  text-align: center;
- padding-right: 20px;
+ padding-right: 15px;
  float: left;
 } 
 
@@ -1601,7 +1601,7 @@ footer{
  .menu_footer .menu_item{
  display: inline; /* Отображать как строчный элемент */
  text-align: center;
- padding-right: 20px;
+ padding-right: 15px;
  float: left;
 } 
 
@@ -2120,7 +2120,7 @@ footer{
  .menu_footer .menu_item{
  display: inline; /* Отображать как строчный элемент */
  text-align: center;
- padding-right: 20px;
+ padding-right: 15px;
  float: left;
 } 
 

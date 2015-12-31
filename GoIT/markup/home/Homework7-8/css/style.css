@@ -1677,7 +1677,7 @@ header{
     margin: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
     padding-right: 0px;
-    width: 71%;
+    width: 75%;
     text-align: center;
     float: left;
 } 
@@ -1695,7 +1695,7 @@ ul.menu{
  
  .menu_link{
     text-transform: uppercase; /* все буквы большие */
-    font-size: 24px;
+    font-size: 20px;
     color: #ffffff;
     text-decoration: none;
     font-stretch:extra-condensed; 

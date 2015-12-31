@@ -1677,7 +1677,7 @@ header{
     margin: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
     padding-right: 0px;
-    width: 75%;
+    width: 68%;
     text-align: center;
     float: left;
 } 

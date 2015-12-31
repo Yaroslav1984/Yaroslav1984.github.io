@@ -2121,7 +2121,7 @@ footer{
  display: inline; /* Отображать как строчный элемент */
  text-align: center;
  padding-right: 15px;
- float: left;
+/* float: left;*/
 } 
 
 .menu_footer .menu_link:active{

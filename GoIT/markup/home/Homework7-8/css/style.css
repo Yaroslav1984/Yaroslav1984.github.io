@@ -1689,7 +1689,7 @@ ul.menu{
  li.menu_item{
   display: inline; /* Отображать как строчный элемен */т
   text-align: center;
-  padding-right: 35px;
+/*  padding-right: 35px;*/
 } 
  
  .menu_link {

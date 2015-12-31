@@ -1687,13 +1687,13 @@ ul.menu{
   padding-left: 92px;
 }
 
- .menu_item{
+ li.menu_item{
   display: inline; /* Отображать как строчный элемен */т
   text-align: center;
   padding-right: 35px;
 } 
  
- .menu. menu_link {
+ .menu_item.menu_link {
     text-transform: uppercase; /* все буквы большие */
     font-size: 16px;
     color: #ffffff;

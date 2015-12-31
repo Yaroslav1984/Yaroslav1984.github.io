@@ -1073,7 +1073,7 @@ footer {
 
  .menu_footer .menu_link{
    text-transform: uppercase; /* все буквы большие */
-   font-size: 20px;
+   font-size: 15px;
    color: #ffffff;
    text-decoration: none;
    font-stretch:extra-condensed; 

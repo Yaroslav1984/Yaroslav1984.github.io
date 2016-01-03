@@ -1177,10 +1177,10 @@ header{
     display: inline-block;
 }
 
-.menu_link:hover{
+ .menu_link:hover{
    text-decoration: underline;
     
-}
+} 
 
 /* ------------------------------------------------серый фон lorem ipsum text------------------------------------------------------------------ */
 
@@ -1687,23 +1687,23 @@ ul.menu{
 }
 
  li.menu_item{
-  display: inline; /* Отображать как строчный элемен */т
+  display: inline; /* Отображать как строчный элемен */
   text-align: center;
 /*  padding-right: 35px;*/
 } 
  
- .menu_link {
+.wrapper .hide-xs .menu_link{
     text-transform: uppercase; /* все буквы большие */
-    font-size: 16px;
+    font-size: 20px;
     color: #ffffff;
     text-decoration: none;
     font-stretch:extra-condensed; 
 }
  
- .menu_link:hover{
+.hide-xs .menu_link:hover{
    text-decoration: underline;
-    
 } 
+
 
 /* ------------------------------------------------серый фон lorem ipsum text------------------------------------------------------------------ */
 
@@ -1963,7 +1963,6 @@ p:active{
         color: #3b3942;
         border-radius: 14px;
         padding: 3px;
-/*         text-align: center; */
         margin-right: 2px;
         opacity: .75;
         padding-top: 5px 5px 5px 5px;
@@ -2094,12 +2093,10 @@ footer{
        margin-top: 38px;
        padding: 4px; /* Значение полей */
        width: 100%;
- /*      text-align: center;*/
        float: left;
         font-family: 'Myriad Pro', sans-serif;
         font-stretch: extra-condensed;
         text-transform: uppercase; /* все буквы большие */
-/*        text-align: center;*/
 }
 
  .wrapper .menu_link{
@@ -2118,7 +2115,7 @@ footer{
  display: inline; /* Отображать как строчный элемент */
  text-align: center;
  padding-right: 15px;
-/* float: left;*/
+ float: left;
 } 
 
 .menu_footer .menu_link:active{

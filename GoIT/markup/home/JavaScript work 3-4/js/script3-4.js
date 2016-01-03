@@ -1,9 +1,9 @@
 var app = {
-	createElement: function(params) {
+    createElement: function(params) {
       var element = document.createElement(params.tagName);
  
       if (params.inputType){
-      	element.setAttribute('type', params.inputType);
+        element.setAttribute('type', params.inputType);
       } 
         
       if (params.className){    
@@ -15,55 +15,61 @@ var app = {
       }
 
       if (params.parentElement){
-      	 params.parentElement.appendChild(element);
-      	}
-
+         params.parentElement.appendChild(element);
+      }
         return element;
-	     },
-        generateQuestions: function(guestionsAmount, answersAmount) { 
+    }, 
+    
+    generateQuestions: function(guestionsAmount, answersAmount) { 
+      for (var i = 0; i < guestionsAmount; i++) {
+        var Question = this.createElement({
+          tagName: 'h2',
+          content: 'Вопрос №' + (i + 1),  
+          parentElement: form
+      });
 
-        for (var i = 0; i < guestionsAmount; i++) {
+      for (var j = 0; j < answersAmount; j++) {
+        var label = this.createElement({
+        tagName: 'label',
+        content: 'Вариант ответа №' + (j + 1),
+        parentElement: form
+      });
 
-          this.createElement({
-            tagName: 'h2',
-            content: 'Вопрос №' + (i + 1),  
-            parentElement: body
+        var checkbox = this.createElement({
+          tagName: 'input',
+          inputType: 'checkbox' 
         });
-
-         for (var j = 0; j < answersAmount; j++) {
-            this.createElement({
-            tagName: 'label',
-            content: '<input type="checkbox" /> Вариант ответа №' + (j + 1),
-            parentElement: body
-        });
-       }
+        
+        label.insertAdjacentElement('afterBegin', checkbox);
+      }
     };
   }
 }
 
 
-var body = document.querySelector('body');
+  var body = document.querySelector('body');
 
+  app.createElement({
+    tagName: 'h1',
+    content: 'Тест по програмированию',
+    parentElement: body
+  });
 
-app.createElement({
-   tagName: 'h1',
-   content: 'Тест по програмированию',
-   parent: body
-});
+  var form = app.createElement({
+    tagName: 'form',
+    parentElement: body
+  });
 
-var form = app.createElement({
-   tagName: 'form',
-   parentElement: body
-});
+  app.generateQuestions(3, 3);
 
-app.generateQuestions(3,3);
+  var submit = app.createElement({
+     tagName: 'input',
+     inputType: 'submit',
+     content: 'Проверить мои результаты',
+     parentElement: form
+  });
 
-app.createElement({
-   tagName: 'input',
-   inputType: 'submit',
-   className: 'check-results',
-   content: 'Проверить мои результаты',
-   parentElement: body
-});
+  submit.classList.add('submit');
+  submit.setAttribute('value', 'Проверить мои результаты')
 
 

@@ -12,15 +12,6 @@ body {
     background: white;
 }
 
- section {
-/*   overflow:hidden;
-position: relative;  */
-/*    background-image: url(../img/fon_2.png);
-height: 336px; */
-/* width: 100%;   */
-}
-
-
 
 /* ------------------------------------------------ 320px----------------------------------------------------------------- */
 
@@ -89,7 +80,6 @@ header {
 
 .menu_link:hover{
    text-decoration: underline;
-    
 }
 
       
@@ -423,12 +413,8 @@ section p{
 .key_about_read a{
   color: white;
   text-decoration: none;
-        font-stretch:extra-condensed; 
-        font-family: 'Myriad Pro', sans-serif; 
-}
-
-p:active{
-        color:  #f00;
+  font-stretch:extra-condensed; 
+  font-family: 'Myriad Pro', sans-serif; 
 }
 
 
@@ -797,7 +783,7 @@ ul.menu {
   font-size: 23px;
   color: #ffffff;
   font-stretch:extra-condensed; 
-    font-family: 'Myriad Pro', sans-serif; 
+  font-family: 'Myriad Pro', sans-serif; 
 }
 
 section p{
@@ -819,10 +805,10 @@ section p{
   font-family: 'Myriad Pro', sans-serif; 
 }
 
-p:active{
+/* p:active{
   color:  #f00;
 }
-
+ */
 .starts{
     background-image: url(../img/foto_spook.png);
     display: inline-block;
@@ -960,7 +946,9 @@ span.hear a{
 
 .radio_one {
   text-align: center;
+  margin-top: 50px;
 }
+
 
 .radio_one .radio_bottom_part{
     display: inline-block;
@@ -1398,9 +1386,9 @@ section p{
   font-family: 'Myriad Pro', sans-serif; 
 }
 
-p:active{
+/* p:active{
         color:  #f00;
-}
+} */
 
 /* ---------------------------------------------------------</article>------------------------------------------------------------------------------- */ 
 
@@ -1531,11 +1519,12 @@ span.hear a{
 .radio_one{
   overflow: hidden;
   display: inline-block;
-  width: 20%;
+  text-align: center;
+  width: 40%;
   height: 30px;
-  top: 393px;
-  left: 150px;
-  position: absolute;
+  margin-top: 80px;
+  margin-left: 100px;
+  /* position: absolute; */
 }
  
 .radio_one .radio_bottom_part{
@@ -1957,9 +1946,9 @@ section p{
         font-family: 'Myriad Pro', sans-serif; 
 }
 
-p:active{
+/* p:active{
   color:  #f00;
-} 
+}  */
 
 /* ---------------------------------------------------------</article>------------------------------------------------------------------------------- */ 
 
@@ -2039,11 +2028,12 @@ p:active{
  */
 
 .radio_one{
+  overflow: hidden;
   display: inline-block;
-  width: 13%;
-  top: 393px;
-  left: 300px;
-  position: absolute;
+  width: 40%;
+  height: 30px;
+  margin-top: 120px;
+  margin-left: 120px;
 }
  
 .radio_one .radio_bottom_part{

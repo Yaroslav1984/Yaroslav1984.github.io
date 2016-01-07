@@ -231,7 +231,7 @@ header {
 .key_about, .speak_about, .music_about {
         height: 134px;
         padding-top: 22px;
-        margin-left: 56px;
+        margin-left: 56px;480
 }
 
 
@@ -594,6 +594,7 @@ ul.menu {
 
 .menu_link:hover{
    text-decoration: underline;
+   background: rgba( 43, 34, 49, 0.65);
     
 }
 
@@ -1016,14 +1017,13 @@ aside {
         margin-top: 51px;
         width: 480px;
         height: 115px;
-    /*  float: left; */
 }
 
 .news_one{
         width: 480px;
         margin-top: 91px;
         margin-left: 0px;
-        margin-right: 0px;      /* float: left; */
+        margin-right: 0px;    
 }
     
 .news_one .name {
@@ -2198,14 +2198,14 @@ footer{
 
 
  .menu_footer .menu_item{
- display: inline; /* Отображать как строчный элемент */
- text-align: center;
- padding-right: 15px;
- float: left;
+   display: inline; /* Отображать как строчный элемент */
+   text-align: center;
+   padding-right: 15px;
+   float: left;
 } 
 
 .menu_footer .menu_link:active{
-       color:#0000FF;
+  color:#0000FF;
 }
   
 
@@ -2225,3 +2225,4 @@ list-style-type: none;
   font-weight: normal;
 }  
 }
+

@@ -1,15 +1,15 @@
 *{
-  margin: 0;
-  padding: 0; 
+     margin: 0;
+     padding: 0; 
 }
 
 body { 
-    display: block;
-    position: relative;  
-    margin: auto;
-    width: 100%;
-    height: 2306px;
-    background: white;
+      display: block;
+      position: relative;  
+      margin: auto;
+      width: 100%;
+      height: 2306px;
+      background: white;
 }
 
 
@@ -17,27 +17,27 @@ body {
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
 body {
-  min-width: 320px;
-  max-width: 480px;
-  width: 100%;
+     min-width: 320px;
+     max-width: 480px;
+     width: 100%;
  }
  
  
 .wrapper{
-  width: 320px;
-  margin: 0 auto; 
+     width: 320px;
+     margin: 0 auto; 
 }
 
 header{
-        height: 514px;
+     height: 514px;
   }
 
 header {
-    background-image: url(../img/header.jpg);
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    font-family: 'Myriad Pro', sans-serif;
+     background-image: url(../img/header.jpg);
+     width: 100%;
+     overflow: hidden;
+     position: relative;
+     font-family: 'Myriad Pro', sans-serif;
   }
 
 .hide-xs {
@@ -45,287 +45,285 @@ header {
   }
 
   .ping{
-  margin-top: 66px;
-  text-align: center;
+     margin-top: 66px;
+     text-align: center;
 }
 
  .ping h1{
-    color: #ffffff;
-    font-weight: bold 700;
-    font-size: 43px;
-    font-stretch:extra-condensed; 
+     color: #ffffff;
+     font-weight: bold 700;
+     font-size: 43px;
+     font-stretch:extra-condensed; 
 }
 
-.ping span{
-  color: #533b5e;
+.ping span{ 
+     color: #533b5e;
 }
 
 .menu {
-    margin-top: 38px;
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей  */
-    padding-right: 0px;
-    width: 100%;
-    text-align: center;
-    list-style-type: none;
+     margin-top: 38px;
+     margin: 0; /* Обнуляем значение отступов */
+     padding: 4px; /* Значение полей  */
+     padding-right: 0px;
+     width: 100%;
+     text-align: center;
+     list-style-type: none;
 }
 
 .menu_link{
-    text-transform: uppercase; /* все буквы большие */
-    font-size: 24px;
-    color: #ffffff;
-    text-decoration: none;
-    font-stretch:extra-condensed; 
+     text-transform: uppercase; /* все буквы большие */
+     font-size: 24px;
+     color: #ffffff;
+     text-decoration: none;
+     font-stretch:extra-condensed; 
 }
 
 .menu_link:hover{
-   text-decoration: underline;
+     text-decoration: underline;
 }
 
       
 .lorem_nav{
-      height: 66px;
-      padding-top: 0px;
+     height: 66px;
+     padding-top: 0px;
   }
 
 .lorem_nav .first{
-       font-size: 36px;
-       text-align: center;
+     font-size: 36px;
+     text-align: center;
   }
      
 .lorem_nav .second{
-       font-size: 18px;
-       text-align: center;
+     font-size: 18px;
+     text-align: center;
   }
     
 .lorem_nav .third{
-        display: none;
+     display: none;
   }
 
-
-
-   section{
+section{
      overflow: hidden;
-      position: relative;
-      height: 599px;
-      padding-top: 66px;
-      background: #745181;
-      width: 100%;  
+     position: relative;
+     height: 599px;
+     padding-top: 66px;
+     background: #745181;
+     width: 100%;  
   }
 
-  .sprite{
-    height: 484px;
-    overflow:hidden;
-    position: absolute;
+.sprite{
+     height: 484px;
+     overflow:hidden;
+     position: absolute;
 }
 
 .sprite .sprite_part{
-  float: left;
-  list-style: none;
-  margin-top: 80px;
-        margin-right: 300px; 
+     float: left;
+     list-style: none;
+     margin-top: 80px;
+     margin-right: 300px; 
 }
 
 .sprite a{
-  height: 28px;
-  width: 28px;
-  display: block;
-  background: url(../img/sprite.png) 0 0 no-repeat;  
+     height: 28px;
+     width: 28px;
+     display: block;
+     background: url(../img/sprite.png) 0 0 no-repeat;  
 }
 
  .sprite .key{
-  background-position: 0px 0;
+     background-position: 0px 0;
 }
 
 .sprite .spaek{
-  background-position: -34.5px 0;
+     background-position: -34.5px 0;
 }
 
 .sprite .musik{
-   background-position: -67px 0;
+     background-position: -67px 0;
 }
 
 .slider{
-        background-image: none;
-        margin-top: 126px;
-        height: 67px;
-        position: relative;
+     background-image: none;
+     margin-top: 126px;
+     height: 67px;
+     position: relative;
   }
 
 .lorem_nav h2{
-  font-size: 60px;
-  color: #ffffff;
-  font-weight: normal;
-  font-stretch:extra-condensed;
-  text-align: left;
+     font-size: 60px;
+     color: #ffffff;
+     font-weight: normal;
+     font-stretch:extra-condensed;
+     text-align: left;
 
 }
 
 .lorem_nav h3{
-  font-size: 32px;
-  color: #edbfff;
-  font-weight: normal;
-  font-stretch:extra-condensed; 
-  text-align: left;
+     font-size: 32px;
+     color: #edbfff;
+     font-weight: normal;
+     font-stretch:extra-condensed; 
+     text-align: left;
 }
 
 .lorem_nav p{
-  font-size: 18px;
-  color: #edeced;
-  font-weight: 100; 
-  text-align: left;
+     font-size: 18px;
+     color: #edeced;
+     font-weight: 100; 
+     text-align: left;
 }
 
 .point_left{
-    float: left;
-        margin-top: 18px;
+     float: left;
+     margin-top: 18px;
  }
    
 .point_right {
-       float: right;
-       margin-top: 18px;  
+     float: right;
+     margin-top: 18px;  
 }
 
 .radio{
-    bottom: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-top: 82px;
-    height: 26px;
+     bottom: 0;
+     overflow: hidden;
+     text-align: center;
+     margin-top: 82px;
+     height: 26px;
 }
 
 .radio .radio_part{
-    display: inline-block;
-    font-size: 25px;
-    line-height: 13px;
-    min-width: 15px;
-    background: rgba(0, 0, 0, 0.75);
-    color: #3b3942;
-    border-radius: 27px;
-    padding: 5px;
-    text-align: center;
-    margin-right: 0px;
-    margin-top: 0px;
-    opacity: .75;
-    width: 11px;
-    height: 14px;
+     display: inline-block;
+     font-size: 25px;
+     line-height: 13px;
+     min-width: 15px;
+     background: rgba(0, 0, 0, 0.75);
+     color: #3b3942;
+     border-radius: 27px;
+     padding: 5px;
+     text-align: center;
+     margin-right: 0px;
+     margin-top: 0px;
+     opacity: .75;
+     width: 11px;
+     height: 14px;
 }
 
 .radio .radio_part .active{
-    background: #4E443C;
-    color: #fff;
-    opacity: 1;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+     background: #4E443C;
+     color: #fff;
+     opacity: 1;
+     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 
 } 
 
 
 .iphone{
-       display: none;
+     display: none;
 }
 
 .about {
-        font-size:24px;
+     font-size:24px;
 }
 
 .key_about, .speak_about, .music_about {
-        height: 134px;
-        padding-top: 22px;
-        margin-left: 56px;480
+     height: 134px;
+     padding-top: 22px;
+     margin-left: 56px;480
 }
 
 
 .key_about_part{
-  font-size: 23px;
-  color: #ffffff;
-  font-stretch:extra-condensed; 
-  font-family: 'Myriad Pro', sans-serif; 
+     font-size: 23px;
+     color: #ffffff;
+     font-stretch:extra-condensed; 
+     font-family: 'Myriad Pro', sans-serif; 
 }
 
 
 section .turpis {
-        margin-top: 7px;
-        text-align: left;
+     margin-top: 7px;
+     text-align: left;
 }
 
 .key, .spaek, .musik{
-      position: absolute;
+     position: absolute;
 }
      
 .key{
-        top: 22px;
+     top: 22px;
 }
 
 .spaek{
-        top: 175px;
+     top: 175px;
 }
   
 .musik{
-        top: 333px;
+     top: 333px;
 }
 
 .starts{
-    background-image: url(../img/foto_spook.png);
-    display: inline-block;
-    margin-top: 65px;
-    width: 80%;
-    height: 269px;
-    text-align: center;
+     background-image: url(../img/foto_spook.png);
+     display: inline-block;
+     margin-top: 65px;
+     width: 80%;
+     height: 269px;
+     text-align: center;
 }
 
 .starts h1{
-  text-align: left;
-  font-size: 16px;
-  margin-left: 65px;
-  margin-top: 22px;
-  width: 118px;
-  text-transform: uppercase; /* все буквы большие */
+     text-align: left;
+     font-size: 16px;
+     margin-left: 65px;
+     margin-top: 22px;
+     width: 118px;
+     text-transform: uppercase; /* все буквы большие */
 }
 
 .starts p{
-  margin-left: 32px;
-  margin-top: 10px;
-  font-size: 15px;
-  text-align: left;
+     margin-left: 32px;
+     margin-top: 10px;
+     font-size: 15px;
+     text-align: left;
 }
 
 .starts_collor{
-  color: #edbfff;
+     color: #edbfff;
 }
 
 .updates {
-       float: left;
-       height: 302px;
-       width: 100%;
-       padding-top: 94px;
-       margin-left: 40px;
+     float: left;
+     height: 302px;
+     width: 100%;
+     padding-top: 94px;
+     margin-left: 40px;
 }
 
  .hear{
-       margin-top: 28px;
+     margin-top: 28px;
 }
 
 .updates .search{
-  font-size: 24px;
-  font-family: 'Myriad Pro', sans-serif;
-  margin-bottom: 19px;
-  font-weight: normal;
-  font-stretch: extra-condensed;
+     font-size: 24px;
+     font-family: 'Myriad Pro', sans-serif;
+     margin-bottom: 19px;
+     font-weight: normal;
+     font-stretch: extra-condensed;
 }
 
 .updates .site_media {
-  list-style-type: none;
-  float: left;
+     list-style-type: none;
+     float: left;
 }
 
 .updates .site{
-    margin-bottom: 30px
+     margin-bottom: 30px
 }
 
 .updates img{
-  width: 49px;
-    height: 49px;
-    margin-right: 15px;
+     width: 49px;
+     height: 49px;
+     margin-right: 15px;
 }
 
 .nunc{

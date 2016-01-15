@@ -1661,14 +1661,14 @@ footer{
  
   @media screen and (min-width: 960px) {
   body {
-    min-width: 960px;
-    max-width: 2400px;
-    width: 100%;
+     min-width: 960px;
+     max-width: 2400px;
+     width: 100%;
  }
 
 .wrapper{
-    width: 960px;
-    margin: 0 auto;
+     width: 960px;
+     margin: 0 auto;
   }
 
 header{
@@ -1701,10 +1701,10 @@ header{
 
 .menu{
    margin-top: 80px;
-   padding-left: 176px;
+   padding-left: 57px;
    float: left;
    min-width: 52%;
-   max-width: 62%;
+   max-width: 80%;
 }
 
  li.menu_item{

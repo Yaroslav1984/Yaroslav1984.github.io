@@ -1735,7 +1735,7 @@ header{
     height: 393px;
     width: 100%;
     font-family: 'Myriad Pro', sans-serif;  
-    position: relative; 
+    position: static; 
 }
 
  .lorem_nav{
@@ -1772,9 +1772,10 @@ header{
 /* ----------------------------------------------------------iphone and point-------------------------------------------------------------------- */
 
 .iphone{
-     left: 650px;
-     top: 0px;
+     left: 750px;
+     top: 240px;
      float: right;
+     position:absolute;
 } 
 
 .iphone img{

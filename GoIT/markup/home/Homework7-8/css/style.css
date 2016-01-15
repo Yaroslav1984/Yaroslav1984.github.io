@@ -1804,8 +1804,9 @@ header{
     float: right;
     overflow: hidden;
     margin-top: 450px;
-    position: relative;
-    left: 200px;
+    position: inherit;
+    margin-right: 300px;
+
 
 }
 
